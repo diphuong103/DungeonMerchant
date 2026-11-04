@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: e654b247a5cc388488a83ce347ef5036
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4261282624527995264
+    second: hooded_walk_8dir_256x512_no_staff_0
+  - first:
+      213: -525868649274250176
+    second: hooded_walk_8dir_256x512_no_staff_1
+  - first:
+      213: 8663681289110173618
+    second: hooded_walk_8dir_256x512_no_staff_2
+  - first:
+      213: -1324600404172157613
+    second: hooded_walk_8dir_256x512_no_staff_3
+  - first:
+      213: -7827752705792511799
+    second: hooded_walk_8dir_256x512_no_staff_4
+  - first:
+      213: -1619790036940924943
+    second: hooded_walk_8dir_256x512_no_staff_5
+  - first:
+      213: 1180962939600787089
+    second: hooded_walk_8dir_256x512_no_staff_6
+  - first:
+      213: 8010089063178184601
+    second: hooded_walk_8dir_256x512_no_staff_7
+  - first:
+      213: -4054035535686611247
+    second: hooded_walk_8dir_256x512_no_staff_8
+  - first:
+      213: 8170453459938473374
+    second: hooded_walk_8dir_256x512_no_staff_9
+  - first:
+      213: 6642617895988653981
+    second: hooded_walk_8dir_256x512_no_staff_10
+  - first:
+      213: 3867081957907142482
+    second: hooded_walk_8dir_256x512_no_staff_11
+  - first:
+      213: 8173441254370506036
+    second: hooded_walk_8dir_256x512_no_staff_12
+  - first:
+      213: 4473960288052701398
+    second: hooded_walk_8dir_256x512_no_staff_13
+  - first:
+      213: -3705981641619934212
+    second: hooded_walk_8dir_256x512_no_staff_14
+  - first:
+      213: -3185688255180437122
+    second: hooded_walk_8dir_256x512_no_staff_15
+  - first:
+      213: 4523536841578869283
+    second: hooded_walk_8dir_256x512_no_staff_16
+  - first:
+      213: -5558034299846325829
+    second: hooded_walk_8dir_256x512_no_staff_17
+  - first:
+      213: -1933181993848905984
+    second: hooded_walk_8dir_256x512_no_staff_18
+  - first:
+      213: -1626240892642274059
+    second: hooded_walk_8dir_256x512_no_staff_19
+  - first:
+      213: 7222031417862011775
+    second: hooded_walk_8dir_256x512_no_staff_20
+  - first:
+      213: -7859139628618198376
+    second: hooded_walk_8dir_256x512_no_staff_21
+  - first:
+      213: 387642879467873479
+    second: hooded_walk_8dir_256x512_no_staff_22
+  - first:
+      213: -6225722459541447272
+    second: hooded_walk_8dir_256x512_no_staff_23
+  - first:
+      213: -7580038435713020035
+    second: hooded_walk_8dir_256x512_no_staff_24
+  - first:
+      213: 4378566554959756085
+    second: hooded_walk_8dir_256x512_no_staff_25
+  - first:
+      213: -7960595946661212464
+    second: hooded_walk_8dir_256x512_no_staff_26
+  - first:
+      213: 7388898381216289917
+    second: hooded_walk_8dir_256x512_no_staff_27
+  - first:
+      213: -575063110201969927
+    second: hooded_walk_8dir_256x512_no_staff_28
+  - first:
+      213: -1738780191564507081
+    second: hooded_walk_8dir_256x512_no_staff_29
+  - first:
+      213: 6583207035708377302
+    second: hooded_walk_8dir_256x512_no_staff_30
+  - first:
+      213: 6802974555998133686
+    second: hooded_walk_8dir_256x512_no_staff_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 383
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081198248fd132b30800000000000000
+      internalID: 4261282624527995264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 447
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c6e79ef3db3b8f0800000000000000
+      internalID: -525868649274250176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 448
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b73c94fa349b3870800000000000000
+      internalID: 8663681289110173618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 384
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dcaff43f21e9de0800000000000000
+      internalID: -1324600404172157613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 383
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c072a5236c3e5390800000000000000
+      internalID: -7827752705792511799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 447
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f75b6d1b895589e0800000000000000
+      internalID: -1619790036940924943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 384
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1965ecb598f936010800000000000000
+      internalID: 1180962939600787089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 448
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972afd409d892f60800000000000000
+      internalID: 8010089063178184601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 255
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dec694d82c2db7c0800000000000000
+      internalID: -4054035535686611247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 320
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e957e750228436170800000000000000
+      internalID: 8170453459938473374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 256
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f6e0548c15f2c50800000000000000
+      internalID: 6642617895988653981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 320
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25790625d82aaa530800000000000000
+      internalID: 3867081957907142482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 255
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435f64f1485ed6170800000000000000
+      internalID: 8173441254370506036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 320
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8e59c8d23b61e30800000000000000
+      internalID: 4473960288052701398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_14
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 256
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3ff130555b19cc0800000000000000
+      internalID: -3705981641619934212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 320
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7906d019692ac3d0800000000000000
+      internalID: -3185688255180437122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 191
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32273ba6ac4d6ce30800000000000000
+      internalID: 4523536841578869283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb909348045edd2b0800000000000000
+      internalID: -5558034299846325829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f54721835fb25e0800000000000000
+      internalID: -1933181993848905984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 128
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4d7da368e6e69e0800000000000000
+      internalID: -1626240892642274059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 191
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b30628f4fc93460800000000000000
+      internalID: 7222031417862011775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 127
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8925404b52abee290800000000000000
+      internalID: -7859139628618198376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 192
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c46462252f216500800000000000000
+      internalID: 387642879467873479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 128
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d5cd8886ac999a0800000000000000
+      internalID: -6225722459541447272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f8487143b4ec690800000000000000
+      internalID: -7580038435713020035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b38c5451bc3cc30800000000000000
+      internalID: 4378566554959756085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de08ded928468190800000000000000
+      internalID: -7960595946661212464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d741bddfde3aa8660800000000000000
+      internalID: 7388898381216289917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2faf8e527f408f0800000000000000
+      internalID: -575063110201969927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738df43d0ac9ed7e0800000000000000
+      internalID: -1738780191564507081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 64
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8004e6bef3c5b50800000000000000
+      internalID: 6583207035708377302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded_walk_8dir_256x512_no_staff_31
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd1a42a055096e50800000000000000
+      internalID: 6802974555998133686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hooded_walk_8dir_256x512_no_staff_0: 4261282624527995264
+      hooded_walk_8dir_256x512_no_staff_1: -525868649274250176
+      hooded_walk_8dir_256x512_no_staff_10: 6642617895988653981
+      hooded_walk_8dir_256x512_no_staff_11: 3867081957907142482
+      hooded_walk_8dir_256x512_no_staff_12: 8173441254370506036
+      hooded_walk_8dir_256x512_no_staff_13: 4473960288052701398
+      hooded_walk_8dir_256x512_no_staff_14: -3705981641619934212
+      hooded_walk_8dir_256x512_no_staff_15: -3185688255180437122
+      hooded_walk_8dir_256x512_no_staff_16: 4523536841578869283
+      hooded_walk_8dir_256x512_no_staff_17: -5558034299846325829
+      hooded_walk_8dir_256x512_no_staff_18: -1933181993848905984
+      hooded_walk_8dir_256x512_no_staff_19: -1626240892642274059
+      hooded_walk_8dir_256x512_no_staff_2: 8663681289110173618
+      hooded_walk_8dir_256x512_no_staff_20: 7222031417862011775
+      hooded_walk_8dir_256x512_no_staff_21: -7859139628618198376
+      hooded_walk_8dir_256x512_no_staff_22: 387642879467873479
+      hooded_walk_8dir_256x512_no_staff_23: -6225722459541447272
+      hooded_walk_8dir_256x512_no_staff_24: -7580038435713020035
+      hooded_walk_8dir_256x512_no_staff_25: 4378566554959756085
+      hooded_walk_8dir_256x512_no_staff_26: -7960595946661212464
+      hooded_walk_8dir_256x512_no_staff_27: 7388898381216289917
+      hooded_walk_8dir_256x512_no_staff_28: -575063110201969927
+      hooded_walk_8dir_256x512_no_staff_29: -1738780191564507081
+      hooded_walk_8dir_256x512_no_staff_3: -1324600404172157613
+      hooded_walk_8dir_256x512_no_staff_30: 6583207035708377302
+      hooded_walk_8dir_256x512_no_staff_31: 6802974555998133686
+      hooded_walk_8dir_256x512_no_staff_4: -7827752705792511799
+      hooded_walk_8dir_256x512_no_staff_5: -1619790036940924943
+      hooded_walk_8dir_256x512_no_staff_6: 1180962939600787089
+      hooded_walk_8dir_256x512_no_staff_7: 8010089063178184601
+      hooded_walk_8dir_256x512_no_staff_8: -4054035535686611247
+      hooded_walk_8dir_256x512_no_staff_9: 8170453459938473374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
