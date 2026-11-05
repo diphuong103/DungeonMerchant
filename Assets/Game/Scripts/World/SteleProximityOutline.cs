@@ -15,6 +15,8 @@ namespace Cainos.PixelArtTopDown_Basic
         private SpriteRenderer outlineRenderer;
         private Color restingColor;
 
+        public float ProximityRadius => proximityRadius;
+
         private void Awake()
         {
             var outline = transform.Find("Bright Outline");
