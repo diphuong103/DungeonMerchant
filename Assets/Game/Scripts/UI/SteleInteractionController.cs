@@ -54,6 +54,13 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
+            if (WorldMapScreen.Instance != null && WorldMapScreen.Instance.IsOpen)
+            {
+                if (promptRoot != null && promptRoot.activeSelf)
+                    promptRoot.SetActive(false);
+                return;
+            }
+
             RefreshNearbySteles();
             focusedStele = FindClosestStele();
             bool canPrompt = focusedStele != null && (interactionPanel == null || !interactionPanel.activeSelf);
@@ -179,6 +186,13 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void OpenPanel(SteleInteractable stele)
         {
+            if (stele != null && stele.OpensWorldMap && WorldMapScreen.Instance != null)
+            {
+                ClosePanel();
+                WorldMapScreen.Instance.Open();
+                return;
+            }
+
             if (stele == null || interactionPanel == null)
                 return;
 

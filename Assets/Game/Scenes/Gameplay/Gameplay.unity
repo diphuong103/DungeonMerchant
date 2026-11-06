@@ -1258,7 +1258,6 @@ RectTransform:
   - {fileID: 352218550}
   - {fileID: 1046216271}
   - {fileID: 1576255891}
-  - {fileID: 760060642}
   - {fileID: 1492715101}
   - {fileID: 71996100}
   - {fileID: 863660256}
@@ -2001,8 +2000,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5}
-  m_SizeDelta: {x: -20, y: 22}
+  m_AnchoredPosition: {x: -1.9799957, y: -5}
+  m_SizeDelta: {x: -23.96, y: 22}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &84113885
 MonoBehaviour:
@@ -2090,7 +2089,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 361.9727, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6038,7 +6037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -216}
+  m_AnchoredPosition: {x: 26.099983, y: -229.5}
   m_SizeDelta: {x: 80, y: 68}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &375853317
@@ -6737,7 +6736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -126}
+  m_AnchoredPosition: {x: 26.099983, y: -139.5}
   m_SizeDelta: {x: 80, y: 68}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &419856074
@@ -8234,7 +8233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -306}
+  m_AnchoredPosition: {x: 26.099983, y: -319.5}
   m_SizeDelta: {x: 80, y: 68}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &507407211
@@ -13002,98 +13001,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748222071}
   m_CullTransparentMesh: 1
---- !u!1 &760060641
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 760060642}
-  - component: {fileID: 760060645}
-  - component: {fileID: 760060644}
-  - component: {fileID: 760060643}
-  m_Layer: 0
-  m_Name: HUD - Key Hints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &760060642
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760060641}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2109854481}
-  m_Father: {fileID: 54120847}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -32, y: 28}
-  m_SizeDelta: {x: 280, y: 60}
-  m_Pivot: {x: 1, y: 0}
---- !u!114 &760060643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760060641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
-  m_EffectColor: {r: 0.3, g: 0.43, b: 0.58, a: 1}
-  m_EffectDistance: {x: 2, y: 2}
-  m_UseGraphicAlpha: 1
---- !u!114 &760060644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760060641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.055, g: 0.075, b: 0.105, a: 0.94}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &760060645
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760060641}
-  m_CullTransparentMesh: 1
 --- !u!1 &766183597
 GameObject:
   m_ObjectHideFlags: 0
@@ -17611,9 +17518,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708c1eed3ee56d440b0ec7aa43aa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleInteractable
-  interactionTitle: "PH\xC9P THU\u1EACT"
+  interactionTitle: "BIA PH\xC9P THU\u1EACT"
   interactionHint: "N\u01A1i h\u1ECDc c\xE1c ph\xE9p thu\u1EADt s\u1EBD \u0111\u01B0\u1EE3c
     m\u1EDF d\u1EA7n."
+  opensWorldMap: 0
 --- !u!58 &1035189345
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18502,9 +18410,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708c1eed3ee56d440b0ec7aa43aa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleInteractable
-  interactionTitle: "CHI\u1EBEN L\u01AF\u1EE2C"
+  interactionTitle: "BIA CHI\u1EBEN L\u01AF\u1EE2C"
   interactionHint: "H\u1ECDc v\xE0 n\xE2ng c\u1EA5p k\u1EF9 n\u0103ng chi\u1EBFn
     \u0111\u1EA5u t\u1EA1i \u0111\xE2y."
+  opensWorldMap: 0
 --- !u!58 &1120428444
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21370,6 +21279,89 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e54d3c80cde4e314eae0912eca6a93ae, type: 3}
+--- !u!1 &1309632183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309632185}
+  - component: {fileID: 1309632186}
+  m_Layer: 0
+  m_Name: WorldMapSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1309632185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309632183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1309632186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309632183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ddcde22af4d454a9507184170fdcc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.WorldMapScreen
+  dungeons:
+  - id: cursed_forest
+    displayName: "R\u1EEANG NGUY\xCAN R\u1EE6A"
+    description: "M\u1ED9t khu r\u1EEBng c\u1ED5 b\u1ECB ma thu\u1EADt hoang d\xE3
+      x\xE2m chi\u1EBFm. Nh\u1EEFng l\u1ED1i m\xF2n s\xE2u b\xEAn trong v\u1EABn
+      ch\u01B0a \u0111\u01B0\u1EE3c kh\xE1m ph\xE1."
+    x: 0.25
+    y: 0.67
+    unlocked: 1
+    targetSceneName: 
+    icon: R
+  - id: mana_mine
+    displayName: "M\u1ECE PHA L\xCA MANA"
+    description: "M\u1EA1ch pha l\xEA xanh ph\xE1t s\xE1ng d\u01B0\u1EDBi l\xF2ng
+      \u0111\u1EA5t. Khu v\u1EF1c n\xE0y hi\u1EC7n v\u1EABn b\u1ECB phong \u1EA5n."
+    x: 0.73
+    y: 0.68
+    unlocked: 0
+    targetSceneName: 
+    icon: M
+  - id: soul_swamp
+    displayName: "\u0110\u1EA6M L\u1EA6Y LINH H\u1ED2N"
+    description: "S\u01B0\u01A1ng linh h\u1ED3n ph\u1EE7 k\xEDn \u0111\u1EA7m l\u1EA7y.
+      Con \u0111\u01B0\u1EDDng \u0111\u1EBFn \u0111\xE2y ch\u01B0a \u0111\u01B0\u1EE3c
+      khai th\xF4ng."
+    x: 0.12
+    y: 0.16
+    unlocked: 0
+    targetSceneName: 
+    icon: L
+  - id: dragon_cave
+    displayName: "HANG \u0110\u1ED8NG R\u1ED2NG"
+    description: "M\u1ED9t hang \u0111\u1ED9ng xa x\xF4i \u0111\u01B0\u1EE3c cho
+      l\xE0 n\u01A1i tr\xFA ng\u1EE5 c\u1EE7a lo\xE0i r\u1ED3ng c\u1ED5."
+    x: 0.86
+    y: 0.17
+    unlocked: 0
+    targetSceneName: 
+    icon: D
 --- !u!1 &1312699294
 GameObject:
   m_ObjectHideFlags: 0
@@ -23842,8 +23834,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5}
-  m_SizeDelta: {x: -12, y: 24}
+  m_AnchoredPosition: {x: -3.1699982, y: -5}
+  m_SizeDelta: {x: -18.34, y: 24}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1457543225
 MonoBehaviour:
@@ -23892,8 +23884,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -32306,9 +32298,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708c1eed3ee56d440b0ec7aa43aa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleInteractable
-  interactionTitle: "BAN PH\u01AF\u1EDAC"
-  interactionHint: "H\xE3y ch\u1EA1m v\xE0o bia \u0111\u1EC3 nh\u1EADn ph\u01B0\u1EDBc
-    l\xE0nh."
+  interactionTitle: "QU\u1EA2NG TR\u01AF\u1EDCNG T\u01AF\u1EDENG NI\u1EC6M"
+  interactionHint: "C\u1EA7u ph\xFAc v\xE0 ban ph\u01B0\u1EDBc cho b\u1EA1n tr\u01B0\u1EDBc
+    khi chi\u1EBFn \u0111\u1EA5u."
+  opensWorldMap: 0
 --- !u!58 &1799555635
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -32363,9 +32356,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708c1eed3ee56d440b0ec7aa43aa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleInteractable
-  interactionTitle: "GIAO TH\u01AF\u01A0NG"
+  interactionTitle: "BIA GIAO TH\u01AF\u01A0NG"
   interactionHint: "Trao \u0111\u1ED5i, mua b\xE1n v\u1EADt ph\u1EA9m v\xE0 c\xF4ng
     c\u1EE5."
+  opensWorldMap: 0
 --- !u!58 &1808557510
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -32679,9 +32673,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708c1eed3ee56d440b0ec7aa43aa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleInteractable
-  interactionTitle: "NHI\u1EC6M V\u1EE4"
+  interactionTitle: "BIA NHI\u1EC6M V\u1EE4"
   interactionHint: "Nh\u1EADn nhi\u1EC7m v\u1EE5 v\xE0 theo d\xF5i m\u1EE5c ti\xEAu
     m\u1EDBi."
+  opensWorldMap: 0
 --- !u!58 &1832946748
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -33113,8 +33108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708c1eed3ee56d440b0ec7aa43aa7664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleInteractable
-  interactionTitle: "L\xD2 R\xC8N"
+  interactionTitle: "BIA L\xD2 R\xC8N"
   interactionHint: "R\xE8n gi\xE1o, m\u0169 v\xE0 v\u0169 kh\xED t\u1EA1i l\xF2 r\xE8n."
+  opensWorldMap: 0
 --- !u!58 &1840118536
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -34592,6 +34588,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1969429549}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1973424718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7602914738454638464, guid: 72ff3faa41650d34fa18d46047c7e2ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 4763931221475216062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1973424722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973424718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28504b89282a94747acece4d24e61f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleProximityOutline
+  playerTag: Player
+  proximityColor: {r: 1, g: 0.25, b: 0.8, a: 1}
+  proximityRadius: 3
+  colorChangeSpeed: 8
+--- !u!114 &1973424723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973424718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708c1eed3ee56d440b0ec7aa43aa7664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleInteractable
+  interactionTitle: "C\u1ED4NG D\u1ECACH CHUY\u1EC2N"
+  interactionHint: 
+  opensWorldMap: 1
 --- !u!1 &1986661355
 GameObject:
   m_ObjectHideFlags: 0
@@ -48356,7 +48389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -36}
+  m_AnchoredPosition: {x: 26.099998, y: -49.5}
   m_SizeDelta: {x: 80, y: 68}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2092603736
@@ -48487,143 +48520,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2108432645}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2109854480
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2109854481}
-  - component: {fileID: 2109854483}
-  - component: {fileID: 2109854482}
-  m_Layer: 0
-  m_Name: Key Hints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2109854481
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109854480}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 760060642}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -16, y: -16}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2109854482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109854480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "[ I ] T\xFAi \u0111\u1ED3    [ C ] Nh\xE2n v\u1EADt"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4291408542
-  m_fontColor: {r: 0.62, g: 0.7, b: 0.79, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2109854483
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109854480}
-  m_CullTransparentMesh: 1
 --- !u!1 &2109882679
 GameObject:
   m_ObjectHideFlags: 0
@@ -50110,6 +50006,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: statue_plaza_asset
       objectReference: {fileID: 0}
+    - target: {fileID: 199034198410064625, guid: 9bd9abbc38191ca408586098b2af5982,
+        type: 3}
+      propertyPath: proximityRadius
+      value: 3.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2443004707227652810, guid: 9bd9abbc38191ca408586098b2af5982,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50325,7 +50226,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7602914738454638464, guid: 72ff3faa41650d34fa18d46047c7e2ed,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1973424723}
+    - targetCorrespondingSourceObject: {fileID: 7602914738454638464, guid: 72ff3faa41650d34fa18d46047c7e2ed,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1973424722}
   m_SourcePrefab: {fileID: 100100000, guid: 72ff3faa41650d34fa18d46047c7e2ed, type: 3}
 --- !u!1001 &6408328620631491128
 PrefabInstance:
@@ -50745,3 +50654,4 @@ SceneRoots:
   - {fileID: 725418390}
   - {fileID: 418643837}
   - {fileID: 54120847}
+  - {fileID: 1309632185}
