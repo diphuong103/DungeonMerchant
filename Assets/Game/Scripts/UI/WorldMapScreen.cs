@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -9,49 +8,35 @@ using UnityEngine.UI;
 namespace Cainos.PixelArtTopDown_Basic
 {
     /// <summary>
-    /// Builds the first-pass world map UI at runtime so placeholder art can be
-    /// replaced later without changing the map interaction flow.
+    /// Controls the serialized World Map Canvas. All visual elements are normal
+    /// scene objects so they can be arranged and edited from the Unity Editor.
     /// </summary>
     [DisallowMultipleComponent]
-    public sealed class WorldMapScreen : MonoBehaviour
+    public sealed class WorldMapScreen : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
-        [Serializable]
-        private sealed class DungeonNode
-        {
-            public string id;
-            public string displayName;
-            [TextArea] public string description;
-            [Range(0f, 1f)] public float x;
-            [Range(0f, 1f)] public float y;
-            public bool unlocked;
-            public string targetSceneName;
-            public string icon = "✦";
-        }
-
         public static WorldMapScreen Instance { get; private set; }
         public bool IsOpen => mapRoot != null && mapRoot.activeSelf;
 
-        [SerializeField] private List<DungeonNode> dungeons = new List<DungeonNode>
-        {
-            new DungeonNode { id = "cursed_forest", displayName = "RỪNG NGUYÊN RỦA", description = "Một khu rừng cổ bị ma thuật hoang dã xâm chiếm. Những lối mòn sâu bên trong vẫn chưa được khám phá.", x = 0.25f, y = 0.67f, unlocked = true, icon = "R" },
-            new DungeonNode { id = "mana_mine", displayName = "MỎ PHA LÊ MANA", description = "Mạch pha lê xanh phát sáng dưới lòng đất. Khu vực này hiện vẫn bị phong ấn.", x = 0.73f, y = 0.68f, unlocked = false, icon = "M" },
-            new DungeonNode { id = "soul_swamp", displayName = "ĐẦM LẦY LINH HỒN", description = "Sương linh hồn phủ kín đầm lầy. Con đường đến đây chưa được khai thông.", x = 0.12f, y = 0.16f, unlocked = false, icon = "L" },
-            new DungeonNode { id = "dragon_cave", displayName = "HANG ĐỘNG RỒNG", description = "Một hang động xa xôi được cho là nơi trú ngụ của loài rồng cổ.", x = 0.86f, y = 0.17f, unlocked = false, icon = "D" }
-        };
+        [Header("Canvas References")]
+        [SerializeField] private GameObject mapRoot;
+        [SerializeField] private RectTransform mapViewport;
+        [SerializeField] private RectTransform mapContent;
+        [SerializeField] private GameObject detailPopup;
+        [SerializeField] private TMP_Text statusText;
+        [SerializeField] private TMP_Text detailTitle;
+        [SerializeField] private TMP_Text detailDescription;
+        [SerializeField] private TMP_Text lockedMessage;
+        [SerializeField] private Button fightButton;
+        [SerializeField] private Button backButton;
+        [SerializeField] private Button closeDetailsButton;
+        [SerializeField] private List<WorldMapNode> nodes = new List<WorldMapNode>();
 
-        private static readonly Color Ink = new Color(0.08f, 0.075f, 0.15f, 0.96f);
+        private WorldMapNode selectedNode;
+        private bool isDraggingMap;
+
         private static readonly Color Gold = new Color(0.95f, 0.72f, 0.34f, 1f);
         private static readonly Color PaleGold = new Color(1f, 0.88f, 0.62f, 1f);
         private static readonly Color Muted = new Color(0.72f, 0.70f, 0.77f, 1f);
-
-        private GameObject mapRoot;
-        private GameObject detailPopup;
-        private TMP_Text statusText;
-        private DungeonNode selectedDungeon;
-        private Texture2D circleTexture;
-        private Sprite circleSprite;
-        private Texture2D whiteTexture;
-        private Sprite whiteSprite;
 
         private void Awake()
         {
@@ -63,7 +48,146 @@ namespace Cainos.PixelArtTopDown_Basic
 
             Instance = this;
             EnsureEventSystem();
-            BuildMapUi();
+            BindButtons();
+            if (mapRoot != null)
+                mapRoot.SetActive(false);
+            if (detailPopup != null)
+                detailPopup.SetActive(false);
+        }
+
+        private void Update()
+        {
+            if (IsOpen && Input.GetKeyDown(KeyCode.Escape))
+                Close();
+        }
+
+        public void Open()
+        {
+            if (mapRoot == null)
+            {
+                Debug.LogError("World Map Canvas references are missing. Rebuild the Canvas from the WorldMapSystem component.", this);
+                return;
+            }
+
+            mapRoot.SetActive(true);
+            BindButtons();
+            if (mapContent != null)
+                mapContent.anchoredPosition = Vector2.zero;
+            if (detailPopup != null)
+                detailPopup.SetActive(false);
+            if (statusText != null)
+                statusText.text = "Chọn một hầm ngục để chiến đấu";
+        }
+
+        public void OnBeginDrag(PointerEventData eventData)
+        {
+            if (!IsOpen || mapContent == null || mapViewport == null ||
+                (detailPopup != null && detailPopup.activeSelf))
+                return;
+
+            GameObject pressedObject = eventData.pointerPress != null ? eventData.pointerPress : eventData.pointerEnter;
+            if (pressedObject == null || !pressedObject.transform.IsChildOf(mapContent))
+                return;
+
+            isDraggingMap = true;
+        }
+
+        public void OnDrag(PointerEventData eventData)
+        {
+            if (!isDraggingMap || mapContent == null)
+                return;
+
+            Canvas canvas = mapContent.GetComponentInParent<Canvas>();
+            float scale = canvas != null ? canvas.scaleFactor : 1f;
+            mapContent.anchoredPosition += eventData.delta / Mathf.Max(scale, 0.001f);
+            ClampMapContent();
+        }
+
+        public void OnEndDrag(PointerEventData eventData)
+        {
+            isDraggingMap = false;
+        }
+
+        private void ClampMapContent()
+        {
+            if (mapContent == null || mapViewport == null)
+                return;
+
+            Vector2 contentSize = mapContent.rect.size;
+            Vector2 viewportSize = mapViewport.rect.size;
+            float maxX = Mathf.Max(0f, (contentSize.x - viewportSize.x) * 0.5f);
+            float maxY = Mathf.Max(0f, (contentSize.y - viewportSize.y) * 0.5f);
+            Vector2 position = mapContent.anchoredPosition;
+            mapContent.anchoredPosition = new Vector2(
+                Mathf.Clamp(position.x, -maxX, maxX),
+                Mathf.Clamp(position.y, -maxY, maxY));
+        }
+
+        public void Close()
+        {
+            if (detailPopup != null)
+                detailPopup.SetActive(false);
+            if (mapRoot != null)
+                mapRoot.SetActive(false);
+        }
+
+        public void SelectNode(WorldMapNode node)
+        {
+            if (node == null || detailPopup == null)
+                return;
+
+            selectedNode = node;
+            if (detailTitle != null)
+                detailTitle.text = node.NodeName;
+            if (detailDescription != null)
+                detailDescription.text = node.Description;
+            if (lockedMessage != null)
+            {
+                lockedMessage.gameObject.SetActive(!node.IsUnlocked);
+                lockedMessage.text = "KHU VỰC NÀY ĐANG BỊ PHONG ẤN";
+            }
+            if (fightButton != null)
+                fightButton.interactable = node.IsUnlocked;
+
+            detailPopup.SetActive(true);
+            detailPopup.transform.SetAsLastSibling();
+        }
+
+        private void StartSelectedDungeon()
+        {
+            if (selectedNode == null || !selectedNode.IsUnlocked)
+                return;
+
+            if (!string.IsNullOrWhiteSpace(selectedNode.TargetSceneName) && Application.CanStreamedLevelBeLoaded(selectedNode.TargetSceneName))
+            {
+                SceneManager.LoadScene(selectedNode.TargetSceneName);
+                return;
+            }
+
+            if (statusText != null)
+                statusText.text = "Màn chơi chưa được gán — có thể cập nhật sau.";
+            if (detailPopup != null)
+                detailPopup.SetActive(false);
+        }
+
+        private void BindButtons()
+        {
+            foreach (var node in nodes)
+                if (node != null)
+                    node.Bind(this);
+
+            Bind(backButton, Close);
+            Bind(closeDetailsButton, () => detailPopup.SetActive(false));
+            Bind(fightButton, StartSelectedDungeon);
+        }
+
+        private static void Bind(Button button, UnityEngine.Events.UnityAction callback)
+        {
+            if (button == null)
+                return;
+
+            button.onClick.RemoveListener(callback);
+            button.onClick.AddListener(callback);
         }
 
         private static void EnsureEventSystem()
@@ -75,36 +199,21 @@ namespace Cainos.PixelArtTopDown_Basic
                 eventSystem.gameObject.AddComponent<StandaloneInputModule>();
         }
 
-        public void Open()
+        /// <summary>
+        /// One-time scene setup. Invoked by the editor during project setup; the
+        /// resulting Canvas is serialized into the active scene.
+        /// </summary>
+        public void BuildCanvasForScene()
         {
-            if (mapRoot == null)
-                BuildMapUi();
-
-            mapRoot.SetActive(true);
-            if (detailPopup != null)
-                detailPopup.SetActive(false);
-            if (statusText != null)
-                statusText.text = "Chọn một hầm ngục để chiến đấu";
-        }
-
-        public void Close()
-        {
-            if (detailPopup != null)
-                detailPopup.SetActive(false);
             if (mapRoot != null)
-                mapRoot.SetActive(false);
-        }
+            {
+                Debug.LogWarning("World Map Canvas already exists. Remove its Canvas child before rebuilding.", this);
+                return;
+            }
 
-        private void Update()
-        {
-            if (IsOpen && Input.GetKeyDown(KeyCode.Escape))
-                Close();
-        }
-
-        private void BuildMapUi()
-        {
-            var canvasObject = new GameObject("World Map Canvas", typeof(RectTransform), typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
-            canvasObject.transform.SetParent(transform, false);
+            EnsureEventSystem();
+            var canvasObject = CreateObject("World Map Canvas", transform,
+                typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
             var canvas = canvasObject.GetComponent<Canvas>();
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
             canvas.sortingOrder = 100;
@@ -113,328 +222,386 @@ namespace Cainos.PixelArtTopDown_Basic
             scaler.referenceResolution = new Vector2(1280f, 720f);
             scaler.matchWidthOrHeight = 0.5f;
 
-            mapRoot = MakeRect("World Map Screen", canvasObject.transform, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero).gameObject;
-            var background = mapRoot.AddComponent<Image>();
-            background.color = new Color(0.035f, 0.045f, 0.12f, 1f);
-            background.sprite = WhiteSprite;
-            background.raycastTarget = true;
+            mapRoot = CreatePanel("World Map Screen", canvasObject.transform, Vector2.zero, Vector2.one,
+                Vector2.zero, Vector2.zero, Color.white).gameObject;
+            mapRoot.GetComponent<Image>().color = Color.white;
+            mapRoot.GetComponent<Image>().raycastTarget = false;
 
-            // Soft teal and violet pools echo the existing magical lighting.
-            AddGlow(mapRoot.transform, new Vector2(0.37f, 0.82f), new Vector2(520f, 420f), new Color(0.09f, 0.55f, 0.43f, 0.22f));
-            AddGlow(mapRoot.transform, new Vector2(0.72f, 0.63f), new Vector2(570f, 470f), new Color(0.33f, 0.16f, 0.58f, 0.30f));
-            AddGlow(mapRoot.transform, new Vector2(0.10f, 0.24f), new Vector2(480f, 380f), new Color(0.08f, 0.49f, 0.68f, 0.27f));
-            AddGlow(mapRoot.transform, new Vector2(0.57f, 0.12f), new Vector2(420f, 300f), new Color(0.10f, 0.50f, 0.35f, 0.18f));
-            AddAmbientMarks(mapRoot.transform);
-            AddRoute(mapRoot.transform, new Vector2(0.25f, 0.67f), new Vector2(0.49f, 0.48f));
-            AddRoute(mapRoot.transform, new Vector2(0.73f, 0.68f), new Vector2(0.49f, 0.48f));
-            AddRoute(mapRoot.transform, new Vector2(0.12f, 0.16f), new Vector2(0.49f, 0.48f));
-            AddRoute(mapRoot.transform, new Vector2(0.86f, 0.17f), new Vector2(0.49f, 0.48f));
+            // The viewport clips an oversized map canvas, leaving room to drag in either direction.
+            var viewportObject = CreateObject("World Map Pan Viewport", mapRoot.transform, typeof(RectMask2D));
+            mapViewport = viewportObject.GetComponent<RectTransform>();
+            SetRect(mapViewport, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
+            var contentObject = CreateObject("World Map Content", viewportObject.transform);
+            mapContent = contentObject.GetComponent<RectTransform>();
+            SetRect(mapContent, Vector2.zero, Vector2.one, new Vector2(-192f, -108f), new Vector2(192f, 108f));
 
-            AddLabel(mapRoot.transform, "BẢN ĐỒ HẦM NGỤC", new Vector2(0.5f, 0.94f), 30, PaleGold, FontStyles.Bold);
-            AddLabel(mapRoot.transform, "NHỮNG VÙNG ĐẤT ĐANG CHỜ ĐƯỢC KHÁM PHÁ", new Vector2(0.5f, 0.895f), 13, Muted, FontStyles.Normal);
+            // Transparent raycast surface makes empty map space draggable.
+            var panSurfaceObject = CreateObject("Map Pan Surface", mapContent, typeof(Image));
+            SetRect(panSurfaceObject.GetComponent<RectTransform>(), Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
+            var panSurface = panSurfaceObject.GetComponent<Image>();
+            panSurface.color = new Color(1f, 1f, 1f, 0f);
+            panSurface.raycastTarget = true;
 
-            var back = MakeButton(mapRoot.transform, "←  QUAY LẠI LÀNG", new Vector2(0.12f, 0.93f), new Vector2(210f, 48f), Ink, PaleGold, 16);
-            back.onClick.AddListener(Close);
-            statusText = AddLabel(mapRoot.transform, "Chọn một hầm ngục để chiến đấu", new Vector2(0.5f, 0.055f), 14, Muted, FontStyles.Italic);
+            // Layered Canvas art lets designers replace or reposition each backdrop layer.
+            CreateFullScreenImage("Background - Nebula", mapContent, "bg_layer0_base.png", Color.white);
+            CreateFullScreenImage("Background - Violet Mystic Fog", mapContent, "bg_layer1_fog_a.png", new Color(1f, 1f, 1f, 0.72f));
+            CreateFullScreenImage("Background - Teal Mystic Fog", mapContent, "bg_layer1_fog_b.png", new Color(1f, 1f, 1f, 0.72f));
+            CreateFullScreenImage("Background - Forest Decor", mapContent, "bg_layer2_decor.png", Color.white);
+            CreateFullScreenImage("Background - Fireflies", mapContent, "bg_layer3_particles.png", Color.white);
 
-            AddSanctuary(mapRoot.transform);
-            foreach (var dungeon in dungeons)
-                AddDungeonNode(mapRoot.transform, dungeon);
+            var routeRoot = CreateObject("Dungeon Routes", mapContent);
+            var crypt = new Vector2(0.15f, 0.60f);
+            var spider = new Vector2(0.36f, 0.35f);
+            var demon = new Vector2(0.57f, 0.55f);
+            var moon = new Vector2(0.77f, 0.32f);
+            var eye = new Vector2(0.89f, 0.70f);
+            var sanctuary = new Vector2(0.48f, 0.52f);
+            AddRoute(routeRoot.transform, crypt, sanctuary, "path_dot_unlocked.png");
+            AddRoute(routeRoot.transform, sanctuary, spider, "path_dot_unlocked.png");
+            AddRoute(routeRoot.transform, sanctuary, demon, "path_dot_locked.png");
+            AddRoute(routeRoot.transform, demon, moon, "path_dot_locked.png");
+            AddRoute(routeRoot.transform, moon, eye, "path_dot_locked.png");
 
-            detailPopup = BuildDetailPopup(mapRoot.transform);
+            AddSanctuary(mapContent, sanctuary);
+            CreateSpriteImage("World Map Title Frame", mapRoot.transform, new Vector2(0.5f, 0.93f), new Vector2(490f, 98f), "title_frame.png");
+            AddLabel(mapRoot.transform, "BẢN ĐỒ HẦM NGỤC", new Vector2(0.5f, 0.945f), 27, PaleGold, FontStyles.Bold);
+            AddLabel(mapRoot.transform, "CHỌN CỔNG DỊCH CHUYỂN ĐỂ KHÁM PHÁ", new Vector2(0.5f, 0.905f), 11, Muted, FontStyles.Normal);
+            backButton = CreateButton(mapRoot.transform, "←  QUAY LẠI LÀNG", new Vector2(0.10f, 0.93f), new Vector2(190f, 80f), new Color(0.08f, 0.075f, 0.15f, 0.96f), PaleGold, 15);
+            ApplyButtonSprite(backButton, "back_button.png", new Vector2(190f, 80f));
+            statusText = AddLabel(mapRoot.transform, "Chọn một hầm ngục để xem thông tin", new Vector2(0.5f, 0.055f), 14, Muted, FontStyles.Italic);
+
+            nodes = new List<WorldMapNode>
+            {
+                CreateDungeonNode(mapContent, "crypt", "HẦM MỘ VONG HỒN", "Nơi linh hồn kẻ chết không được yên nghỉ.", crypt, 1, "dungeon1_crypt_node_unlocked.png"),
+                CreateDungeonNode(mapContent, "spider", "SÀO HUYỆT NHỆN U MINH", "Tơ độc giăng kín, vạn mắt dõi theo trong bóng tối.", spider, 8, "dungeon2_spider_node_unlocked.png"),
+                CreateDungeonNode(mapContent, "demon", "NGỤC HẮC VIÊM", "Ngọn lửa địa ngục thiêu rụi mọi hy vọng.", demon, 15, "dungeon3_demon_node_unlocked.png"),
+                CreateDungeonNode(mapContent, "moon", "ĐIỆN HUYẾT NGUYỆT", "Tòa lâu đài cổ chìm trong ánh trăng máu.", moon, 22, "dungeon4_moon_node_unlocked.png"),
+                CreateDungeonNode(mapContent, "eye", "VỰC MA NHÃN HƯ VÔ", "Con mắt của bóng tối vĩnh hằng đang thức tỉnh.", eye, 30, "dungeon5_eye_node_unlocked.png")
+            };
+
+            CreateFullScreenImage("Screen Vignette", mapRoot.transform, "overlay_vignette.png", Color.white);
+            BuildPopup(mapRoot.transform);
             mapRoot.SetActive(false);
+            BindButtons();
         }
 
-        private void AddDungeonNode(Transform parent, DungeonNode dungeon)
+        private void CreateFullScreenImage(string name, Transform parent, string spriteName, Color tint)
         {
-            var nodeRect = MakeRect("Dungeon Node", parent, new Vector2(dungeon.x, dungeon.y), new Vector2(dungeon.x, dungeon.y), new Vector2(-37f, -37f), new Vector2(37f, 37f));
-            var ring = nodeRect.gameObject.AddComponent<Image>();
-            ring.sprite = CircleSprite;
-            ring.type = Image.Type.Simple;
-            ring.color = dungeon.unlocked ? Gold : new Color(0.48f, 0.46f, 0.50f, 1f);
-            var button = nodeRect.gameObject.AddComponent<Button>();
-            button.targetGraphic = ring;
+            var image = CreateSpriteImage(name, parent, new Vector2(0.5f, 0.5f), new Vector2(1280f, 720f), spriteName);
+            var rect = image.rectTransform;
+            rect.anchorMin = Vector2.zero;
+            rect.anchorMax = Vector2.one;
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+            image.color = tint;
+            image.raycastTarget = false;
+        }
+
+        private WorldMapNode CreateDungeonNode(Transform parent, string id, string title, string description,
+            Vector2 position, int requiredLevel, string unlockedSpriteName)
+        {
+            bool unlocked = requiredLevel <= 1;
+            var nodeObject = CreateObject("Dungeon - " + id, parent);
+            SetRect(nodeObject.GetComponent<RectTransform>(), position, position, new Vector2(-62f, -62f), new Vector2(62f, 62f));
+            var frame = nodeObject.AddComponent<WorldMapCircleGraphic>();
+            frame.color = Color.white;
+            frame.raycastTarget = true;
+            var button = nodeObject.AddComponent<Button>();
+            button.targetGraphic = frame;
             var colors = button.colors;
             colors.normalColor = Color.white;
-            colors.highlightedColor = PaleGold;
-            colors.pressedColor = Gold;
+            colors.highlightedColor = new Color(1f, 0.88f, 0.56f, 1f);
+            colors.pressedColor = new Color(0.82f, 0.67f, 0.39f, 1f);
             button.colors = colors;
 
-            var innerRect = MakeRect("Node Core", button.transform, Vector2.zero, Vector2.one, new Vector2(5f, 5f), new Vector2(-5f, -5f));
-            var inner = innerRect.gameObject.AddComponent<Image>();
-            inner.sprite = CircleSprite;
-            inner.type = Image.Type.Simple;
-            inner.color = dungeon.unlocked ? new Color(0.18f, 0.12f, 0.17f, 1f) : new Color(0.14f, 0.15f, 0.19f, 1f);
-            inner.raycastTarget = false;
-            AddText(button.transform, dungeon.unlocked ? dungeon.icon : "?", 28, dungeon.unlocked ? new Color(0.22f, 0.88f, 0.55f, 1f) : Muted, FontStyles.Bold, new Vector2(0f, 0f), new Vector2(0.9f, 0.8f));
-            button.onClick.AddListener(() => SelectDungeon(dungeon));
-
-            var label = AddLabel(parent, dungeon.displayName, new Vector2(dungeon.x, dungeon.y - 0.075f), 14, dungeon.unlocked ? PaleGold : new Color(0.63f, 0.62f, 0.65f, 1f), FontStyles.Bold);
+            var plate = CreateSpriteImage("Name Plate - " + id, parent, new Vector2(position.x, position.y - 0.105f), new Vector2(300f, 52f), "label_plate_name.png");
+            plate.raycastTarget = false;
+            var label = AddLabel(parent, title, new Vector2(position.x, position.y - 0.105f), 15,
+                unlocked ? PaleGold : new Color(0.69f, 0.68f, 0.72f, 1f), FontStyles.Bold);
+            label.rectTransform.sizeDelta = new Vector2(290f, 42f);
             label.outlineWidth = 0.18f;
             label.outlineColor = Color.black;
-            if (!dungeon.unlocked)
-                AddLabel(parent, "BỊ PHONG ẤN", new Vector2(dungeon.x, dungeon.y - 0.105f), 10, new Color(0.80f, 0.43f, 0.43f, 1f), FontStyles.Normal);
-        }
-
-        private void AddSanctuary(Transform parent)
-        {
-            var sanctuary = MakeRect("Sanctuary Marker", parent, new Vector2(0.49f, 0.48f), new Vector2(0.49f, 0.48f), new Vector2(-39f, -39f), new Vector2(39f, 39f)).gameObject.AddComponent<Image>();
-            sanctuary.sprite = CircleSprite;
-            sanctuary.type = Image.Type.Simple;
-            sanctuary.color = Gold;
-            var core = MakeRect("Sanctuary Core", sanctuary.transform, Vector2.zero, Vector2.one, new Vector2(5f, 5f), new Vector2(-5f, -5f)).gameObject.AddComponent<Image>();
-            core.sprite = CircleSprite;
-            core.type = Image.Type.Simple;
-            core.color = new Color(0.18f, 0.12f, 0.12f, 1f);
-            AddText(sanctuary.transform, "T", 33, new Color(0.32f, 0.83f, 0.23f, 1f), FontStyles.Bold, Vector2.zero, new Vector2(0.9f, 0.85f));
-            var title = AddLabel(parent, "CÂY CỔ THỤ THẦN", new Vector2(0.49f, 0.415f), 14, PaleGold, FontStyles.Bold);
-            title.outlineWidth = 0.18f;
-            title.outlineColor = Color.black;
-        }
-
-        private GameObject BuildDetailPopup(Transform parent)
-        {
-            var dim = MakeRect("Dungeon Detail Popup", parent, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero).gameObject;
-            var shade = dim.AddComponent<Image>();
-            shade.color = new Color(0f, 0f, 0.04f, 0.64f);
-            shade.sprite = WhiteSprite;
-
-            var card = MakeRect("Popup Card", dim.transform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(-235f, -190f), new Vector2(235f, 190f)).gameObject;
-            var cardImage = card.AddComponent<Image>();
-            cardImage.color = Gold;
-            cardImage.sprite = WhiteSprite;
-            AddBorder(card.transform, new Vector2(470f, 380f));
-            var title = AddText(card.transform, "HẦM NGỤC", 23, PaleGold, FontStyles.Bold, new Vector2(0.08f, 0.76f), new Vector2(0.92f, 0.94f));
-            title.name = "Dungeon Title";
-            var description = AddText(card.transform, string.Empty, 16, new Color(0.86f, 0.83f, 0.80f, 1f), FontStyles.Normal, new Vector2(0.10f, 0.50f), new Vector2(0.90f, 0.79f));
-            description.name = "Dungeon Description";
-            description.alignment = TextAlignmentOptions.TopLeft;
-            var lockText = AddText(card.transform, "KHU VỰC NÀY ĐANG BỊ PHONG ẤN", 13, new Color(0.91f, 0.46f, 0.43f, 1f), FontStyles.Bold, new Vector2(0.08f, 0.31f), new Vector2(0.92f, 0.41f));
-            lockText.name = "Lock Message";
-            var fight = MakeButton(card.transform, "CHIẾN ĐẤU", new Vector2(0.5f, 0.18f), new Vector2(190f, 52f), new Color(0.36f, 0.19f, 0.12f, 1f), PaleGold, 18);
-            fight.name = "Fight Button";
-            fight.onClick.AddListener(StartSelectedDungeon);
-            var close = MakeButton(card.transform, "ĐÓNG", new Vector2(0.5f, 0.06f), new Vector2(130f, 38f), new Color(0.19f, 0.17f, 0.22f, 1f), Muted, 14);
-            close.onClick.AddListener(() => dim.SetActive(false));
-            dim.SetActive(false);
-            return dim;
-        }
-
-        private void SelectDungeon(DungeonNode dungeon)
-        {
-            selectedDungeon = dungeon;
-            var card = detailPopup.transform.Find("Popup Card");
-            card.Find("Dungeon Title").GetComponent<TMP_Text>().text = dungeon.displayName;
-            card.Find("Dungeon Description").GetComponent<TMP_Text>().text = dungeon.description;
-            card.Find("Lock Message").gameObject.SetActive(!dungeon.unlocked);
-            card.Find("Fight Button").GetComponent<Button>().interactable = dungeon.unlocked;
-            detailPopup.SetActive(true);
-        }
-
-        private void StartSelectedDungeon()
-        {
-            if (selectedDungeon == null || !selectedDungeon.unlocked)
-                return;
-
-            if (!string.IsNullOrWhiteSpace(selectedDungeon.targetSceneName) && Application.CanStreamedLevelBeLoaded(selectedDungeon.targetSceneName))
+            TMP_Text lockLabel = null;
+            if (!unlocked)
             {
-                SceneManager.LoadScene(selectedDungeon.targetSceneName);
-                return;
+                lockLabel = AddLabel(parent, "YÊU CẦU CẤP " + requiredLevel, new Vector2(position.x, position.y - 0.158f), 11,
+                    new Color(1f, 0.65f, 0.58f, 1f), FontStyles.Bold);
             }
 
-            statusText.text = "Màn chơi chưa được gán — có thể cập nhật sau khi hoàn thiện hình ảnh.";
+            var node = nodeObject.AddComponent<WorldMapNode>();
+            node.Configure(id, title, description, unlocked, string.Empty, button, null, null, label, lockLabel, frame, null);
+            node.SetFrameSprites(LoadMapSprite(unlockedSpriteName), LoadMapSprite("node_locked_with_lock.png"));
+            return node;
+        }
+
+        private void BuildPopup(Transform parent)
+        {
+            detailPopup = CreatePanel("Dungeon Detail Popup", parent, Vector2.zero, Vector2.one,
+                Vector2.zero, Vector2.zero, new Color(0f, 0f, 0.04f, 0.64f)).gameObject;
+            var card = CreatePanel("Popup Card", detailPopup.transform, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f),
+                new Vector2(-284f, -211f), new Vector2(284f, 211f), Color.white);
+            SetGraphicSprite(card.GetComponent<Image>(), "popup_frame.png");
+            var cardFace = CreatePanel("Card Face", card.transform, Vector2.zero, Vector2.one, new Vector2(12f, 12f), new Vector2(-12f, -12f), new Color(0.10f, 0.09f, 0.15f, 1f));
+            cardFace.gameObject.SetActive(false);
+            CreateSpriteImage("Popup Title Plate", card.transform, new Vector2(0.5f, 0.85f), new Vector2(410f, 122f), "popup_title_plate.png");
+            detailTitle = AddText(card.transform, "HẦM NGỤC", 23, PaleGold, FontStyles.Bold, new Vector2(0.08f, 0.76f), new Vector2(0.92f, 0.94f));
+            detailTitle.name = "Dungeon Title";
+            detailDescription = AddText(card.transform, string.Empty, 16, new Color(0.86f, 0.83f, 0.80f, 1f), FontStyles.Normal, new Vector2(0.10f, 0.50f), new Vector2(0.90f, 0.79f));
+            detailDescription.name = "Dungeon Description";
+            detailDescription.alignment = TextAlignmentOptions.TopLeft;
+            lockedMessage = AddText(card.transform, "KHU VỰC NÀY ĐANG BỊ PHONG ẤN", 13, new Color(0.91f, 0.46f, 0.43f, 1f), FontStyles.Bold, new Vector2(0.08f, 0.31f), new Vector2(0.92f, 0.41f));
+            lockedMessage.name = "Lock Message";
+            fightButton = CreateButton(card.transform, "CHIẾN ĐẤU", new Vector2(0.5f, 0.26f), new Vector2(190f, 84f), new Color(0.36f, 0.19f, 0.12f, 1f), PaleGold, 18);
+            ApplyButtonSprite(fightButton, "button_fight.png", new Vector2(190f, 84f));
+            fightButton.name = "Fight Button";
+            closeDetailsButton = CreateButton(card.transform, "ĐÓNG", new Vector2(0.5f, 0.07f), new Vector2(130f, 60f), new Color(0.19f, 0.17f, 0.22f, 1f), Muted, 14);
+            ApplyButtonSprite(closeDetailsButton, "button_close.png", new Vector2(130f, 60f));
+            closeDetailsButton.name = "Close Details Button";
             detailPopup.SetActive(false);
         }
 
-        private void AddRoute(Transform parent, Vector2 from, Vector2 to)
+        private WorldMapNode CreateNode(Transform parent, string id, string title, string description, Vector2 position, bool unlocked)
         {
-            const int dots = 22;
-            for (int i = 0; i <= dots; i++)
+            var nodeObject = CreateObject("Node - " + title, parent);
+            var rect = nodeObject.GetComponent<RectTransform>();
+            SetRect(rect, position, position, new Vector2(-37f, -37f), new Vector2(37f, 37f));
+            var frame = nodeObject.AddComponent<WorldMapCircleGraphic>();
+            frame.color = Color.white;
+            SetGraphicSprite(frame, unlocked ? "node_unlocked.png" : GetLockedNodeSprite(id));
+            var button = nodeObject.AddComponent<Button>();
+            button.targetGraphic = frame;
+            var buttonColors = button.colors;
+            buttonColors.normalColor = Color.white;
+            buttonColors.highlightedColor = PaleGold;
+            buttonColors.pressedColor = Gold;
+            button.colors = buttonColors;
+
+            var coreObject = CreateObject("Icon Placeholder Frame", nodeObject.transform);
+            var coreRect = coreObject.GetComponent<RectTransform>();
+            SetRect(coreRect, Vector2.zero, Vector2.one, new Vector2(5f, 5f), new Vector2(-5f, -5f));
+            var coreGraphic = coreObject.AddComponent<WorldMapCircleGraphic>();
+            coreGraphic.color = new Color(0.13f, 0.12f, 0.17f, 1f);
+            SetGraphicSprite(coreGraphic, "WorldMapCircle.png");
+            var iconImageObject = CreateObject("Dungeon Art Placeholder", nodeObject.transform, typeof(Image));
+            SetRect(iconImageObject.GetComponent<RectTransform>(), Vector2.zero, Vector2.one, new Vector2(12f, 12f), new Vector2(-12f, -12f));
+            var iconImage = iconImageObject.GetComponent<Image>();
+            iconImage.color = Color.white;
+            iconImage.raycastTarget = false;
+            CreateSpriteImage("Dungeon Name Plate - " + id, parent, new Vector2(position.x, position.y - 0.075f), new Vector2(230f, 84f), "label_plate_name.png");
+            var titleLabel = AddLabel(parent, title, new Vector2(position.x, position.y - 0.075f), 16,
+                unlocked ? PaleGold : new Color(0.63f, 0.62f, 0.65f, 1f), FontStyles.Bold);
+            titleLabel.outlineWidth = 0.18f;
+            titleLabel.outlineColor = Color.black;
+            TMP_Text lockLabel = null;
+            if (!unlocked)
             {
-                float t = i / (float)dots;
-                var dot = MakeRect("Map Route Dot", parent, Vector2.Lerp(from, to, t), Vector2.Lerp(from, to, t), new Vector2(-2.5f, -2.5f), new Vector2(2.5f, 2.5f)).gameObject.AddComponent<Image>();
-                dot.sprite = CircleSprite;
-                dot.color = new Color(Gold.r, Gold.g, Gold.b, 0.44f);
-                dot.raycastTarget = false;
+                CreateSpriteImage("Dungeon Lock Plate - " + id, parent, new Vector2(position.x, position.y - 0.15f), new Vector2(140f, 70f), "label_plate_lock.png");
+                lockLabel = AddLabel(parent, "BỊ PHONG ẤN", new Vector2(position.x, position.y - 0.15f), 12,
+                    new Color(0.80f, 0.43f, 0.43f, 1f), FontStyles.Normal);
+            }
+
+            var node = nodeObject.AddComponent<WorldMapNode>();
+            node.Configure(id, title, description, unlocked, string.Empty, button, iconImage, null, titleLabel, lockLabel, frame, coreObject.GetComponent<WorldMapCircleGraphic>());
+            node.SetFrameSprites(LoadMapSprite("node_unlocked.png"), LoadMapSprite(GetLockedNodeSprite(id)));
+
+            return node;
+        }
+
+        private void AddSanctuary(Transform parent, Vector2 position)
+        {
+            var marker = CreateObject("Sanctuary - World Tree", parent);
+            SetRect(marker.GetComponent<RectTransform>(), position, position, new Vector2(-53f, -53f), new Vector2(53f, 53f));
+            var glow = CreateSpriteImage("Sanctuary Glow", marker.transform, Vector2.zero, new Vector2(150f, 150f), "decor_region_glow_green.png");
+            glow.color = new Color(1f, 1f, 1f, 0.75f);
+            var emblem = CreateSpriteImage("World Tree Emblem", marker.transform, Vector2.zero, new Vector2(94f, 94f), "icon_tree.png");
+            emblem.raycastTarget = false;
+            var label = AddLabel(parent, "C\u00c2Y C\u1ed4 TH\u1ee4 TH\u1ea6N", new Vector2(position.x, position.y - 0.084f), 15, PaleGold, FontStyles.Bold);
+            label.outlineWidth = 0.18f;
+            label.outlineColor = Color.black;
+        }
+
+        private static void AddRoute(Transform parent, Vector2 from, Vector2 to, string dotSprite)
+        {
+            const int dotCount = 24;
+            for (int i = 0; i <= dotCount; i++)
+            {
+                float t = i / (float)dotCount;
+                var dot = CreateObject("Path Dot", parent, typeof(Image));
+                SetRect(dot.GetComponent<RectTransform>(), Vector2.Lerp(from, to, t), Vector2.Lerp(from, to, t), new Vector2(-5f, -5f), new Vector2(5f, 5f));
+                var image = dot.GetComponent<Image>();
+                image.sprite = LoadMapSprite(dotSprite);
+                image.color = new Color(1f, 1f, 1f, 0.86f);
+                image.raycastTarget = false;
             }
         }
 
-        private void AddAmbientMarks(Transform parent)
+        private static void AddAmbientMarks(Transform parent)
         {
             var random = new System.Random(371);
             string[] glyphs = { ".", "*", "+", "o", "^" };
             Color[] colors = { new Color(0.55f, 0.80f, 0.38f, 0.55f), new Color(0.89f, 0.82f, 0.63f, 0.60f), new Color(0.45f, 0.55f, 0.72f, 0.55f) };
             for (int i = 0; i < 82; i++)
+                AddLabel(parent, glyphs[random.Next(glyphs.Length)], new Vector2((float)random.NextDouble(), (float)random.NextDouble()),
+                    random.Next(9, 20), colors[random.Next(colors.Length)], FontStyles.Bold).raycastTarget = false;
+        }
+
+        private static RectTransform CreatePanel(string name, Transform parent, Vector2 anchorMin, Vector2 anchorMax, Vector2 offsetMin, Vector2 offsetMax, Color color)
+        {
+            var rect = CreateObject(name, parent).GetComponent<RectTransform>();
+            SetRect(rect, anchorMin, anchorMax, offsetMin, offsetMax);
+            rect.gameObject.AddComponent<WorldMapSolidGraphic>().color = color;
+            SetGraphicSprite(rect.gameObject.GetComponent<WorldMapSolidGraphic>(), "WorldMapWhite.png");
+            return rect;
+        }
+
+        private static Image CreateSpriteImage(string name, Transform parent, Vector2 anchor, Vector2 size, string spriteName)
+        {
+            var obj = CreateObject(name, parent, typeof(Image));
+            SetRect(obj.GetComponent<RectTransform>(), anchor, anchor, size * -0.5f, size * 0.5f);
+            var image = obj.GetComponent<Image>();
+            image.raycastTarget = false;
+            SetGraphicSprite(image, spriteName);
+            return image;
+        }
+
+        private static string GetLockedNodeSprite(string id)
+        {
+            if (id == "mana_mine") return "node_locked_1.png";
+            if (id == "soul_swamp") return "node_locked_2.png";
+            return "node_locked_3.png";
+        }
+
+        private static void ApplyButtonSprite(Button button, string spriteName, Vector2 size)
+        {
+            var image = button.targetGraphic as Image;
+            if (image != null)
             {
-                float x = (float)random.NextDouble();
-                float y = (float)random.NextDouble();
-                int glyph = random.Next(glyphs.Length);
-                var mark = AddLabel(parent, glyphs[glyph], new Vector2(x, y), random.Next(9, 20), colors[random.Next(colors.Length)], FontStyles.Bold);
-                mark.raycastTarget = false;
+                SetGraphicSprite(image, spriteName);
+                image.color = Color.white;
             }
+            var rect = button.transform as RectTransform;
+            if (rect != null)
+                rect.sizeDelta = size;
         }
 
-        private void AddGlow(Transform parent, Vector2 anchor, Vector2 size, Color color)
+        private static WorldMapCircleGraphic AddCircle(string name, Transform parent, Vector2 anchor, Vector2 size, Color color)
         {
-            var glow = MakeRect("Mystic Fog Glow", parent, anchor, anchor, size * -0.5f, size * 0.5f).gameObject.AddComponent<Image>();
-            glow.sprite = CircleSprite;
-            glow.color = color;
-            glow.raycastTarget = false;
+            var obj = CreateObject(name, parent);
+            SetRect(obj.GetComponent<RectTransform>(), anchor, anchor, size * -0.5f, size * 0.5f);
+            var graphic = obj.AddComponent<WorldMapCircleGraphic>().AlsoSetColor(color);
+            SetGraphicSprite(graphic, name.StartsWith("Mystic Glow") ? "WorldMapGlow.png" : "WorldMapCircle.png");
+            return graphic;
         }
 
-        private void AddBorder(Transform parent, Vector2 size)
+        private static Button CreateButton(Transform parent, string text, Vector2 anchor, Vector2 size, Color background, Color foreground, int fontSize)
         {
-            var inset = MakeRect("Card Face", parent, Vector2.zero, Vector2.one, new Vector2(3f, 3f), new Vector2(-3f, -3f)).gameObject.AddComponent<Image>();
-            inset.color = new Color(0.10f, 0.09f, 0.15f, 1f);
-            inset.sprite = WhiteSprite;
-            inset.type = Image.Type.Simple;
-            inset.raycastTarget = false;
-            inset.transform.SetAsFirstSibling();
-        }
-
-        private Button MakeButton(Transform parent, string text, Vector2 anchor, Vector2 size, Color background, Color foreground, int fontSize)
-        {
-            var rect = MakeRect(string.IsNullOrEmpty(text) ? "Dungeon Node" : text, parent, anchor, anchor, size * -0.5f, size * 0.5f);
-            var image = rect.gameObject.AddComponent<Image>();
-            image.color = background;
-            image.sprite = WhiteSprite;
-            image.type = Image.Type.Simple;
-            var button = rect.gameObject.AddComponent<Button>();
-            button.targetGraphic = image;
+            var obj = CreateObject(text, parent);
+            SetRect(obj.GetComponent<RectTransform>(), anchor, anchor, size * -0.5f, size * 0.5f);
+            var plate = obj.AddComponent<WorldMapSolidGraphic>();
+            plate.color = background;
+            SetGraphicSprite(plate, "WorldMapWhite.png");
+            var button = obj.AddComponent<Button>();
+            button.targetGraphic = plate;
             var colors = button.colors;
-            colors.normalColor = background;
-            colors.highlightedColor = new Color(Mathf.Min(1f, background.r + 0.12f), Mathf.Min(1f, background.g + 0.12f), Mathf.Min(1f, background.b + 0.12f), background.a);
-            colors.pressedColor = new Color(background.r * 0.82f, background.g * 0.82f, background.b * 0.82f, background.a);
+            colors.normalColor = Color.white;
+            colors.highlightedColor = new Color(1f, 0.91f, 0.68f, 1f);
+            colors.pressedColor = new Color(0.82f, 0.67f, 0.39f, 1f);
             button.colors = colors;
-            if (!string.IsNullOrEmpty(text))
-                AddText(rect, text, fontSize, foreground, FontStyles.Bold, Vector2.zero, Vector2.one);
+            AddText(obj.transform, text, fontSize, foreground, FontStyles.Bold, Vector2.zero, Vector2.one);
             return button;
         }
 
-        private TMP_Text AddLabel(Transform parent, string text, Vector2 anchor, int fontSize, Color color, FontStyles style, Vector2? size = null)
+        private static TMP_Text AddLabel(Transform parent, string text, Vector2 anchor, int fontSize, Color color, FontStyles style)
         {
-            var rect = MakeRect(text, parent, anchor, anchor, new Vector2(-220f, -22f), new Vector2(220f, 22f));
-            var label = rect.gameObject.AddComponent<TextMeshProUGUI>();
-            label.text = text;
-            label.fontSize = fontSize;
-            label.color = color;
-            label.fontStyle = style;
+            var obj = CreateObject(text, parent);
+            SetRect(obj.GetComponent<RectTransform>(), anchor, anchor, new Vector2(-220f, -22f), new Vector2(220f, 22f));
+            var label = obj.AddComponent<TextMeshProUGUI>();
+            ConfigureText(label, text, fontSize, color, style);
             label.alignment = TextAlignmentOptions.Center;
             label.textWrappingMode = TextWrappingModes.NoWrap;
             label.raycastTarget = false;
-            if (size.HasValue)
-            {
-                rect.anchorMin = anchor;
-                rect.anchorMax = anchor;
-                rect.sizeDelta = size.Value;
-            }
             return label;
         }
 
-        private TMP_Text AddText(Transform parent, string text, int fontSize, Color color, FontStyles style, Vector2 anchorMin, Vector2 anchorMax)
+        private static TMP_Text AddText(Transform parent, string text, int fontSize, Color color, FontStyles style, Vector2 anchorMin, Vector2 anchorMax)
         {
-            var rect = MakeRect(text, parent, anchorMin, anchorMax, Vector2.zero, Vector2.zero);
-            var label = rect.gameObject.AddComponent<TextMeshProUGUI>();
-            label.text = text;
-            label.fontSize = fontSize;
-            label.color = color;
-            label.fontStyle = style;
+            var obj = CreateObject(text, parent);
+            SetRect(obj.GetComponent<RectTransform>(), anchorMin, anchorMax, Vector2.zero, Vector2.zero);
+            var label = obj.AddComponent<TextMeshProUGUI>();
+            ConfigureText(label, text, fontSize, color, style);
             label.alignment = TextAlignmentOptions.Center;
             label.textWrappingMode = TextWrappingModes.Normal;
             label.raycastTarget = false;
             return label;
         }
 
-        private static RectTransform MakeRect(string name, Transform parent, Vector2 anchorMin, Vector2 anchorMax, Vector2 offsetMin, Vector2 offsetMax)
+        private static void ConfigureText(TMP_Text text, string value, int fontSize, Color color, FontStyles style)
         {
-            var gameObject = new GameObject(name, typeof(RectTransform));
-            var rect = gameObject.GetComponent<RectTransform>();
-            rect.SetParent(parent, false);
+            text.text = value;
+            text.fontSize = fontSize;
+            text.color = color;
+            text.fontStyle = style;
+        }
+
+        private static void SetGraphicSprite(Image image, string fileName)
+        {
+#if UNITY_EDITOR
+            image.sprite = LoadMapSprite(fileName);
+#endif
+            image.type = Image.Type.Simple;
+        }
+
+        private static Sprite LoadMapSprite(string fileName)
+        {
+#if UNITY_EDITOR
+            var guids = UnityEditor.AssetDatabase.FindAssets(System.IO.Path.GetFileNameWithoutExtension(fileName) + " t:Sprite", new[] { "Assets/Game/UI/WorldMap/WorldMapAssets" });
+            if (guids.Length > 0)
+                return UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>(UnityEditor.AssetDatabase.GUIDToAssetPath(guids[0]));
+            return UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Game/UI/WorldMap/" + fileName);
+#else
+            return null;
+#endif
+        }
+
+        private static GameObject CreateObject(string name, Transform parent, params System.Type[] components)
+        {
+            var gameObject = components.Length == 0
+                ? new GameObject(name, typeof(RectTransform))
+                : new GameObject(name, AddRectTransform(components));
+            gameObject.transform.SetParent(parent, false);
+            return gameObject;
+        }
+
+        private static System.Type[] AddRectTransform(System.Type[] components)
+        {
+            var result = new System.Type[components.Length + 1];
+            result[0] = typeof(RectTransform);
+            for (int i = 0; i < components.Length; i++)
+                result[i + 1] = components[i];
+            return result;
+        }
+
+        private static void SetRect(RectTransform rect, Vector2 anchorMin, Vector2 anchorMax, Vector2 offsetMin, Vector2 offsetMax)
+        {
             rect.anchorMin = anchorMin;
             rect.anchorMax = anchorMax;
             rect.offsetMin = offsetMin;
             rect.offsetMax = offsetMax;
-            return rect;
-        }
-
-        private Sprite CircleSprite
-        {
-            get
-            {
-                if (circleTexture == null)
-                {
-                    const int resolution = 64;
-                    circleTexture = new Texture2D(resolution, resolution, TextureFormat.RGBA32, false);
-                    circleTexture.name = "World Map Soft Circle";
-                    circleTexture.wrapMode = TextureWrapMode.Clamp;
-                    for (int y = 0; y < resolution; y++)
-                    for (int x = 0; x < resolution; x++)
-                    {
-                        float distance = Vector2.Distance(new Vector2(x, y), new Vector2((resolution - 1) * 0.5f, (resolution - 1) * 0.5f)) / (resolution * 0.5f);
-                        float alpha = Mathf.SmoothStep(1f, 0f, Mathf.Clamp01(distance));
-                        circleTexture.SetPixel(x, y, new Color(1f, 1f, 1f, alpha));
-                    }
-                    circleTexture.Apply();
-                }
-
-                if (circleSprite == null)
-                    circleSprite = Sprite.Create(circleTexture, new Rect(0f, 0f, circleTexture.width, circleTexture.height), new Vector2(0.5f, 0.5f), 100f, 0, SpriteMeshType.FullRect, new Vector4(16f, 16f, 16f, 16f));
-                return circleSprite;
-            }
-        }
-
-        private Sprite WhiteSprite
-        {
-            get
-            {
-                if (whiteTexture == null)
-                {
-                    whiteTexture = new Texture2D(1, 1, TextureFormat.RGBA32, false);
-                    whiteTexture.name = "World Map UI White Pixel";
-                    whiteTexture.SetPixel(0, 0, Color.white);
-                    whiteTexture.Apply();
-                }
-
-                if (whiteSprite == null)
-                    whiteSprite = Sprite.Create(whiteTexture, new Rect(0f, 0f, 1f, 1f), new Vector2(0.5f, 0.5f), 1f);
-                return whiteSprite;
-            }
         }
 
         private void OnDestroy()
         {
             if (Instance == this)
                 Instance = null;
-            if (circleTexture != null)
-                Destroy(circleTexture);
-            if (circleSprite != null)
-                Destroy(circleSprite);
-            if (whiteSprite != null)
-                Destroy(whiteSprite);
-            if (whiteTexture != null)
-                Destroy(whiteTexture);
         }
     }
 
-    /// <summary>Simple vector circle used for map markers without external art.</summary>
-    public sealed class WorldMapCircleGraphic : MaskableGraphic
+    internal static class WorldMapGraphicExtensions
     {
-        protected override void OnPopulateMesh(VertexHelper vertexHelper)
+        public static WorldMapCircleGraphic AlsoSetColor(this WorldMapCircleGraphic graphic, Color color)
         {
-            vertexHelper.Clear();
-            const int segments = 48;
-            var rect = rectTransform.rect;
-            var center = rect.center;
-            vertexHelper.AddVert(center, color, Vector2.one * 0.5f);
-            for (int i = 0; i < segments; i++)
-            {
-                float angle = i * Mathf.PI * 2f / segments;
-                var point = center + new Vector2(Mathf.Cos(angle) * rect.width * 0.5f, Mathf.Sin(angle) * rect.height * 0.5f);
-                vertexHelper.AddVert(point, color, new Vector2(Mathf.Cos(angle) * 0.5f + 0.5f, Mathf.Sin(angle) * 0.5f + 0.5f));
-            }
-
-            for (int i = 0; i < segments; i++)
-                vertexHelper.AddTriangle(0, (i + 1) % segments + 1, i + 1);
+            graphic.color = color;
+            return graphic;
         }
     }
 }
