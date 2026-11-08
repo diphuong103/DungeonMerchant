@@ -1,0 +1,22 @@
+{
+ "tileSize": 64,
+ "cols": 8,
+ "index": {
+  "stone_a": 0,
+  "stone_b": 1,
+  "stone_c": 2,
+  "stone_d": 3,
+  "cracked_a": 4,
+  "cracked_b": 5,
+  "mossy": 6,
+  "cobble": 7,
+  "dirt_a": 8,
+  "dirt_b": 9,
+  "dirt_deadgrass": 10,
+  "bones": 11,
+  "rune": 12,
+  "blood": 13,
+  "obsidian": 14,
+  "ornate": 15
+ }
+}

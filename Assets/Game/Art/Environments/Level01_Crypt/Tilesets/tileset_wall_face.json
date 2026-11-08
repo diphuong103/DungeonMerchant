@@ -1,0 +1,14 @@
+{
+ "tileSize": 64,
+ "cols": 8,
+ "index": {
+  "face_plain_a": 0,
+  "face_plain_b": 1,
+  "face_cracked": 2,
+  "face_moss": 3,
+  "face_skull_niche": 4,
+  "face_torch": 5,
+  "face_chains": 6,
+  "face_cobweb": 7
+ }
+}

@@ -15,6 +15,10 @@ namespace Cainos.PixelArtTopDown_Basic
         [SerializeField] private string nodeName;
         [SerializeField, TextArea(2, 5)] private string description;
         [SerializeField] private bool isUnlocked;
+        [SerializeField, Min(1)] private int requiredLevel = 1;
+#if UNITY_EDITOR
+        [SerializeField] private UnityEditor.SceneAsset targetSceneAsset;
+#endif
         [SerializeField] private string targetSceneName;
         [SerializeField] private Sprite iconSprite;
         [SerializeField] private Sprite unlockedFrameSprite;
@@ -35,6 +39,7 @@ namespace Cainos.PixelArtTopDown_Basic
         public string NodeName => nodeName;
         public string Description => description;
         public bool IsUnlocked => isUnlocked;
+        public int RequiredLevel => requiredLevel;
         public string TargetSceneName => targetSceneName;
 
         public void Configure(
@@ -49,12 +54,14 @@ namespace Cainos.PixelArtTopDown_Basic
             TMP_Text label,
             TMP_Text lockedLabel,
             WorldMapCircleGraphic outerFrame,
-            WorldMapCircleGraphic innerFrame)
+            WorldMapCircleGraphic innerFrame,
+            int levelRequirement = 1)
         {
             nodeID = id;
             nodeName = title;
             description = details;
             isUnlocked = unlocked;
+            requiredLevel = Mathf.Max(1, levelRequirement);
             targetSceneName = sceneName;
             nodeButton = button;
             iconImage = nodeIcon;
@@ -100,6 +107,12 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void OnValidate()
         {
+#if UNITY_EDITOR
+            // SceneAsset is editor-only. Keep its name in a runtime-safe string
+            // so SceneManager can load it in builds.
+            if (targetSceneAsset != null)
+                targetSceneName = targetSceneAsset.name;
+#endif
             RefreshView();
         }
 
@@ -108,7 +121,10 @@ namespace Cainos.PixelArtTopDown_Basic
             if (mapLabel != null)
                 mapLabel.text = nodeName;
             if (lockLabel != null)
+            {
+                lockLabel.text = "CẦN VƯỢT MÀN TRƯỚC";
                 lockLabel.gameObject.SetActive(!isUnlocked);
+            }
             if (iconImage != null)
             {
                 iconImage.sprite = iconSprite;

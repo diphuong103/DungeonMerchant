@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -21,6 +21,9 @@ namespace Cainos.PixelArtTopDown_Basic
         [SerializeField] private GameObject mapRoot;
         [SerializeField] private RectTransform mapViewport;
         [SerializeField] private RectTransform mapContent;
+        [SerializeField, Range(0.85f, 1.65f)] private float minZoom = 0.85f;
+        [SerializeField, Range(0.85f, 1.65f)] private float maxZoom = 1.65f;
+        [SerializeField, Min(0.1f)] private float zoomSpeed = 1.5f;
         [SerializeField] private GameObject detailPopup;
         [SerializeField] private TMP_Text statusText;
         [SerializeField] private TMP_Text detailTitle;
@@ -33,6 +36,8 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private WorldMapNode selectedNode;
         private bool isDraggingMap;
+        private float mapZoom = 1f;
+        private float previousPinchDistance;
 
         private static readonly Color Gold = new Color(0.95f, 0.72f, 0.34f, 1f);
         private static readonly Color PaleGold = new Color(1f, 0.88f, 0.62f, 1f);
@@ -49,6 +54,7 @@ namespace Cainos.PixelArtTopDown_Basic
             Instance = this;
             EnsureEventSystem();
             BindButtons();
+            RefreshProgress();
             if (mapRoot != null)
                 mapRoot.SetActive(false);
             if (detailPopup != null)
@@ -57,8 +63,23 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
-            if (IsOpen && Input.GetKeyDown(KeyCode.Escape))
+            if (!IsOpen)
+                return;
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
                 Close();
+                return;
+            }
+
+            if (detailPopup != null && detailPopup.activeSelf)
+            {
+                previousPinchDistance = 0f;
+                return;
+            }
+
+            HandleMouseZoom();
+            HandleTouchPinch();
         }
 
         public void Open()
@@ -71,8 +92,13 @@ namespace Cainos.PixelArtTopDown_Basic
 
             mapRoot.SetActive(true);
             BindButtons();
+            RefreshProgress();
             if (mapContent != null)
+            {
+                mapZoom = 1f;
+                mapContent.localScale = Vector3.one;
                 mapContent.anchoredPosition = Vector2.zero;
+            }
             if (detailPopup != null)
                 detailPopup.SetActive(false);
             if (statusText != null)
@@ -113,7 +139,7 @@ namespace Cainos.PixelArtTopDown_Basic
             if (mapContent == null || mapViewport == null)
                 return;
 
-            Vector2 contentSize = mapContent.rect.size;
+            Vector2 contentSize = mapContent.rect.size * mapZoom;
             Vector2 viewportSize = mapViewport.rect.size;
             float maxX = Mathf.Max(0f, (contentSize.x - viewportSize.x) * 0.5f);
             float maxY = Mathf.Max(0f, (contentSize.y - viewportSize.y) * 0.5f);
@@ -121,6 +147,73 @@ namespace Cainos.PixelArtTopDown_Basic
             mapContent.anchoredPosition = new Vector2(
                 Mathf.Clamp(position.x, -maxX, maxX),
                 Mathf.Clamp(position.y, -maxY, maxY));
+        }
+
+        private void HandleMouseZoom()
+        {
+            float scroll = Input.GetAxis("Mouse ScrollWheel");
+            if (Mathf.Abs(scroll) < 0.001f || !PointerIsOverMapContent(Input.mousePosition))
+                return;
+
+            ZoomAt(scroll, Input.mousePosition);
+        }
+
+        private void HandleTouchPinch()
+        {
+            if (Input.touchCount != 2)
+            {
+                previousPinchDistance = 0f;
+                return;
+            }
+
+            Touch first = Input.GetTouch(0);
+            Touch second = Input.GetTouch(1);
+            float distance = Vector2.Distance(first.position, second.position);
+            Vector2 midpoint = (first.position + second.position) * 0.5f;
+
+            if (previousPinchDistance > 0f)
+            {
+                float pinchDelta = (distance - previousPinchDistance) * 0.01f;
+                ZoomAt(pinchDelta, midpoint);
+            }
+
+            previousPinchDistance = distance;
+        }
+
+        private bool PointerIsOverMapContent(Vector2 screenPosition)
+        {
+            if (mapContent == null || EventSystem.current == null)
+                return false;
+
+            var pointer = new PointerEventData(EventSystem.current) { position = screenPosition };
+            var hits = new List<RaycastResult>();
+            EventSystem.current.RaycastAll(pointer, hits);
+            if (hits.Count == 0)
+                return false;
+
+            return hits[0].gameObject.transform.IsChildOf(mapContent);
+        }
+
+        private void ZoomAt(float delta, Vector2 screenPosition)
+        {
+            if (mapContent == null || mapViewport == null)
+                return;
+
+            float nextZoom = Mathf.Clamp(mapZoom + delta * zoomSpeed, minZoom, maxZoom);
+            if (Mathf.Approximately(nextZoom, mapZoom))
+                return;
+
+            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                    mapViewport, screenPosition, null, out Vector2 viewportPoint))
+            {
+                Vector2 position = mapContent.anchoredPosition;
+                float zoomRatio = nextZoom / mapZoom;
+                mapContent.anchoredPosition = viewportPoint - (viewportPoint - position) * zoomRatio;
+            }
+
+            mapZoom = nextZoom;
+            mapContent.localScale = Vector3.one * mapZoom;
+            ClampMapContent();
         }
 
         public void Close()
@@ -143,8 +236,9 @@ namespace Cainos.PixelArtTopDown_Basic
                 detailDescription.text = node.Description;
             if (lockedMessage != null)
             {
+                lockedMessage.text = "KHU VỰC NÀY ĐANG BỊ PHONG ẤN\nHãy hoàn thành hầm ngục trước đó.";
+                lockedMessage.color = node.IsUnlocked ? PaleGold : new Color(0.91f, 0.46f, 0.43f, 1f);
                 lockedMessage.gameObject.SetActive(!node.IsUnlocked);
-                lockedMessage.text = "KHU VỰC NÀY ĐANG BỊ PHONG ẤN";
             }
             if (fightButton != null)
                 fightButton.interactable = node.IsUnlocked;
@@ -160,14 +254,79 @@ namespace Cainos.PixelArtTopDown_Basic
 
             if (!string.IsNullOrWhiteSpace(selectedNode.TargetSceneName) && Application.CanStreamedLevelBeLoaded(selectedNode.TargetSceneName))
             {
+                WorldMapProgress.SetReturnScene(SceneManager.GetActiveScene().name);
+                WorldMapProgress.SetCurrentDungeonId(selectedNode.NodeID);
                 SceneManager.LoadScene(selectedNode.TargetSceneName);
                 return;
             }
 
             if (statusText != null)
-                statusText.text = "Màn chơi chưa được gán — có thể cập nhật sau.";
-            if (detailPopup != null)
-                detailPopup.SetActive(false);
+                statusText.text = string.IsNullOrWhiteSpace(selectedNode.TargetSceneName)
+                    ? "Scene hầm ngục chưa được gán cho node này."
+                    : "Scene '" + selectedNode.TargetSceneName + "' chưa nằm trong Build Settings.";
+
+            if (lockedMessage != null)
+            {
+                lockedMessage.text = string.IsNullOrWhiteSpace(selectedNode.TargetSceneName)
+                    ? "CHƯA GÁN SCENE HẦM NGỤC\nThiết lập Target Scene trong Inspector."
+                    : "SCENE CHƯA CÓ TRONG BUILD SETTINGS\n" + selectedNode.TargetSceneName;
+                lockedMessage.color = PaleGold;
+                lockedMessage.gameObject.SetActive(true);
+            }
+        }
+
+        /// <summary>
+        /// Call WorldMapProgress.MarkCurrentDungeonCleared() from a dungeon
+        /// victory flow. The following node will unlock the next time this map opens.
+        /// </summary>
+        public void RefreshProgress()
+        {
+            if (nodes == null)
+                return;
+
+            for (int i = 0; i < nodes.Count; i++)
+            {
+                WorldMapNode node = nodes[i];
+                if (node == null)
+                    continue;
+
+                bool unlocked = node.IsUnlocked || WorldMapProgress.IsUnlocked(node.NodeID) || i == 0;
+                if (i > 0 && nodes[i - 1] != null && WorldMapProgress.IsCleared(nodes[i - 1].NodeID))
+                    unlocked = true;
+
+                node.SetUnlocked(unlocked);
+                if (unlocked)
+                    WorldMapProgress.Unlock(node.NodeID);
+            }
+
+            RefreshRoutes();
+        }
+
+        private void RefreshRoutes()
+        {
+            // Route objects are authored in map order: crypt→tree, then each
+            // subsequent dungeon branch. Keep their line state in sync with saves.
+            MapPathLine[] routes = GetComponentsInChildren<MapPathLine>(true);
+            if (routes.Length < 5 || nodes.Count < 5)
+                return;
+
+            routes[0].SetState(WorldMapProgress.IsCleared(nodes[0].NodeID)
+                ? MapPathLine.PathState.Cleared
+                : MapPathLine.PathState.Unlocked);
+
+            for (int i = 1; i < 5; i++)
+            {
+                WorldMapNode destination = nodes[i];
+                if (destination == null)
+                    continue;
+
+                MapPathLine.PathState state = WorldMapProgress.IsCleared(destination.NodeID)
+                    ? MapPathLine.PathState.Cleared
+                    : destination.IsUnlocked
+                        ? MapPathLine.PathState.Unlocked
+                        : MapPathLine.PathState.Locked;
+                routes[i].SetState(state);
+            }
         }
 
         private void BindButtons()
@@ -246,23 +405,16 @@ namespace Cainos.PixelArtTopDown_Basic
             CreateFullScreenImage("Background - Nebula", mapContent, "bg_layer0_base.png", Color.white);
             CreateFullScreenImage("Background - Violet Mystic Fog", mapContent, "bg_layer1_fog_a.png", new Color(1f, 1f, 1f, 0.72f));
             CreateFullScreenImage("Background - Teal Mystic Fog", mapContent, "bg_layer1_fog_b.png", new Color(1f, 1f, 1f, 0.72f));
-            CreateFullScreenImage("Background - Forest Decor", mapContent, "bg_layer2_decor.png", Color.white);
-            CreateFullScreenImage("Background - Fireflies", mapContent, "bg_layer3_particles.png", Color.white);
 
             var routeRoot = CreateObject("Dungeon Routes", mapContent);
+            SetRect(routeRoot.GetComponent<RectTransform>(), Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
             var crypt = new Vector2(0.15f, 0.60f);
             var spider = new Vector2(0.36f, 0.35f);
             var demon = new Vector2(0.57f, 0.55f);
             var moon = new Vector2(0.77f, 0.32f);
             var eye = new Vector2(0.89f, 0.70f);
             var sanctuary = new Vector2(0.48f, 0.52f);
-            AddRoute(routeRoot.transform, crypt, sanctuary, "path_dot_unlocked.png");
-            AddRoute(routeRoot.transform, sanctuary, spider, "path_dot_unlocked.png");
-            AddRoute(routeRoot.transform, sanctuary, demon, "path_dot_locked.png");
-            AddRoute(routeRoot.transform, demon, moon, "path_dot_locked.png");
-            AddRoute(routeRoot.transform, moon, eye, "path_dot_locked.png");
-
-            AddSanctuary(mapContent, sanctuary);
+            RectTransform sanctuaryMarker = AddSanctuary(mapContent, sanctuary);
             CreateSpriteImage("World Map Title Frame", mapRoot.transform, new Vector2(0.5f, 0.93f), new Vector2(490f, 98f), "title_frame.png");
             AddLabel(mapRoot.transform, "BẢN ĐỒ HẦM NGỤC", new Vector2(0.5f, 0.945f), 27, PaleGold, FontStyles.Bold);
             AddLabel(mapRoot.transform, "CHỌN CỔNG DỊCH CHUYỂN ĐỂ KHÁM PHÁ", new Vector2(0.5f, 0.905f), 11, Muted, FontStyles.Normal);
@@ -278,6 +430,12 @@ namespace Cainos.PixelArtTopDown_Basic
                 CreateDungeonNode(mapContent, "moon", "ĐIỆN HUYẾT NGUYỆT", "Tòa lâu đài cổ chìm trong ánh trăng máu.", moon, 22, "dungeon4_moon_node_unlocked.png"),
                 CreateDungeonNode(mapContent, "eye", "VỰC MA NHÃN HƯ VÔ", "Con mắt của bóng tối vĩnh hằng đang thức tỉnh.", eye, 30, "dungeon5_eye_node_unlocked.png")
             };
+
+            AddRoute(routeRoot.transform, "Crypt to Sanctuary", nodes[0].GetComponent<RectTransform>(), sanctuaryMarker, MapPathLine.PathState.Unlocked);
+            AddRoute(routeRoot.transform, "Sanctuary to Spider", sanctuaryMarker, nodes[1].GetComponent<RectTransform>(), MapPathLine.PathState.Locked);
+            AddRoute(routeRoot.transform, "Sanctuary to Demon", sanctuaryMarker, nodes[2].GetComponent<RectTransform>(), MapPathLine.PathState.Locked);
+            AddRoute(routeRoot.transform, "Demon to Moon", nodes[2].GetComponent<RectTransform>(), nodes[3].GetComponent<RectTransform>(), MapPathLine.PathState.Locked);
+            AddRoute(routeRoot.transform, "Moon to Eye", nodes[3].GetComponent<RectTransform>(), nodes[4].GetComponent<RectTransform>(), MapPathLine.PathState.Locked);
 
             CreateFullScreenImage("Screen Vignette", mapRoot.transform, "overlay_vignette.png", Color.white);
             BuildPopup(mapRoot.transform);
@@ -324,12 +482,13 @@ namespace Cainos.PixelArtTopDown_Basic
             TMP_Text lockLabel = null;
             if (!unlocked)
             {
-                lockLabel = AddLabel(parent, "YÊU CẦU CẤP " + requiredLevel, new Vector2(position.x, position.y - 0.158f), 11,
+                lockLabel = AddLabel(parent, "HOÀN THÀNH MÀN TRƯỚC", new Vector2(position.x, position.y - 0.158f), 11,
                     new Color(1f, 0.65f, 0.58f, 1f), FontStyles.Bold);
             }
 
             var node = nodeObject.AddComponent<WorldMapNode>();
-            node.Configure(id, title, description, unlocked, string.Empty, button, null, null, label, lockLabel, frame, null);
+            string targetScene = id == "crypt" ? "Level01_Crypt" : string.Empty;
+            node.Configure(id, title, description, unlocked, targetScene, button, null, null, label, lockLabel, frame, null);
             node.SetFrameSprites(LoadMapSprite(unlockedSpriteName), LoadMapSprite("node_locked_with_lock.png"));
             return node;
         }
@@ -407,7 +566,7 @@ namespace Cainos.PixelArtTopDown_Basic
             return node;
         }
 
-        private void AddSanctuary(Transform parent, Vector2 position)
+        private RectTransform AddSanctuary(Transform parent, Vector2 position)
         {
             var marker = CreateObject("Sanctuary - World Tree", parent);
             SetRect(marker.GetComponent<RectTransform>(), position, position, new Vector2(-53f, -53f), new Vector2(53f, 53f));
@@ -418,23 +577,28 @@ namespace Cainos.PixelArtTopDown_Basic
             var label = AddLabel(parent, "C\u00c2Y C\u1ed4 TH\u1ee4 TH\u1ea6N", new Vector2(position.x, position.y - 0.084f), 15, PaleGold, FontStyles.Bold);
             label.outlineWidth = 0.18f;
             label.outlineColor = Color.black;
+            return marker.GetComponent<RectTransform>();
         }
 
-        private static void AddRoute(Transform parent, Vector2 from, Vector2 to, string dotSprite)
+        private void AddRoute(Transform parent, string routeName, RectTransform from, RectTransform to, MapPathLine.PathState state)
         {
-            const int dotCount = 24;
-            for (int i = 0; i <= dotCount; i++)
-            {
-                float t = i / (float)dotCount;
-                var dot = CreateObject("Path Dot", parent, typeof(Image));
-                SetRect(dot.GetComponent<RectTransform>(), Vector2.Lerp(from, to, t), Vector2.Lerp(from, to, t), new Vector2(-5f, -5f), new Vector2(5f, 5f));
-                var image = dot.GetComponent<Image>();
-                image.sprite = LoadMapSprite(dotSprite);
-                image.color = new Color(1f, 1f, 1f, 0.86f);
-                image.raycastTarget = false;
-            }
+            var routeObject = CreateObject("Path - " + routeName, parent);
+            SetRect(routeObject.GetComponent<RectTransform>(), Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
+            var path = routeObject.AddComponent<MapPathLine>();
+            path.Configure(from, to, state,
+                LoadMapSprite("line_dash_locked.png"),
+                LoadMapSprite("line_dash_unlocked.png"),
+                LoadMapSprite("line_dash_cleared.png"),
+                LoadMapSprite("line_knot_locked.png"),
+                LoadMapSprite("line_knot_unlocked.png"),
+                LoadMapSprite("line_knot_cleared.png"),
+                LoadMapSprite("WorldMapWhite.png"),
+                LoadMapSprite("line_midlock_plate.png"),
+                LoadMapSprite("line_glow_unlocked.png"),
+                LoadMapSprite("line_glow_cleared.png"),
+                LoadMapSprite("line_spark_gold.png"),
+                LoadMapSprite("line_spark_green.png"));
         }
-
         private static void AddAmbientMarks(Transform parent)
         {
             var random = new System.Random(371);
@@ -605,3 +769,4 @@ namespace Cainos.PixelArtTopDown_Basic
         }
     }
 }
+

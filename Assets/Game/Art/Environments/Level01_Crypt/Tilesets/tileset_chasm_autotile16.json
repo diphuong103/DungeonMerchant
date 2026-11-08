@@ -1,0 +1,22 @@
+{
+ "tileSize": 64,
+ "cols": 4,
+ "index": {
+  "chasm_00": 0,
+  "chasm_01": 1,
+  "chasm_02": 2,
+  "chasm_03": 3,
+  "chasm_04": 4,
+  "chasm_05": 5,
+  "chasm_06": 6,
+  "chasm_07": 7,
+  "chasm_08": 8,
+  "chasm_09": 9,
+  "chasm_10": 10,
+  "chasm_11": 11,
+  "chasm_12": 12,
+  "chasm_13": 13,
+  "chasm_14": 14,
+  "chasm_15": 15
+ }
+}
