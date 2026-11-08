@@ -1,0 +1,5083 @@
+fileFormatVersion: 2
+guid: 8722bd8c61a1cbd41a1d89f439009239
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1314297805371069902
+    second: wraith_atlas_0
+  - first:
+      213: 7090483864205882608
+    second: wraith_atlas_1
+  - first:
+      213: -4039753558374281105
+    second: wraith_atlas_2
+  - first:
+      213: -698190860769903707
+    second: wraith_atlas_3
+  - first:
+      213: 2269338107458285191
+    second: wraith_atlas_4
+  - first:
+      213: -100011119060349607
+    second: wraith_atlas_5
+  - first:
+      213: -4683104535887658557
+    second: wraith_atlas_6
+  - first:
+      213: 6591827451583869089
+    second: wraith_atlas_7
+  - first:
+      213: -8413672554871768704
+    second: wraith_atlas_8
+  - first:
+      213: 302136232900190572
+    second: wraith_atlas_9
+  - first:
+      213: -1529375394829805781
+    second: wraith_atlas_10
+  - first:
+      213: -6204692133942767266
+    second: wraith_atlas_11
+  - first:
+      213: 8725042739168973237
+    second: wraith_atlas_12
+  - first:
+      213: -7635785196595579008
+    second: wraith_atlas_13
+  - first:
+      213: 4753219958587914863
+    second: wraith_atlas_14
+  - first:
+      213: 1461843756921960521
+    second: wraith_atlas_15
+  - first:
+      213: -2850817733908897107
+    second: wraith_atlas_16
+  - first:
+      213: 6192059651786892973
+    second: wraith_atlas_17
+  - first:
+      213: -4626610832237915534
+    second: wraith_atlas_18
+  - first:
+      213: 2796970479850467858
+    second: wraith_atlas_19
+  - first:
+      213: -1221969891575435892
+    second: wraith_atlas_20
+  - first:
+      213: -55283457579410511
+    second: wraith_atlas_21
+  - first:
+      213: 6541321713237051178
+    second: wraith_atlas_22
+  - first:
+      213: -2168999725840186035
+    second: wraith_atlas_23
+  - first:
+      213: -8246624223816011451
+    second: wraith_atlas_24
+  - first:
+      213: 2045347734816130524
+    second: wraith_atlas_25
+  - first:
+      213: 2153485813829086140
+    second: wraith_atlas_26
+  - first:
+      213: 5754791440229074649
+    second: wraith_atlas_27
+  - first:
+      213: 4583907489267082662
+    second: wraith_atlas_28
+  - first:
+      213: -890022946639670799
+    second: wraith_atlas_29
+  - first:
+      213: -1405819393874201642
+    second: wraith_atlas_30
+  - first:
+      213: -7029682865727307601
+    second: wraith_atlas_31
+  - first:
+      213: -4354864430808147666
+    second: wraith_atlas_32
+  - first:
+      213: -265369933402827560
+    second: wraith_atlas_33
+  - first:
+      213: -6753132613566675489
+    second: wraith_atlas_34
+  - first:
+      213: -5430105627332611287
+    second: wraith_atlas_35
+  - first:
+      213: -2419182194203403551
+    second: wraith_atlas_36
+  - first:
+      213: -7658756224094226537
+    second: wraith_atlas_37
+  - first:
+      213: 1193779074185478609
+    second: wraith_atlas_38
+  - first:
+      213: 8405029452387297719
+    second: wraith_atlas_39
+  - first:
+      213: -2061091487101627733
+    second: wraith_atlas_40
+  - first:
+      213: 4583667561608664454
+    second: wraith_atlas_41
+  - first:
+      213: 6645617686044655563
+    second: wraith_atlas_42
+  - first:
+      213: 7258983817472023197
+    second: wraith_atlas_43
+  - first:
+      213: 4889421526153650128
+    second: wraith_atlas_44
+  - first:
+      213: 1532521274016030798
+    second: wraith_atlas_45
+  - first:
+      213: 6229023383792887235
+    second: wraith_atlas_46
+  - first:
+      213: -1914051699428166497
+    second: wraith_atlas_47
+  - first:
+      213: 1505720110602539786
+    second: wraith_atlas_48
+  - first:
+      213: 1438270781444949687
+    second: wraith_atlas_49
+  - first:
+      213: -132179740228027349
+    second: wraith_atlas_50
+  - first:
+      213: -7991918634926054351
+    second: wraith_atlas_51
+  - first:
+      213: -6752542941006737042
+    second: wraith_atlas_52
+  - first:
+      213: -1938765005414497403
+    second: wraith_atlas_53
+  - first:
+      213: -305709896854310144
+    second: wraith_atlas_54
+  - first:
+      213: 688232023594601000
+    second: wraith_atlas_55
+  - first:
+      213: 7305797966695509820
+    second: wraith_atlas_56
+  - first:
+      213: -1973335729227853120
+    second: wraith_atlas_57
+  - first:
+      213: -614446666170434851
+    second: wraith_atlas_58
+  - first:
+      213: -8357785350171084153
+    second: wraith_atlas_59
+  - first:
+      213: -7707412469820139964
+    second: wraith_atlas_60
+  - first:
+      213: 3416872403647643802
+    second: wraith_atlas_61
+  - first:
+      213: 1887208227644468482
+    second: wraith_atlas_62
+  - first:
+      213: 4235945666287845107
+    second: wraith_atlas_63
+  - first:
+      213: -296858507705762447
+    second: wraith_atlas_64
+  - first:
+      213: 2565013607076463577
+    second: wraith_atlas_65
+  - first:
+      213: 2359024055519896288
+    second: wraith_atlas_66
+  - first:
+      213: -7228549796483035390
+    second: wraith_atlas_67
+  - first:
+      213: -1164928089195981869
+    second: wraith_atlas_68
+  - first:
+      213: -6395979624022762398
+    second: wraith_atlas_69
+  - first:
+      213: 3082466402323267921
+    second: wraith_atlas_70
+  - first:
+      213: -7811306970605764118
+    second: wraith_atlas_71
+  - first:
+      213: 3921366882232861616
+    second: wraith_atlas_72
+  - first:
+      213: 3017236356506603706
+    second: wraith_atlas_73
+  - first:
+      213: -4871372697755960988
+    second: wraith_atlas_74
+  - first:
+      213: 5094919224180574564
+    second: wraith_atlas_75
+  - first:
+      213: 2162202243991579360
+    second: wraith_atlas_76
+  - first:
+      213: -6041464129590117719
+    second: wraith_atlas_77
+  - first:
+      213: -1236219619462994296
+    second: wraith_atlas_78
+  - first:
+      213: 2305204439713070490
+    second: wraith_atlas_79
+  - first:
+      213: -3748796874761877774
+    second: wraith_atlas_80
+  - first:
+      213: -2296426258219739067
+    second: wraith_atlas_81
+  - first:
+      213: 2723667763096899014
+    second: wraith_atlas_82
+  - first:
+      213: 6307141456278068833
+    second: wraith_atlas_83
+  - first:
+      213: -3284869434883055967
+    second: wraith_atlas_84
+  - first:
+      213: -3975098079891219331
+    second: wraith_atlas_85
+  - first:
+      213: -4520390476053185374
+    second: wraith_atlas_86
+  - first:
+      213: 5476650862826190297
+    second: wraith_atlas_87
+  - first:
+      213: 4106542352944107953
+    second: wraith_atlas_88
+  - first:
+      213: -9028008995487740774
+    second: wraith_atlas_89
+  - first:
+      213: 7970533722140495566
+    second: wraith_atlas_90
+  - first:
+      213: 7437646197598291819
+    second: wraith_atlas_91
+  - first:
+      213: 7931051893047782747
+    second: wraith_atlas_92
+  - first:
+      213: -1858666010412380527
+    second: wraith_atlas_93
+  - first:
+      213: -5758196869447073901
+    second: wraith_atlas_94
+  - first:
+      213: -2346606493257470120
+    second: wraith_atlas_95
+  - first:
+      213: 3590246369022407534
+    second: wraith_atlas_96
+  - first:
+      213: -4410912329708821604
+    second: wraith_atlas_97
+  - first:
+      213: -3678933733546544913
+    second: wraith_atlas_98
+  - first:
+      213: -7652771928915977964
+    second: wraith_atlas_99
+  - first:
+      213: 6616363005560106946
+    second: wraith_atlas_100
+  - first:
+      213: 2186980053380036289
+    second: wraith_atlas_101
+  - first:
+      213: 1631334970589255075
+    second: wraith_atlas_102
+  - first:
+      213: -1346293163129924272
+    second: wraith_atlas_103
+  - first:
+      213: 7315773595647357735
+    second: wraith_atlas_104
+  - first:
+      213: 1325089103903551274
+    second: wraith_atlas_105
+  - first:
+      213: -4853924459739673245
+    second: wraith_atlas_106
+  - first:
+      213: 7746597046316198165
+    second: wraith_atlas_107
+  - first:
+      213: 8839774588490292139
+    second: wraith_atlas_108
+  - first:
+      213: -8371765444408225229
+    second: wraith_atlas_109
+  - first:
+      213: 6711769563196965309
+    second: wraith_atlas_110
+  - first:
+      213: -7479856160255282555
+    second: wraith_atlas_111
+  - first:
+      213: 8585025808871939838
+    second: wraith_atlas_112
+  - first:
+      213: 6903262622806922549
+    second: wraith_atlas_113
+  - first:
+      213: 3193346743839310363
+    second: wraith_atlas_114
+  - first:
+      213: 5921631974159022246
+    second: wraith_atlas_115
+  - first:
+      213: 4186182193969988202
+    second: wraith_atlas_116
+  - first:
+      213: 3677885995706259268
+    second: wraith_atlas_117
+  - first:
+      213: -5644732668360709649
+    second: wraith_atlas_118
+  - first:
+      213: -4774603728889262569
+    second: wraith_atlas_119
+  - first:
+      213: 328491125810825172
+    second: wraith_atlas_120
+  - first:
+      213: -5950222857793607467
+    second: wraith_atlas_121
+  - first:
+      213: -2373805906692981021
+    second: wraith_atlas_122
+  - first:
+      213: -6230337676038891346
+    second: wraith_atlas_123
+  - first:
+      213: -640087396159078673
+    second: wraith_atlas_124
+  - first:
+      213: 6170925932014491195
+    second: wraith_atlas_125
+  - first:
+      213: -4618229361931692960
+    second: wraith_atlas_126
+  - first:
+      213: -6332881044941854154
+    second: wraith_atlas_127
+  - first:
+      213: -2735791351758914730
+    second: wraith_atlas_128
+  - first:
+      213: 7005448545678454026
+    second: wraith_atlas_129
+  - first:
+      213: -3435325899563058771
+    second: wraith_atlas_130
+  - first:
+      213: 396463649015460296
+    second: wraith_atlas_131
+  - first:
+      213: 2091139134128537570
+    second: wraith_atlas_132
+  - first:
+      213: -2508482702143022409
+    second: wraith_atlas_133
+  - first:
+      213: -2764652064447942725
+    second: wraith_atlas_134
+  - first:
+      213: -1390116845077009967
+    second: wraith_atlas_135
+  - first:
+      213: -6133169900493051048
+    second: wraith_atlas_136
+  - first:
+      213: 4616760044053432199
+    second: wraith_atlas_137
+  - first:
+      213: 5232237875606904708
+    second: wraith_atlas_138
+  - first:
+      213: -1186542698911732226
+    second: wraith_atlas_139
+  - first:
+      213: -21529701661295130
+    second: wraith_atlas_140
+  - first:
+      213: -8626801494609906654
+    second: wraith_atlas_141
+  - first:
+      213: 2280191409911184015
+    second: wraith_atlas_142
+  - first:
+      213: -8208209122031676560
+    second: wraith_atlas_143
+  - first:
+      213: 1486834174109349594
+    second: wraith_atlas_144
+  - first:
+      213: -6511383458269473715
+    second: wraith_atlas_145
+  - first:
+      213: 4136374033121293990
+    second: wraith_atlas_146
+  - first:
+      213: -2487747812993356665
+    second: wraith_atlas_147
+  - first:
+      213: -3750989580347583723
+    second: wraith_atlas_148
+  - first:
+      213: 8846611943012669714
+    second: wraith_atlas_149
+  - first:
+      213: 3573757797278109584
+    second: wraith_atlas_150
+  - first:
+      213: -1185788974863541392
+    second: wraith_atlas_151
+  - first:
+      213: -8995626635446578997
+    second: wraith_atlas_152
+  - first:
+      213: -9035141169076259480
+    second: wraith_atlas_153
+  - first:
+      213: 6166053517607087640
+    second: wraith_atlas_154
+  - first:
+      213: 271410978035035582
+    second: wraith_atlas_155
+  - first:
+      213: -6373211561777738169
+    second: wraith_atlas_156
+  - first:
+      213: 4140215512481158679
+    second: wraith_atlas_157
+  - first:
+      213: 2028745186962561395
+    second: wraith_atlas_158
+  - first:
+      213: -8690780181177156525
+    second: wraith_atlas_159
+  - first:
+      213: -3462794811379863210
+    second: wraith_atlas_160
+  - first:
+      213: 849726833177945774
+    second: wraith_atlas_161
+  - first:
+      213: -4983621032474663621
+    second: wraith_atlas_162
+  - first:
+      213: 998294271117003992
+    second: wraith_atlas_163
+  - first:
+      213: 1287613339213570228
+    second: wraith_atlas_164
+  - first:
+      213: -3841416866177902993
+    second: wraith_atlas_165
+  - first:
+      213: -7855068050946031405
+    second: wraith_atlas_166
+  - first:
+      213: 2136156838519201983
+    second: wraith_atlas_167
+  - first:
+      213: 1546048041579708043
+    second: wraith_atlas_168
+  - first:
+      213: 1909014741125415443
+    second: wraith_atlas_169
+  - first:
+      213: 8911522356653203147
+    second: wraith_atlas_170
+  - first:
+      213: -8483204568000129410
+    second: wraith_atlas_171
+  - first:
+      213: -3288536224034273383
+    second: wraith_atlas_172
+  - first:
+      213: 3629711806504487106
+    second: wraith_atlas_173
+  - first:
+      213: -6162021867240563646
+    second: wraith_atlas_174
+  - first:
+      213: -4142438259745909312
+    second: wraith_atlas_175
+  - first:
+      213: 8278922180004480183
+    second: wraith_atlas_176
+  - first:
+      213: -1129661255064494657
+    second: wraith_atlas_177
+  - first:
+      213: 2767700494071231389
+    second: wraith_atlas_178
+  - first:
+      213: -866086928601900136
+    second: wraith_atlas_179
+  - first:
+      213: -3471964940135324690
+    second: wraith_atlas_180
+  - first:
+      213: 6692887760641391303
+    second: wraith_atlas_181
+  - first:
+      213: -1356075576811686933
+    second: wraith_atlas_182
+  - first:
+      213: -3856416755248313822
+    second: wraith_atlas_183
+  - first:
+      213: 5997728492598472009
+    second: wraith_atlas_184
+  - first:
+      213: 1377375529297169543
+    second: wraith_atlas_185
+  - first:
+      213: -8185565198034022339
+    second: wraith_atlas_186
+  - first:
+      213: -1271723425428309032
+    second: wraith_atlas_187
+  - first:
+      213: -101967949676862819
+    second: wraith_atlas_188
+  - first:
+      213: -8361389551140832876
+    second: wraith_atlas_189
+  - first:
+      213: -3936721121026439593
+    second: wraith_atlas_190
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wraith_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1802
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5d73af3e25d3210800000000000000
+      internalID: 1314297805371069902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1805
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f471abe185766260800000000000000
+      internalID: 7090483864205882608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1802
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f601bfcca89efe7c0800000000000000
+      internalID: -4039753558374281105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1799
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abb26e7c178f46f0800000000000000
+      internalID: -698190860769903707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1670
+        width: 61
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78eee4a3cfe4e7f10800000000000000
+      internalID: 2269338107458285191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1673
+        width: 61
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d81d6ca60bc9ef0800000000000000
+      internalID: -100011119060349607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1670
+        width: 61
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1456c9c35420fb0800000000000000
+      internalID: -4683104535887658557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1667
+        width: 61
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a033586420ea7b50800000000000000
+      internalID: 6591827451583869089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1544
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0893a6e8361ac3b80800000000000000
+      internalID: -8413672554871768704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1547
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c616ac39d47613400800000000000000
+      internalID: 302136232900190572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1544
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2752fe6e2196cae0800000000000000
+      internalID: -1529375394829805781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1541
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e515ea7c06184e9a0800000000000000
+      internalID: -6204692133942767266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1425
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1944ed424951970800000000000000
+      internalID: 8725042739168973237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1427
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087fbbfd1dd380690800000000000000
+      internalID: -7635785196595579008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1427
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6afde26e54d6f140800000000000000
+      internalID: 4753219958587914863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1425
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948b478d623894410800000000000000
+      internalID: 1461843756921960521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1422
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2e9f2106cdf68d0800000000000000
+      internalID: -2850817733908897107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1422
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da669c4427d9ee550800000000000000
+      internalID: 6192059651786892973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1279
+        width: 67
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2721c7ef5f9facfb0800000000000000
+      internalID: -4626610832237915534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1281
+        width: 67
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212bdba15d5d0d620800000000000000
+      internalID: 2796970479850467858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1281
+        width: 67
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d6c6e9bd0ba0fe0800000000000000
+      internalID: -1221969891575435892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1279
+        width: 67
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb160dfcf79b3ff0800000000000000
+      internalID: -55283457579410511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1279
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a274b07d07177ca50800000000000000
+      internalID: 6541321713237051178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1279
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45406fbd3a26e1e0800000000000000
+      internalID: -2168999725840186035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1160
+        width: 51
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541b05ff5fa1e8d80800000000000000
+      internalID: -8246624223816011451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1162
+        width: 51
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd58dd79de8826c10800000000000000
+      internalID: 2045347734816130524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1162
+        width: 51
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb202220f7b2ed10800000000000000
+      internalID: 2153485813829086140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1160
+        width: 51
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6005f13502ddf40800000000000000
+      internalID: 5754791440229074649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1158
+        width: 51
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5640d239f4d9f30800000000000000
+      internalID: 4583907489267082662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1157
+        width: 51
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1989778d006a3f0800000000000000
+      internalID: -890022946639670799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1036
+        width: 73
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3f5c9a5b68d7ce0800000000000000
+      internalID: -1405819393874201642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1038
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa08ca0bdac817e90800000000000000
+      internalID: -7029682865727307601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1038
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2952bc8fd96093c0800000000000000
+      internalID: -4354864430808147666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1036
+        width: 52
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d494799377315cf0800000000000000
+      internalID: -265369933402827560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1034
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5c047eaad0842a0800000000000000
+      internalID: -6753132613566675489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1034
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9237dfda3b364a4b0800000000000000
+      internalID: -5430105627332611287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 900
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea5e8b9c965d6ed0800000000000000
+      internalID: -2419182194203403551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 901
+        width: 69
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7973d81cac1a6b590800000000000000
+      internalID: -7658756224094226537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 902
+        width: 54
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1ce193eb7219010800000000000000
+      internalID: 1193779074185478609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 900
+        width: 54
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9ad3451c9a4a470800000000000000
+      internalID: 8405029452387297719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 898
+        width: 49
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2d9bd66388563e0800000000000000
+      internalID: -2061091487101627733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 898
+        width: 61
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6855a2aac557c9f30800000000000000
+      internalID: 4583667561608664454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 776
+        width: 55
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfbeb1531af93c50800000000000000
+      internalID: 6645617686044655563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 778
+        width: 57
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a9abe72571db460800000000000000
+      internalID: 7258983817472023197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 778
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df598709f6bad340800000000000000
+      internalID: 4889421526153650128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 776
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e406474aafb944510800000000000000
+      internalID: 1532521274016030798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 774
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5a398c3cfe17650800000000000000
+      internalID: 6229023383792887235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 774
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94f9d5de1cef65e0800000000000000
+      internalID: -1914051699428166497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 652
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0350a3867465e410800000000000000
+      internalID: 1505720110602539786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 652
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b689dac7a3c5f310800000000000000
+      internalID: 1438270781444949687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 513
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c74310a376a2ef0800000000000000
+      internalID: -132179740228027349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 514
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13468633850071190800000000000000
+      internalID: -7991918634926054351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 390
+        width: 45
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61d8beb8f52a42a0800000000000000
+      internalID: -6752542941006737042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 391
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5838f45ef7f1815e0800000000000000
+      internalID: -1938765005414497403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 368
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0037da1f776e1cbf0800000000000000
+      internalID: -305709896854310144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 372
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a876901671d8900800000000000000
+      internalID: 688232023594601000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 370
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f28adfa88636560800000000000000
+      internalID: 7305797966695509820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 367
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c299c40c9d4d94e0800000000000000
+      internalID: -1973335729227853120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddafc79330c0977f0800000000000000
+      internalID: -614446666170434851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 372
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ab616618e230c80800000000000000
+      internalID: -8357785350171084153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 367
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44654feb135c90590800000000000000
+      internalID: -7707412469820139964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 367
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90c046095b2b6f20800000000000000
+      internalID: 3416872403647643802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 375
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d61f952e5b03a10800000000000000
+      internalID: 1887208227644468482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 268
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe31f6f32a19ca30800000000000000
+      internalID: 4235945666287845107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 338
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d35a392c851ebf0800000000000000
+      internalID: -296858507705762447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 362
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d306dd1942c89320800000000000000
+      internalID: 2565013607076463577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 359
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e26ddd31efecb020800000000000000
+      internalID: 2359024055519896288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 362
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f086332480fab90800000000000000
+      internalID: -7228549796483035390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 356
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3599e231855dfe0800000000000000
+      internalID: -1164928089195981869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 354
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c9c775b6aec37a0800000000000000
+      internalID: -6395979624022762398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 363
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1510e8e7cde17ca20800000000000000
+      internalID: 3082466402323267921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1c28142b9a89390800000000000000
+      internalID: -7811306970605764118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 359
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b38871376e7b6630800000000000000
+      internalID: 3921366882232861616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 357
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab058f0fa706fd920800000000000000
+      internalID: 3017236356506603706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 270
+        width: 72
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46938bd4758656cb0800000000000000
+      internalID: -4871372697755960988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 355
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46987945a0ac4b640800000000000000
+      internalID: 5094919224180574564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 351
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaabad2c7fa10e10800000000000000
+      internalID: 2162202243991579360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 346
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa34881268682ca0800000000000000
+      internalID: -6041464129590117719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 349
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8862a8d4ec018dee0800000000000000
+      internalID: -1236219619462994296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 353
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d30c3793bbdff10800000000000000
+      internalID: 2305204439713070490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 353
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f649b8ba1999fbc0800000000000000
+      internalID: -3748796874761877774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 353
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548dee13c747120e0800000000000000
+      internalID: -2296426258219739067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 290
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdc29166696cc520800000000000000
+      internalID: 2723667763096899014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 303
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e1891ecb7778750800000000000000
+      internalID: 6307141456278068833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 324
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aed14827acc962d0800000000000000
+      internalID: -3284869434883055967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 344
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c1fb87b5d95d8c0800000000000000
+      internalID: -3975098079891219331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 306
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac7ac4efc85441c0800000000000000
+      internalID: -4520390476053185374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 306
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5779571f8f00c40800000000000000
+      internalID: 5476650862826190297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 329
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1945a338e5df830800000000000000
+      internalID: 4106542352944107953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 307
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c0ceaa6a116b280800000000000000
+      internalID: -9028008995487740774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_90
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 331
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecec47ac0360d9e60800000000000000
+      internalID: 7970533722140495566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_91
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6781e47fc3d73760800000000000000
+      internalID: 7437646197598291819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_92
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 316
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d6d4c1da1c01e60800000000000000
+      internalID: 7931051893047782747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_93
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 316
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e07457c11b436e0800000000000000
+      internalID: -1858666010412380527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_94
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 339
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f37d99476c610b0800000000000000
+      internalID: -5758196869447073901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_95
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 343
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f63c5c3dd2f6fd0800000000000000
+      internalID: -2346606493257470120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_96
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 332
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6377b9fc0e13d130800000000000000
+      internalID: 3590246369022407534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_97
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 341
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93a05c2b9a49c2c0800000000000000
+      internalID: -4410912329708821604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_98
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 288
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0b1cbd24dc1fcc0800000000000000
+      internalID: -3678933733546544913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_99
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 301
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419d1ed0a74ebc590800000000000000
+      internalID: -7652771928915977964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 269
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf227b391b02db50800000000000000
+      internalID: 6616363005560106946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 240
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6f49c75c6b95e10800000000000000
+      internalID: 2186980053380036289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_102
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 244
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a515a7338aa3a610800000000000000
+      internalID: 1631334970589255075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_103
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 242
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0559a184081015de0800000000000000
+      internalID: -1346293163129924272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_104
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 239
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7233eb91359d68560800000000000000
+      internalID: 7315773595647357735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_105
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 243
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f69e5f489a36210800000000000000
+      internalID: 1325089103903551274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_106
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 244
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d03aacb6563acb0800000000000000
+      internalID: -4853924459739673245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_107
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 239
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51964cb68f0718b60800000000000000
+      internalID: 7746597046316198165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_108
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 239
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab1d7137203daa70800000000000000
+      internalID: 8839774588490292139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_109
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 247
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332582f0fa381db80800000000000000
+      internalID: -8371765444408225229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_110
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 234
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db142a47bdef42d50800000000000000
+      internalID: 6711769563196965309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_111
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 237
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58277f4c376323890800000000000000
+      internalID: -7479856160255282555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_112
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 234
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe5f5ddc73242770800000000000000
+      internalID: 8585025808871939838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_113
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 228
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53553a7c7c05dcf50800000000000000
+      internalID: 6903262622806922549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_114
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 226
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b124137c1fb015c20800000000000000
+      internalID: 3193346743839310363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_115
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 235
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8f75608ecdd2250800000000000000
+      internalID: 5921631974159022246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_116
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6285aca68e481a30800000000000000
+      internalID: 4186182193969988202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_117
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 231
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447947aa3d97a0330800000000000000
+      internalID: 3677885995706259268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_118
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 229
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe921529b81e9a1b0800000000000000
+      internalID: -5644732668360709649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_119
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 130
+        width: 77
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ecc4c94333dbdb0800000000000000
+      internalID: -4774603728889262569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_120
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 210
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d782d140f80f8400800000000000000
+      internalID: 328491125810825172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_121
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 132
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d86dc226df8c6da0800000000000000
+      internalID: -5950222857793607467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_122
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 227
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee37d5da1c8e0fd0800000000000000
+      internalID: -2373805906692981021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_123
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 223
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea818f4b4e46989a0800000000000000
+      internalID: -6230337676038891346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_124
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 218
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feebbbe87e3fd17f0800000000000000
+      internalID: -640087396159078673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_125
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 221
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3658f0b07883a550800000000000000
+      internalID: 6170925932014491195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_126
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 225
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06458ce1dd0c8efb0800000000000000
+      internalID: -4618229361931692960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_127
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63aaf6f1e361d18a0800000000000000
+      internalID: -6332881044941854154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_128
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 225
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bf2daa244880ad0800000000000000
+      internalID: -2735791351758914730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de079f55a583160800000000000000
+      internalID: 7005448545678454026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_130
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 216
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da938d4ab454350d0800000000000000
+      internalID: -3435325899563058771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_131
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 147
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1fbe59695808500800000000000000
+      internalID: 396463649015460296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_132
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 218
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef36a196f7350d10800000000000000
+      internalID: 2091139134128537570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_133
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 215
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba9d8dd544103dd0800000000000000
+      internalID: -2508482702143022409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_134
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfa70b589bf1a9d0800000000000000
+      internalID: -2764652064447942725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_135
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 187
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9e5e4381055bce0800000000000000
+      internalID: -1390116845077009967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_136
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 203
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b6efd687a92eaa0800000000000000
+      internalID: -6133169900493051048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_137
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 209
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7878507acc6021040800000000000000
+      internalID: 4616760044053432199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_138
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 203
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fd4e350a4ac9840800000000000000
+      internalID: 5232237875606904708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_139
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 211
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd6880b3bd888fe0800000000000000
+      internalID: -1186542698911732226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_140
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 204
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edbb54b9d283bff0800000000000000
+      internalID: -21529701661295130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_141
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 193
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224b7f55fb1774880800000000000000
+      internalID: -8626801494609906654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_142
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 191
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a37af910ed4af10800000000000000
+      internalID: 2280191409911184015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_143
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0735e2fda45961e80800000000000000
+      internalID: -8208209122031676560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_144
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6f2b3cdcb42a410800000000000000
+      internalID: 1486834174109349594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_145
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 183
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d445e755e3be2a5a0800000000000000
+      internalID: -6511383458269473715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_146
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 172
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a63856844a576930800000000000000
+      internalID: 4136374033121293990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_147
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 131
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ca6c37b8eb97dd0800000000000000
+      internalID: -2487747812993356665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_148
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513d03ba9dec1fbc0800000000000000
+      internalID: -3750989580347583723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_149
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2199ff8d0ba75ca70800000000000000
+      internalID: 8846611943012669714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_150
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f4b0438c9889130800000000000000
+      internalID: 3573757797278109584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_151
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 111
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b1faeb53b3b8fe0800000000000000
+      internalID: -1185788974863541392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_152
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc01a266c3d192380800000000000000
+      internalID: -8995626635446578997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_153
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 116
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865b3b91afabc9280800000000000000
+      internalID: -9035141169076259480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_154
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 111
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ea40f4109329550800000000000000
+      internalID: 6166053517607087640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_155
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd6be5b8de34c300800000000000000
+      internalID: 271410978035035582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_156
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 119
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e43dde9ddcd87a0800000000000000
+      internalID: -6373211561777738169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_157
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 75
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7165003a210057930800000000000000
+      internalID: 4140215512481158679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_158
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 106
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379dfa0bffc872c10800000000000000
+      internalID: 2028745186962561395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_159
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 103
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c3eef8875246780800000000000000
+      internalID: -8690780181177156525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_160
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65133a9377ea1ffc0800000000000000
+      internalID: -3462794811379863210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_161
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 106
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea660bf7d06dacb00800000000000000
+      internalID: 849726833177945774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_162
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35ae28431f96dab0800000000000000
+      internalID: -4983621032474663621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_163
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 98
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc8c33b957aadd00800000000000000
+      internalID: 998294271117003992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_164
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 107
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b021eb82858ed110800000000000000
+      internalID: 1287613339213570228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_165
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66954186bb80bac0800000000000000
+      internalID: -3841416866177902993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_166
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 103
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d087d0c9313df290800000000000000
+      internalID: -7855068050946031405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_167
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb06578a35725ad10800000000000000
+      internalID: 2136156838519201983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_168
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7
+        width: 43
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8efb04a08aa47510800000000000000
+      internalID: 1546048041579708043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_169
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 9
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312c3cbeace2e7a10800000000000000
+      internalID: 1909014741125415443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_170
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce144c3e561cab70800000000000000
+      internalID: 8911522356653203147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_171
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 95
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76916f246a954a80800000000000000
+      internalID: -8483204568000129410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_172
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 90
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997ce674ab5cc52d0800000000000000
+      internalID: -3288536224034273383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_173
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8cdbf28a35f5230800000000000000
+      internalID: 3629711806504487106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_174
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 97
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cdfe072c91c7aa0800000000000000
+      internalID: -6162021867240563646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_175
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c59bdfa95a1386c0800000000000000
+      internalID: -4142438259745909312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_176
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4054eebd3a4e270800000000000000
+      internalID: 8278922180004480183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_177
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 24
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbddb5fd213a250f0800000000000000
+      internalID: -1129661255064494657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_178
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93f9c97fe8d86620800000000000000
+      internalID: 2767700494071231389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_179
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 29
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b1314f68a0bf3f0800000000000000
+      internalID: -866086928601900136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_180
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3af9e384a11dfc0800000000000000
+      internalID: -3471964940135324690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_181
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caf69635f9e1ec50800000000000000
+      internalID: 6692887760641391303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_182
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be37e8b92704e2de0800000000000000
+      internalID: -1356075576811686933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_183
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 65
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a4f8da4614b7ac0800000000000000
+      internalID: -3856416755248313822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_184
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d229469463c3350800000000000000
+      internalID: 5997728492598472009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_185
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cc21a0fbb6d1310800000000000000
+      internalID: 1377375529297169543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_186
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 75
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30d16542d7076e80800000000000000
+      internalID: -8185565198034022339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_187
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db7dce484ee95ee0800000000000000
+      internalID: -1271723425428309032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_188
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 76
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d922905a0bcb59ef0800000000000000
+      internalID: -101967949676862819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_189
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4997697f08066fb80800000000000000
+      internalID: -8361389551140832876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_atlas_190
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 44
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75601718ff4fd59c0800000000000000
+      internalID: -3936721121026439593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wraith_atlas_0: 1314297805371069902
+      wraith_atlas_1: 7090483864205882608
+      wraith_atlas_10: -1529375394829805781
+      wraith_atlas_100: 6616363005560106946
+      wraith_atlas_101: 2186980053380036289
+      wraith_atlas_102: 1631334970589255075
+      wraith_atlas_103: -1346293163129924272
+      wraith_atlas_104: 7315773595647357735
+      wraith_atlas_105: 1325089103903551274
+      wraith_atlas_106: -4853924459739673245
+      wraith_atlas_107: 7746597046316198165
+      wraith_atlas_108: 8839774588490292139
+      wraith_atlas_109: -8371765444408225229
+      wraith_atlas_11: -6204692133942767266
+      wraith_atlas_110: 6711769563196965309
+      wraith_atlas_111: -7479856160255282555
+      wraith_atlas_112: 8585025808871939838
+      wraith_atlas_113: 6903262622806922549
+      wraith_atlas_114: 3193346743839310363
+      wraith_atlas_115: 5921631974159022246
+      wraith_atlas_116: 4186182193969988202
+      wraith_atlas_117: 3677885995706259268
+      wraith_atlas_118: -5644732668360709649
+      wraith_atlas_119: -4774603728889262569
+      wraith_atlas_12: 8725042739168973237
+      wraith_atlas_120: 328491125810825172
+      wraith_atlas_121: -5950222857793607467
+      wraith_atlas_122: -2373805906692981021
+      wraith_atlas_123: -6230337676038891346
+      wraith_atlas_124: -640087396159078673
+      wraith_atlas_125: 6170925932014491195
+      wraith_atlas_126: -4618229361931692960
+      wraith_atlas_127: -6332881044941854154
+      wraith_atlas_128: -2735791351758914730
+      wraith_atlas_129: 7005448545678454026
+      wraith_atlas_13: -7635785196595579008
+      wraith_atlas_130: -3435325899563058771
+      wraith_atlas_131: 396463649015460296
+      wraith_atlas_132: 2091139134128537570
+      wraith_atlas_133: -2508482702143022409
+      wraith_atlas_134: -2764652064447942725
+      wraith_atlas_135: -1390116845077009967
+      wraith_atlas_136: -6133169900493051048
+      wraith_atlas_137: 4616760044053432199
+      wraith_atlas_138: 5232237875606904708
+      wraith_atlas_139: -1186542698911732226
+      wraith_atlas_14: 4753219958587914863
+      wraith_atlas_140: -21529701661295130
+      wraith_atlas_141: -8626801494609906654
+      wraith_atlas_142: 2280191409911184015
+      wraith_atlas_143: -8208209122031676560
+      wraith_atlas_144: 1486834174109349594
+      wraith_atlas_145: -6511383458269473715
+      wraith_atlas_146: 4136374033121293990
+      wraith_atlas_147: -2487747812993356665
+      wraith_atlas_148: -3750989580347583723
+      wraith_atlas_149: 8846611943012669714
+      wraith_atlas_15: 1461843756921960521
+      wraith_atlas_150: 3573757797278109584
+      wraith_atlas_151: -1185788974863541392
+      wraith_atlas_152: -8995626635446578997
+      wraith_atlas_153: -9035141169076259480
+      wraith_atlas_154: 6166053517607087640
+      wraith_atlas_155: 271410978035035582
+      wraith_atlas_156: -6373211561777738169
+      wraith_atlas_157: 4140215512481158679
+      wraith_atlas_158: 2028745186962561395
+      wraith_atlas_159: -8690780181177156525
+      wraith_atlas_16: -2850817733908897107
+      wraith_atlas_160: -3462794811379863210
+      wraith_atlas_161: 849726833177945774
+      wraith_atlas_162: -4983621032474663621
+      wraith_atlas_163: 998294271117003992
+      wraith_atlas_164: 1287613339213570228
+      wraith_atlas_165: -3841416866177902993
+      wraith_atlas_166: -7855068050946031405
+      wraith_atlas_167: 2136156838519201983
+      wraith_atlas_168: 1546048041579708043
+      wraith_atlas_169: 1909014741125415443
+      wraith_atlas_17: 6192059651786892973
+      wraith_atlas_170: 8911522356653203147
+      wraith_atlas_171: -8483204568000129410
+      wraith_atlas_172: -3288536224034273383
+      wraith_atlas_173: 3629711806504487106
+      wraith_atlas_174: -6162021867240563646
+      wraith_atlas_175: -4142438259745909312
+      wraith_atlas_176: 8278922180004480183
+      wraith_atlas_177: -1129661255064494657
+      wraith_atlas_178: 2767700494071231389
+      wraith_atlas_179: -866086928601900136
+      wraith_atlas_18: -4626610832237915534
+      wraith_atlas_180: -3471964940135324690
+      wraith_atlas_181: 6692887760641391303
+      wraith_atlas_182: -1356075576811686933
+      wraith_atlas_183: -3856416755248313822
+      wraith_atlas_184: 5997728492598472009
+      wraith_atlas_185: 1377375529297169543
+      wraith_atlas_186: -8185565198034022339
+      wraith_atlas_187: -1271723425428309032
+      wraith_atlas_188: -101967949676862819
+      wraith_atlas_189: -8361389551140832876
+      wraith_atlas_19: 2796970479850467858
+      wraith_atlas_190: -3936721121026439593
+      wraith_atlas_2: -4039753558374281105
+      wraith_atlas_20: -1221969891575435892
+      wraith_atlas_21: -55283457579410511
+      wraith_atlas_22: 6541321713237051178
+      wraith_atlas_23: -2168999725840186035
+      wraith_atlas_24: -8246624223816011451
+      wraith_atlas_25: 2045347734816130524
+      wraith_atlas_26: 2153485813829086140
+      wraith_atlas_27: 5754791440229074649
+      wraith_atlas_28: 4583907489267082662
+      wraith_atlas_29: -890022946639670799
+      wraith_atlas_3: -698190860769903707
+      wraith_atlas_30: -1405819393874201642
+      wraith_atlas_31: -7029682865727307601
+      wraith_atlas_32: -4354864430808147666
+      wraith_atlas_33: -265369933402827560
+      wraith_atlas_34: -6753132613566675489
+      wraith_atlas_35: -5430105627332611287
+      wraith_atlas_36: -2419182194203403551
+      wraith_atlas_37: -7658756224094226537
+      wraith_atlas_38: 1193779074185478609
+      wraith_atlas_39: 8405029452387297719
+      wraith_atlas_4: 2269338107458285191
+      wraith_atlas_40: -2061091487101627733
+      wraith_atlas_41: 4583667561608664454
+      wraith_atlas_42: 6645617686044655563
+      wraith_atlas_43: 7258983817472023197
+      wraith_atlas_44: 4889421526153650128
+      wraith_atlas_45: 1532521274016030798
+      wraith_atlas_46: 6229023383792887235
+      wraith_atlas_47: -1914051699428166497
+      wraith_atlas_48: 1505720110602539786
+      wraith_atlas_49: 1438270781444949687
+      wraith_atlas_5: -100011119060349607
+      wraith_atlas_50: -132179740228027349
+      wraith_atlas_51: -7991918634926054351
+      wraith_atlas_52: -6752542941006737042
+      wraith_atlas_53: -1938765005414497403
+      wraith_atlas_54: -305709896854310144
+      wraith_atlas_55: 688232023594601000
+      wraith_atlas_56: 7305797966695509820
+      wraith_atlas_57: -1973335729227853120
+      wraith_atlas_58: -614446666170434851
+      wraith_atlas_59: -8357785350171084153
+      wraith_atlas_6: -4683104535887658557
+      wraith_atlas_60: -7707412469820139964
+      wraith_atlas_61: 3416872403647643802
+      wraith_atlas_62: 1887208227644468482
+      wraith_atlas_63: 4235945666287845107
+      wraith_atlas_64: -296858507705762447
+      wraith_atlas_65: 2565013607076463577
+      wraith_atlas_66: 2359024055519896288
+      wraith_atlas_67: -7228549796483035390
+      wraith_atlas_68: -1164928089195981869
+      wraith_atlas_69: -6395979624022762398
+      wraith_atlas_7: 6591827451583869089
+      wraith_atlas_70: 3082466402323267921
+      wraith_atlas_71: -7811306970605764118
+      wraith_atlas_72: 3921366882232861616
+      wraith_atlas_73: 3017236356506603706
+      wraith_atlas_74: -4871372697755960988
+      wraith_atlas_75: 5094919224180574564
+      wraith_atlas_76: 2162202243991579360
+      wraith_atlas_77: -6041464129590117719
+      wraith_atlas_78: -1236219619462994296
+      wraith_atlas_79: 2305204439713070490
+      wraith_atlas_8: -8413672554871768704
+      wraith_atlas_80: -3748796874761877774
+      wraith_atlas_81: -2296426258219739067
+      wraith_atlas_82: 2723667763096899014
+      wraith_atlas_83: 6307141456278068833
+      wraith_atlas_84: -3284869434883055967
+      wraith_atlas_85: -3975098079891219331
+      wraith_atlas_86: -4520390476053185374
+      wraith_atlas_87: 5476650862826190297
+      wraith_atlas_88: 4106542352944107953
+      wraith_atlas_89: -9028008995487740774
+      wraith_atlas_9: 302136232900190572
+      wraith_atlas_90: 7970533722140495566
+      wraith_atlas_91: 7437646197598291819
+      wraith_atlas_92: 7931051893047782747
+      wraith_atlas_93: -1858666010412380527
+      wraith_atlas_94: -5758196869447073901
+      wraith_atlas_95: -2346606493257470120
+      wraith_atlas_96: 3590246369022407534
+      wraith_atlas_97: -4410912329708821604
+      wraith_atlas_98: -3678933733546544913
+      wraith_atlas_99: -7652771928915977964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

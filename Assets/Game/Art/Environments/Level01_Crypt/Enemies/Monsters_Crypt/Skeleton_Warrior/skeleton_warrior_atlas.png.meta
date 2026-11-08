@@ -1,0 +1,1989 @@
+fileFormatVersion: 2
+guid: 63b640db8bc60b64482c9ca2d9413495
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6010160900373474257
+    second: skeleton_warrior_atlas_0
+  - first:
+      213: 3368795134863797694
+    second: skeleton_warrior_atlas_1
+  - first:
+      213: -7940656821052408205
+    second: skeleton_warrior_atlas_2
+  - first:
+      213: 6201970054502818847
+    second: skeleton_warrior_atlas_3
+  - first:
+      213: 9075626007554339205
+    second: skeleton_warrior_atlas_4
+  - first:
+      213: 4623299443996132023
+    second: skeleton_warrior_atlas_5
+  - first:
+      213: -3383655151764844632
+    second: skeleton_warrior_atlas_6
+  - first:
+      213: 2619505204522485709
+    second: skeleton_warrior_atlas_7
+  - first:
+      213: 6621163586122923395
+    second: skeleton_warrior_atlas_8
+  - first:
+      213: -7195081501008991547
+    second: skeleton_warrior_atlas_9
+  - first:
+      213: -1175528022518139921
+    second: skeleton_warrior_atlas_10
+  - first:
+      213: -59642642299606460
+    second: skeleton_warrior_atlas_11
+  - first:
+      213: 6570135721439500856
+    second: skeleton_warrior_atlas_12
+  - first:
+      213: 4565645931931915534
+    second: skeleton_warrior_atlas_13
+  - first:
+      213: -7269816373524331502
+    second: skeleton_warrior_atlas_14
+  - first:
+      213: -6849158956973069677
+    second: skeleton_warrior_atlas_15
+  - first:
+      213: 5868505625694897313
+    second: skeleton_warrior_atlas_16
+  - first:
+      213: -5687855762884659180
+    second: skeleton_warrior_atlas_17
+  - first:
+      213: 8480410969709908495
+    second: skeleton_warrior_atlas_18
+  - first:
+      213: 4377141785197470056
+    second: skeleton_warrior_atlas_19
+  - first:
+      213: 8441492742129692585
+    second: skeleton_warrior_atlas_20
+  - first:
+      213: 46594293460023242
+    second: skeleton_warrior_atlas_21
+  - first:
+      213: -4442622412407802200
+    second: skeleton_warrior_atlas_22
+  - first:
+      213: -3040804032330036545
+    second: skeleton_warrior_atlas_23
+  - first:
+      213: 3840373324347230246
+    second: skeleton_warrior_atlas_24
+  - first:
+      213: 8523514988613587981
+    second: skeleton_warrior_atlas_25
+  - first:
+      213: 4588171513384809463
+    second: skeleton_warrior_atlas_26
+  - first:
+      213: -4957225381678440139
+    second: skeleton_warrior_atlas_27
+  - first:
+      213: 334817491703341103
+    second: skeleton_warrior_atlas_28
+  - first:
+      213: 2440286236286689247
+    second: skeleton_warrior_atlas_29
+  - first:
+      213: 2303969704110208015
+    second: skeleton_warrior_atlas_30
+  - first:
+      213: -7919895159072514301
+    second: skeleton_warrior_atlas_31
+  - first:
+      213: -2506971525309839700
+    second: skeleton_warrior_atlas_32
+  - first:
+      213: 6966853336534673244
+    second: skeleton_warrior_atlas_33
+  - first:
+      213: 793231333806880525
+    second: skeleton_warrior_atlas_34
+  - first:
+      213: -2014761465933078239
+    second: skeleton_warrior_atlas_35
+  - first:
+      213: 7408391945815880277
+    second: skeleton_warrior_atlas_36
+  - first:
+      213: -5147278240694635764
+    second: skeleton_warrior_atlas_37
+  - first:
+      213: -1421545109671351931
+    second: skeleton_warrior_atlas_38
+  - first:
+      213: -3506069942940142535
+    second: skeleton_warrior_atlas_39
+  - first:
+      213: -2141870776317470932
+    second: skeleton_warrior_atlas_40
+  - first:
+      213: 6210452840635624971
+    second: skeleton_warrior_atlas_41
+  - first:
+      213: -2016539845060405952
+    second: skeleton_warrior_atlas_42
+  - first:
+      213: 4933227139649404008
+    second: skeleton_warrior_atlas_43
+  - first:
+      213: -6799803512996927581
+    second: skeleton_warrior_atlas_44
+  - first:
+      213: -5905274872101046479
+    second: skeleton_warrior_atlas_45
+  - first:
+      213: -4732696058254235287
+    second: skeleton_warrior_atlas_46
+  - first:
+      213: -1803119240763338543
+    second: skeleton_warrior_atlas_47
+  - first:
+      213: -2561173817494402397
+    second: skeleton_warrior_atlas_48
+  - first:
+      213: 894846278109688123
+    second: skeleton_warrior_atlas_49
+  - first:
+      213: -7054048772656524325
+    second: skeleton_warrior_atlas_50
+  - first:
+      213: 622803297723515579
+    second: skeleton_warrior_atlas_51
+  - first:
+      213: 5909017570734992572
+    second: skeleton_warrior_atlas_52
+  - first:
+      213: -8166389739370961752
+    second: skeleton_warrior_atlas_53
+  - first:
+      213: -7136377201919143393
+    second: skeleton_warrior_atlas_54
+  - first:
+      213: 8120176294833966793
+    second: skeleton_warrior_atlas_55
+  - first:
+      213: -3374427776028932334
+    second: skeleton_warrior_atlas_56
+  - first:
+      213: 3447268519515556270
+    second: skeleton_warrior_atlas_57
+  - first:
+      213: -8899122361641469437
+    second: skeleton_warrior_atlas_58
+  - first:
+      213: -1352624503267226880
+    second: skeleton_warrior_atlas_59
+  - first:
+      213: -7222427279454873778
+    second: skeleton_warrior_atlas_60
+  - first:
+      213: 2216479431591190813
+    second: skeleton_warrior_atlas_61
+  - first:
+      213: 8502751496760023841
+    second: skeleton_warrior_atlas_62
+  - first:
+      213: -8892636513651693214
+    second: skeleton_warrior_atlas_63
+  - first:
+      213: 527792231026468470
+    second: skeleton_warrior_atlas_64
+  - first:
+      213: 7161661916490472760
+    second: skeleton_warrior_atlas_65
+  - first:
+      213: -2597919236092544527
+    second: skeleton_warrior_atlas_66
+  - first:
+      213: -6782044885063933346
+    second: skeleton_warrior_atlas_67
+  - first:
+      213: -3228607613373250660
+    second: skeleton_warrior_atlas_68
+  - first:
+      213: 4727815930943783746
+    second: skeleton_warrior_atlas_69
+  - first:
+      213: 8885418750144965487
+    second: skeleton_warrior_atlas_70
+  - first:
+      213: 6766390236733267552
+    second: skeleton_warrior_atlas_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1794
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbe3b5ee71686350800000000000000
+      internalID: 6010160900373474257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1795
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdee96935d50ce20800000000000000
+      internalID: 3368795134863797694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1794
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e73e151be1dc190800000000000000
+      internalID: -7940656821052408205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1793
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f142046b7e2d11650800000000000000
+      internalID: 6201970054502818847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1669
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581b296e4c913fd70800000000000000
+      internalID: 9075626007554339205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1670
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b286a95952492040800000000000000
+      internalID: 4623299443996132023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1669
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afc2ac1197da01d0800000000000000
+      internalID: -3383655151764844632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1668
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc789d2da1a5a5420800000000000000
+      internalID: 2619505204522485709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1541
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dbb9e733913eb50800000000000000
+      internalID: 6621163586122923395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1542
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caef5afe7fe52c90800000000000000
+      internalID: -7195081501008991547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1541
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3f942ed7fafafe0800000000000000
+      internalID: -1175528022518139921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1540
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a2444355b1c2ff0800000000000000
+      internalID: -59642642299606460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1411
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a918ae0afcd2b50800000000000000
+      internalID: 6570135721439500856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1407
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05520709ce6c5f30800000000000000
+      internalID: 4565645931931915534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1407
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21483c1868c6c1b90800000000000000
+      internalID: -7269816373524331502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1411
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a6f6f8736e2f0a0800000000000000
+      internalID: -6849158956973069677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1407
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a40ded16ce117150800000000000000
+      internalID: 5868505625694897313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1407
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418f997b15da011b0800000000000000
+      internalID: -5687855762884659180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1286
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0292e688d870b570800000000000000
+      internalID: 8480410969709908495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1281
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861e636334bbebc30800000000000000
+      internalID: 4377141785197470056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1282
+        width: 51
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afadac8ce4362570800000000000000
+      internalID: 8441492742129692585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1286
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7be36534985a000800000000000000
+      internalID: 46594293460023242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1281
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a67e353472a852c0800000000000000
+      internalID: -4442622412407802200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1282
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba846de7d4ecc5d0800000000000000
+      internalID: -3040804032330036545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1158
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6284a9af03fbb4530800000000000000
+      internalID: 3840373324347230246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1157
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04d70ef8bb994670800000000000000
+      internalID: 8523514988613587981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1157
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f33ed7aea57caf30800000000000000
+      internalID: 4588171513384809463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1158
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531a185a7c5643bb0800000000000000
+      internalID: -4957225381678440139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1157
+        width: 57
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20a0991cb285a400800000000000000
+      internalID: 334817491703341103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1157
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf94281763add120800000000000000
+      internalID: 2440286236286689247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1025
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0430ca2d3859ff10800000000000000
+      internalID: 2303969704110208015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1026
+        width: 52
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f95217051e61290800000000000000
+      internalID: -7919895159072514301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1023
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca643e32ea2753dd0800000000000000
+      internalID: -2506971525309839700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1023
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57e466923c3fa060800000000000000
+      internalID: 6966853336534673244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1023
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07b44402bf120b00800000000000000
+      internalID: 793231333806880525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1023
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121e9e31f112a04e0800000000000000
+      internalID: -2014761465933078239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 898
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552783f2935efc660800000000000000
+      internalID: 7408391945815880277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 897
+        width: 52
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c037c4726b13198b0800000000000000
+      internalID: -5147278240694635764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 899
+        width: 52
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58968d12148a54ce0800000000000000
+      internalID: -1421545109671351931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 900
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934f06d76ffe75fc0800000000000000
+      internalID: -3506069942940142535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 900
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c279ec680eb8642e0800000000000000
+      internalID: -2141870776317470932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 898
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ee66444f5ff2650800000000000000
+      internalID: 6210452840635624971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 773
+        width: 45
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045d0cbe1bfc304e0800000000000000
+      internalID: -2016539845060405952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 773
+        width: 46
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c7e1732f7567440800000000000000
+      internalID: 4933227139649404008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 773
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a76d595bbe32a1a0800000000000000
+      internalID: -6799803512996927581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 773
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13770639acf3c0ea0800000000000000
+      internalID: -5905274872101046479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 773
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9696dd98206125eb0800000000000000
+      internalID: -4732696058254235287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 773
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d011a69a980af6e0800000000000000
+      internalID: -1803119240763338543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 644
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa07309bf1e47cd0800000000000000
+      internalID: -2561173817494402397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 643
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31fe47e2f12b6c00800000000000000
+      internalID: 894846278109688123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 515
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd31785e30cfa1e90800000000000000
+      internalID: -7054048772656524325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 516
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb280cdac44a4a800800000000000000
+      internalID: 622803297723515579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 389
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc633b5c2c010250800000000000000
+      internalID: 5909017570734992572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 389
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a42667acc72bae80800000000000000
+      internalID: -8166389739370961752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 261
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12d968bebe76fc90800000000000000
+      internalID: -7136377201919143393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 262
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce402f4159a0b070800000000000000
+      internalID: 8120176294833966793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 263
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2178591f0df9b21d0800000000000000
+      internalID: -3374427776028932334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 255
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea98c1f347827df20800000000000000
+      internalID: 3447268519515556270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 255
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aff959c57ff7480800000000000000
+      internalID: -8899122361641469437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 255
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b84484e238a3de0800000000000000
+      internalID: -1352624503267226880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 133
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e475008c7a8c4cb90800000000000000
+      internalID: -7222427279454873778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 134
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11e3f3bc4482ce10800000000000000
+      internalID: 2216479431591190813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 136
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b5dc1df67dff570800000000000000
+      internalID: 8502751496760023841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 127
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2696f1fb432079480800000000000000
+      internalID: -8892636513651693214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 127
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6762b8ddc38135700800000000000000
+      internalID: 527792231026468470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 127
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d9bd5a195536360800000000000000
+      internalID: 7161661916490472760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 6
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9bc89183652fbd0800000000000000
+      internalID: -2597919236092544527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 5
+        width: 74
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52620f1c1651e1a0800000000000000
+      internalID: -6782044885063933346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 5
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9304c54b7ea133d0800000000000000
+      internalID: -3228607613373250660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24346574a839c9140800000000000000
+      internalID: 4727815930943783746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 74
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b6cfab6495f4b70800000000000000
+      internalID: 8885418750144965487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_warrior_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e5828021c07ed50800000000000000
+      internalID: 6766390236733267552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      skeleton_warrior_atlas_0: 6010160900373474257
+      skeleton_warrior_atlas_1: 3368795134863797694
+      skeleton_warrior_atlas_10: -1175528022518139921
+      skeleton_warrior_atlas_11: -59642642299606460
+      skeleton_warrior_atlas_12: 6570135721439500856
+      skeleton_warrior_atlas_13: 4565645931931915534
+      skeleton_warrior_atlas_14: -7269816373524331502
+      skeleton_warrior_atlas_15: -6849158956973069677
+      skeleton_warrior_atlas_16: 5868505625694897313
+      skeleton_warrior_atlas_17: -5687855762884659180
+      skeleton_warrior_atlas_18: 8480410969709908495
+      skeleton_warrior_atlas_19: 4377141785197470056
+      skeleton_warrior_atlas_2: -7940656821052408205
+      skeleton_warrior_atlas_20: 8441492742129692585
+      skeleton_warrior_atlas_21: 46594293460023242
+      skeleton_warrior_atlas_22: -4442622412407802200
+      skeleton_warrior_atlas_23: -3040804032330036545
+      skeleton_warrior_atlas_24: 3840373324347230246
+      skeleton_warrior_atlas_25: 8523514988613587981
+      skeleton_warrior_atlas_26: 4588171513384809463
+      skeleton_warrior_atlas_27: -4957225381678440139
+      skeleton_warrior_atlas_28: 334817491703341103
+      skeleton_warrior_atlas_29: 2440286236286689247
+      skeleton_warrior_atlas_3: 6201970054502818847
+      skeleton_warrior_atlas_30: 2303969704110208015
+      skeleton_warrior_atlas_31: -7919895159072514301
+      skeleton_warrior_atlas_32: -2506971525309839700
+      skeleton_warrior_atlas_33: 6966853336534673244
+      skeleton_warrior_atlas_34: 793231333806880525
+      skeleton_warrior_atlas_35: -2014761465933078239
+      skeleton_warrior_atlas_36: 7408391945815880277
+      skeleton_warrior_atlas_37: -5147278240694635764
+      skeleton_warrior_atlas_38: -1421545109671351931
+      skeleton_warrior_atlas_39: -3506069942940142535
+      skeleton_warrior_atlas_4: 9075626007554339205
+      skeleton_warrior_atlas_40: -2141870776317470932
+      skeleton_warrior_atlas_41: 6210452840635624971
+      skeleton_warrior_atlas_42: -2016539845060405952
+      skeleton_warrior_atlas_43: 4933227139649404008
+      skeleton_warrior_atlas_44: -6799803512996927581
+      skeleton_warrior_atlas_45: -5905274872101046479
+      skeleton_warrior_atlas_46: -4732696058254235287
+      skeleton_warrior_atlas_47: -1803119240763338543
+      skeleton_warrior_atlas_48: -2561173817494402397
+      skeleton_warrior_atlas_49: 894846278109688123
+      skeleton_warrior_atlas_5: 4623299443996132023
+      skeleton_warrior_atlas_50: -7054048772656524325
+      skeleton_warrior_atlas_51: 622803297723515579
+      skeleton_warrior_atlas_52: 5909017570734992572
+      skeleton_warrior_atlas_53: -8166389739370961752
+      skeleton_warrior_atlas_54: -7136377201919143393
+      skeleton_warrior_atlas_55: 8120176294833966793
+      skeleton_warrior_atlas_56: -3374427776028932334
+      skeleton_warrior_atlas_57: 3447268519515556270
+      skeleton_warrior_atlas_58: -8899122361641469437
+      skeleton_warrior_atlas_59: -1352624503267226880
+      skeleton_warrior_atlas_6: -3383655151764844632
+      skeleton_warrior_atlas_60: -7222427279454873778
+      skeleton_warrior_atlas_61: 2216479431591190813
+      skeleton_warrior_atlas_62: 8502751496760023841
+      skeleton_warrior_atlas_63: -8892636513651693214
+      skeleton_warrior_atlas_64: 527792231026468470
+      skeleton_warrior_atlas_65: 7161661916490472760
+      skeleton_warrior_atlas_66: -2597919236092544527
+      skeleton_warrior_atlas_67: -6782044885063933346
+      skeleton_warrior_atlas_68: -3228607613373250660
+      skeleton_warrior_atlas_69: 4727815930943783746
+      skeleton_warrior_atlas_7: 2619505204522485709
+      skeleton_warrior_atlas_70: 8885418750144965487
+      skeleton_warrior_atlas_71: 6766390236733267552
+      skeleton_warrior_atlas_8: 6621163586122923395
+      skeleton_warrior_atlas_9: -7195081501008991547
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

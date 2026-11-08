@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 44b20fdf53371724fb8fe00633bc017e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4250395369851053339
+    second: boss_death_lord_death_side_0
+  - first:
+      213: -6829187677406613512
+    second: boss_death_lord_death_side_1
+  - first:
+      213: -1642636260346125231
+    second: boss_death_lord_death_side_2
+  - first:
+      213: -5360180198591620475
+    second: boss_death_lord_death_side_3
+  - first:
+      213: -2770856668790686534
+    second: boss_death_lord_death_side_4
+  - first:
+      213: -9098905161158314982
+    second: boss_death_lord_death_side_5
+  - first:
+      213: -1141594769675372042
+    second: boss_death_lord_death_side_6
+  - first:
+      213: -5058424912698071932
+    second: boss_death_lord_death_side_7
+  - first:
+      213: 4682078605062321949
+    second: boss_death_lord_death_side_8
+  - first:
+      213: 303353256073507977
+    second: boss_death_lord_death_side_9
+  - first:
+      213: -8833247527482788691
+    second: boss_death_lord_death_side_10
+  - first:
+      213: 260341497923102123
+    second: boss_death_lord_death_side_11
+  - first:
+      213: -5504476392897679730
+    second: boss_death_lord_death_side_12
+  - first:
+      213: 2376848535096131963
+    second: boss_death_lord_death_side_13
+  - first:
+      213: 664141760595275157
+    second: boss_death_lord_death_side_14
+  - first:
+      213: 2109672953850402171
+    second: boss_death_lord_death_side_15
+  - first:
+      213: -7967483261838758403
+    second: boss_death_lord_death_side_16
+  - first:
+      213: 376989594889778424
+    second: boss_death_lord_death_side_17
+  - first:
+      213: 6976015167992118041
+    second: boss_death_lord_death_side_18
+  - first:
+      213: 8755866456521937598
+    second: boss_death_lord_death_side_19
+  - first:
+      213: 4245186353644800407
+    second: boss_death_lord_death_side_20
+  - first:
+      213: -7513450618323555584
+    second: boss_death_lord_death_side_21
+  - first:
+      213: 4269051765219204455
+    second: boss_death_lord_death_side_22
+  - first:
+      213: 8817730960953119430
+    second: boss_death_lord_death_side_23
+  - first:
+      213: -7999517446830517683
+    second: boss_death_lord_death_side_24
+  - first:
+      213: -7383138529948765990
+    second: boss_death_lord_death_side_25
+  - first:
+      213: -7755221162718180523
+    second: boss_death_lord_death_side_26
+  - first:
+      213: -4551139723648527082
+    second: boss_death_lord_death_side_27
+  - first:
+      213: -1865611354800974752
+    second: boss_death_lord_death_side_28
+  - first:
+      213: -921899317226606556
+    second: boss_death_lord_death_side_29
+  - first:
+      213: 4732045370546566194
+    second: boss_death_lord_death_side_30
+  - first:
+      213: -5769818855003042192
+    second: boss_death_lord_death_side_31
+  - first:
+      213: -1399698364855530948
+    second: boss_death_lord_death_side_32
+  - first:
+      213: 2834175374653335029
+    second: boss_death_lord_death_side_33
+  - first:
+      213: -1842814390456250582
+    second: boss_death_lord_death_side_34
+  - first:
+      213: -3070776390350291707
+    second: boss_death_lord_death_side_35
+  - first:
+      213: 6495002990450476518
+    second: boss_death_lord_death_side_36
+  - first:
+      213: 8517519063258730952
+    second: boss_death_lord_death_side_37
+  - first:
+      213: 3050794704105294169
+    second: boss_death_lord_death_side_38
+  - first:
+      213: 836961168839448523
+    second: boss_death_lord_death_side_39
+  - first:
+      213: 995399547414618224
+    second: boss_death_lord_death_side_40
+  - first:
+      213: 8916773250250749652
+    second: boss_death_lord_death_side_41
+  - first:
+      213: -570249525273541497
+    second: boss_death_lord_death_side_42
+  - first:
+      213: -8173309790421179909
+    second: boss_death_lord_death_side_43
+  - first:
+      213: -1766003089009084907
+    second: boss_death_lord_death_side_44
+  - first:
+      213: 6763439572824102469
+    second: boss_death_lord_death_side_45
+  - first:
+      213: 3200274954675961652
+    second: boss_death_lord_death_side_46
+  - first:
+      213: 800051464302025307
+    second: boss_death_lord_death_side_47
+  - first:
+      213: 222044471225192165
+    second: boss_death_lord_death_side_48
+  - first:
+      213: -4648660111085733864
+    second: boss_death_lord_death_side_49
+  - first:
+      213: 151695711750518369
+    second: boss_death_lord_death_side_50
+  - first:
+      213: 7788893868866076965
+    second: boss_death_lord_death_side_51
+  - first:
+      213: 5179702467031686024
+    second: boss_death_lord_death_side_52
+  - first:
+      213: 4167062614618225502
+    second: boss_death_lord_death_side_53
+  - first:
+      213: 254532713970912040
+    second: boss_death_lord_death_side_54
+  - first:
+      213: -3965026179813050309
+    second: boss_death_lord_death_side_55
+  - first:
+      213: 1933194030868946680
+    second: boss_death_lord_death_side_56
+  - first:
+      213: -5456442781972757975
+    second: boss_death_lord_death_side_57
+  - first:
+      213: 3037914039723969875
+    second: boss_death_lord_death_side_58
+  - first:
+      213: -676921461481953448
+    second: boss_death_lord_death_side_59
+  - first:
+      213: 626414056649973463
+    second: boss_death_lord_death_side_60
+  - first:
+      213: -768154005876857056
+    second: boss_death_lord_death_side_61
+  - first:
+      213: -2392134997756013064
+    second: boss_death_lord_death_side_62
+  - first:
+      213: 1274895707771408200
+    second: boss_death_lord_death_side_63
+  - first:
+      213: -6509273979764602233
+    second: boss_death_lord_death_side_64
+  - first:
+      213: 4431112699199222295
+    second: boss_death_lord_death_side_65
+  - first:
+      213: -2840601355723868865
+    second: boss_death_lord_death_side_66
+  - first:
+      213: -7750242267385708142
+    second: boss_death_lord_death_side_67
+  - first:
+      213: 179569501280136490
+    second: boss_death_lord_death_side_68
+  - first:
+      213: 3565919012621928974
+    second: boss_death_lord_death_side_69
+  - first:
+      213: -1382757940779105287
+    second: boss_death_lord_death_side_70
+  - first:
+      213: -4028309400579448062
+    second: boss_death_lord_death_side_71
+  - first:
+      213: -7963994978798153900
+    second: boss_death_lord_death_side_72
+  - first:
+      213: -2575797265771435177
+    second: boss_death_lord_death_side_73
+  - first:
+      213: -2370149850128355711
+    second: boss_death_lord_death_side_74
+  - first:
+      213: -8372487883574722174
+    second: boss_death_lord_death_side_75
+  - first:
+      213: 4536262710929484282
+    second: boss_death_lord_death_side_76
+  - first:
+      213: -158284294970626502
+    second: boss_death_lord_death_side_77
+  - first:
+      213: 6906617225932757452
+    second: boss_death_lord_death_side_78
+  - first:
+      213: 5646006984161090507
+    second: boss_death_lord_death_side_79
+  - first:
+      213: -4117164938129608109
+    second: boss_death_lord_death_side_80
+  - first:
+      213: 1760107196283495205
+    second: boss_death_lord_death_side_81
+  - first:
+      213: 5138904157229079717
+    second: boss_death_lord_death_side_82
+  - first:
+      213: 2710800976682471861
+    second: boss_death_lord_death_side_83
+  - first:
+      213: 7404285932210373207
+    second: boss_death_lord_death_side_84
+  - first:
+      213: 2551638905327350782
+    second: boss_death_lord_death_side_85
+  - first:
+      213: -8906948318008751751
+    second: boss_death_lord_death_side_86
+  - first:
+      213: -971820940730826869
+    second: boss_death_lord_death_side_87
+  - first:
+      213: -3900296384408803355
+    second: boss_death_lord_death_side_88
+  - first:
+      213: -9122224981441808436
+    second: boss_death_lord_death_side_89
+  - first:
+      213: 3269591506446138510
+    second: boss_death_lord_death_side_90
+  - first:
+      213: 5422879625054202835
+    second: boss_death_lord_death_side_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15efeeb1107cfa30800000000000000
+      internalID: 4250395369851053339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff24bf6df9d931a0800000000000000
+      internalID: -6829187677406613512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154a4e6360f2439e0800000000000000
+      internalID: -1642636260346125231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a1dd24280dc95b0800000000000000
+      internalID: -5360180198591620475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc75355a80fb89d0800000000000000
+      internalID: -2770856668790686534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14b038c6f13ab180800000000000000
+      internalID: -9098905161158314982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_6
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f93e0cfa9d3820f0800000000000000
+      internalID: -1141594769675372042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_side_7
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48425a3b75ddcc9b0800000000000000
+      internalID: -5058424912698071932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_death_lord_death_side_0: 4250395369851053339
+      boss_death_lord_death_side_1: -6829187677406613512
+      boss_death_lord_death_side_10: -8833247527482788691
+      boss_death_lord_death_side_11: 260341497923102123
+      boss_death_lord_death_side_12: -5504476392897679730
+      boss_death_lord_death_side_13: 2376848535096131963
+      boss_death_lord_death_side_14: 664141760595275157
+      boss_death_lord_death_side_15: 2109672953850402171
+      boss_death_lord_death_side_16: -7967483261838758403
+      boss_death_lord_death_side_17: 376989594889778424
+      boss_death_lord_death_side_18: 6976015167992118041
+      boss_death_lord_death_side_19: 8755866456521937598
+      boss_death_lord_death_side_2: -1642636260346125231
+      boss_death_lord_death_side_20: 4245186353644800407
+      boss_death_lord_death_side_21: -7513450618323555584
+      boss_death_lord_death_side_22: 4269051765219204455
+      boss_death_lord_death_side_23: 8817730960953119430
+      boss_death_lord_death_side_24: -7999517446830517683
+      boss_death_lord_death_side_25: -7383138529948765990
+      boss_death_lord_death_side_26: -7755221162718180523
+      boss_death_lord_death_side_27: -4551139723648527082
+      boss_death_lord_death_side_28: -1865611354800974752
+      boss_death_lord_death_side_29: -921899317226606556
+      boss_death_lord_death_side_3: -5360180198591620475
+      boss_death_lord_death_side_30: 4732045370546566194
+      boss_death_lord_death_side_31: -5769818855003042192
+      boss_death_lord_death_side_32: -1399698364855530948
+      boss_death_lord_death_side_33: 2834175374653335029
+      boss_death_lord_death_side_34: -1842814390456250582
+      boss_death_lord_death_side_35: -3070776390350291707
+      boss_death_lord_death_side_36: 6495002990450476518
+      boss_death_lord_death_side_37: 8517519063258730952
+      boss_death_lord_death_side_38: 3050794704105294169
+      boss_death_lord_death_side_39: 836961168839448523
+      boss_death_lord_death_side_4: -2770856668790686534
+      boss_death_lord_death_side_40: 995399547414618224
+      boss_death_lord_death_side_41: 8916773250250749652
+      boss_death_lord_death_side_42: -570249525273541497
+      boss_death_lord_death_side_43: -8173309790421179909
+      boss_death_lord_death_side_44: -1766003089009084907
+      boss_death_lord_death_side_45: 6763439572824102469
+      boss_death_lord_death_side_46: 3200274954675961652
+      boss_death_lord_death_side_47: 800051464302025307
+      boss_death_lord_death_side_48: 222044471225192165
+      boss_death_lord_death_side_49: -4648660111085733864
+      boss_death_lord_death_side_5: -9098905161158314982
+      boss_death_lord_death_side_50: 151695711750518369
+      boss_death_lord_death_side_51: 7788893868866076965
+      boss_death_lord_death_side_52: 5179702467031686024
+      boss_death_lord_death_side_53: 4167062614618225502
+      boss_death_lord_death_side_54: 254532713970912040
+      boss_death_lord_death_side_55: -3965026179813050309
+      boss_death_lord_death_side_56: 1933194030868946680
+      boss_death_lord_death_side_57: -5456442781972757975
+      boss_death_lord_death_side_58: 3037914039723969875
+      boss_death_lord_death_side_59: -676921461481953448
+      boss_death_lord_death_side_6: -1141594769675372042
+      boss_death_lord_death_side_60: 626414056649973463
+      boss_death_lord_death_side_61: -768154005876857056
+      boss_death_lord_death_side_62: -2392134997756013064
+      boss_death_lord_death_side_63: 1274895707771408200
+      boss_death_lord_death_side_64: -6509273979764602233
+      boss_death_lord_death_side_65: 4431112699199222295
+      boss_death_lord_death_side_66: -2840601355723868865
+      boss_death_lord_death_side_67: -7750242267385708142
+      boss_death_lord_death_side_68: 179569501280136490
+      boss_death_lord_death_side_69: 3565919012621928974
+      boss_death_lord_death_side_7: -5058424912698071932
+      boss_death_lord_death_side_70: -1382757940779105287
+      boss_death_lord_death_side_71: -4028309400579448062
+      boss_death_lord_death_side_72: -7963994978798153900
+      boss_death_lord_death_side_73: -2575797265771435177
+      boss_death_lord_death_side_74: -2370149850128355711
+      boss_death_lord_death_side_75: -8372487883574722174
+      boss_death_lord_death_side_76: 4536262710929484282
+      boss_death_lord_death_side_77: -158284294970626502
+      boss_death_lord_death_side_78: 6906617225932757452
+      boss_death_lord_death_side_79: 5646006984161090507
+      boss_death_lord_death_side_8: 4682078605062321949
+      boss_death_lord_death_side_80: -4117164938129608109
+      boss_death_lord_death_side_81: 1760107196283495205
+      boss_death_lord_death_side_82: 5138904157229079717
+      boss_death_lord_death_side_83: 2710800976682471861
+      boss_death_lord_death_side_84: 7404285932210373207
+      boss_death_lord_death_side_85: 2551638905327350782
+      boss_death_lord_death_side_86: -8906948318008751751
+      boss_death_lord_death_side_87: -971820940730826869
+      boss_death_lord_death_side_88: -3900296384408803355
+      boss_death_lord_death_side_89: -9122224981441808436
+      boss_death_lord_death_side_9: 303353256073507977
+      boss_death_lord_death_side_90: 3269591506446138510
+      boss_death_lord_death_side_91: 5422879625054202835
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

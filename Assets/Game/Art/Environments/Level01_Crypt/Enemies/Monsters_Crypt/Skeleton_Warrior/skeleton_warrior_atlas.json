@@ -1,0 +1,69 @@
+{
+ "frameSize": 128,
+ "columns": 6,
+ "facing": {
+  "side": "right (lật ngang X cho hướng trái)"
+ },
+ "rows": {
+  "idle_down": {
+   "row": 0,
+   "frames": 4
+  },
+  "idle_up": {
+   "row": 1,
+   "frames": 4
+  },
+  "idle_side": {
+   "row": 2,
+   "frames": 4
+  },
+  "walk_down": {
+   "row": 3,
+   "frames": 6
+  },
+  "walk_up": {
+   "row": 4,
+   "frames": 6
+  },
+  "walk_side": {
+   "row": 5,
+   "frames": 6
+  },
+  "attack_down": {
+   "row": 6,
+   "frames": 6
+  },
+  "attack_up": {
+   "row": 7,
+   "frames": 6
+  },
+  "attack_side": {
+   "row": 8,
+   "frames": 6
+  },
+  "hurt_down": {
+   "row": 9,
+   "frames": 2
+  },
+  "hurt_up": {
+   "row": 10,
+   "frames": 2
+  },
+  "hurt_side": {
+   "row": 11,
+   "frames": 2
+  },
+  "death_down": {
+   "row": 12,
+   "frames": 6
+  },
+  "death_up": {
+   "row": 13,
+   "frames": 6
+  },
+  "death_side": {
+   "row": 14,
+   "frames": 6
+  }
+ }
+}

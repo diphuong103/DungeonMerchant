@@ -1,0 +1,1989 @@
+fileFormatVersion: 2
+guid: dd6bc97add8e0724faa8fde307d384d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1723758897277174861
+    second: ghoul_atlas_0
+  - first:
+      213: -2609596079868210308
+    second: ghoul_atlas_1
+  - first:
+      213: 7377913263362907776
+    second: ghoul_atlas_2
+  - first:
+      213: -1869266576213796202
+    second: ghoul_atlas_3
+  - first:
+      213: 4806179810320061436
+    second: ghoul_atlas_4
+  - first:
+      213: -5189367409887812048
+    second: ghoul_atlas_5
+  - first:
+      213: -3027306641961170618
+    second: ghoul_atlas_6
+  - first:
+      213: 6082722755550095237
+    second: ghoul_atlas_7
+  - first:
+      213: -2028220522666317438
+    second: ghoul_atlas_8
+  - first:
+      213: -4862205219480465533
+    second: ghoul_atlas_9
+  - first:
+      213: 3230062946570407966
+    second: ghoul_atlas_10
+  - first:
+      213: 1017750323954573943
+    second: ghoul_atlas_11
+  - first:
+      213: 3874242704098288730
+    second: ghoul_atlas_12
+  - first:
+      213: -3573798296728067593
+    second: ghoul_atlas_13
+  - first:
+      213: 9194459374033663924
+    second: ghoul_atlas_14
+  - first:
+      213: -3713160793152570244
+    second: ghoul_atlas_15
+  - first:
+      213: 5191270347549089841
+    second: ghoul_atlas_16
+  - first:
+      213: -366986411284492023
+    second: ghoul_atlas_17
+  - first:
+      213: 354642176252341824
+    second: ghoul_atlas_18
+  - first:
+      213: 3531498521198718610
+    second: ghoul_atlas_19
+  - first:
+      213: -3221321094508636744
+    second: ghoul_atlas_20
+  - first:
+      213: -1585804324610298335
+    second: ghoul_atlas_21
+  - first:
+      213: -2886785072012095482
+    second: ghoul_atlas_22
+  - first:
+      213: -8188746627838382032
+    second: ghoul_atlas_23
+  - first:
+      213: -2458585178864898562
+    second: ghoul_atlas_24
+  - first:
+      213: -3362301448027773649
+    second: ghoul_atlas_25
+  - first:
+      213: 2890609950805684046
+    second: ghoul_atlas_26
+  - first:
+      213: -5628572587577181646
+    second: ghoul_atlas_27
+  - first:
+      213: -4498908626129836501
+    second: ghoul_atlas_28
+  - first:
+      213: 4159709598736572304
+    second: ghoul_atlas_29
+  - first:
+      213: -1953052993694306221
+    second: ghoul_atlas_30
+  - first:
+      213: -5884323100609928312
+    second: ghoul_atlas_31
+  - first:
+      213: 8374836276811667180
+    second: ghoul_atlas_32
+  - first:
+      213: -7633559792742164975
+    second: ghoul_atlas_33
+  - first:
+      213: 6321188280872140411
+    second: ghoul_atlas_34
+  - first:
+      213: -5878092314085127547
+    second: ghoul_atlas_35
+  - first:
+      213: 2957074668463284827
+    second: ghoul_atlas_36
+  - first:
+      213: -2121401504730016494
+    second: ghoul_atlas_37
+  - first:
+      213: 783720894071008854
+    second: ghoul_atlas_38
+  - first:
+      213: 9125318459788603161
+    second: ghoul_atlas_39
+  - first:
+      213: -820393742949142467
+    second: ghoul_atlas_40
+  - first:
+      213: 6165628258935470270
+    second: ghoul_atlas_41
+  - first:
+      213: -646155121677453708
+    second: ghoul_atlas_42
+  - first:
+      213: 8205763085011962061
+    second: ghoul_atlas_43
+  - first:
+      213: -3073567285394076308
+    second: ghoul_atlas_44
+  - first:
+      213: -6641132561383315269
+    second: ghoul_atlas_45
+  - first:
+      213: -1097467685140423953
+    second: ghoul_atlas_46
+  - first:
+      213: 7893116447122826235
+    second: ghoul_atlas_47
+  - first:
+      213: -6667608436773788430
+    second: ghoul_atlas_48
+  - first:
+      213: -5566690741090924293
+    second: ghoul_atlas_49
+  - first:
+      213: 1973741999493192921
+    second: ghoul_atlas_50
+  - first:
+      213: -462265310737765638
+    second: ghoul_atlas_51
+  - first:
+      213: -2012814182862020804
+    second: ghoul_atlas_52
+  - first:
+      213: -3037176637348606856
+    second: ghoul_atlas_53
+  - first:
+      213: 868992785900490219
+    second: ghoul_atlas_54
+  - first:
+      213: -5965391175362734470
+    second: ghoul_atlas_55
+  - first:
+      213: 6680531808706036812
+    second: ghoul_atlas_56
+  - first:
+      213: 3121700264684342982
+    second: ghoul_atlas_57
+  - first:
+      213: -390926665433655806
+    second: ghoul_atlas_58
+  - first:
+      213: -1870260224687865747
+    second: ghoul_atlas_59
+  - first:
+      213: -2068800369485963537
+    second: ghoul_atlas_60
+  - first:
+      213: 6681407818978752527
+    second: ghoul_atlas_61
+  - first:
+      213: 7184963279251242462
+    second: ghoul_atlas_62
+  - first:
+      213: 5586123674890415782
+    second: ghoul_atlas_63
+  - first:
+      213: -7173787627959173267
+    second: ghoul_atlas_64
+  - first:
+      213: -953937424172807551
+    second: ghoul_atlas_65
+  - first:
+      213: 7854539230066515575
+    second: ghoul_atlas_66
+  - first:
+      213: 8967642399121141853
+    second: ghoul_atlas_67
+  - first:
+      213: -4816513523621635881
+    second: ghoul_atlas_68
+  - first:
+      213: 4563824927276753397
+    second: ghoul_atlas_69
+  - first:
+      213: -2721291020069088103
+    second: ghoul_atlas_70
+  - first:
+      213: -6297627825972784656
+    second: ghoul_atlas_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghoul_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1793
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbff517a6af318e0800000000000000
+      internalID: -1723758897277174861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1794
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73143c013ad8cbd0800000000000000
+      internalID: -2609596079868210308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1793
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e936ee50d936660800000000000000
+      internalID: 7377913263362907776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1792
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a1446e3f70f06e0800000000000000
+      internalID: -1869266576213796202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1665
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf318c0c21bf2b240800000000000000
+      internalID: 4806179810320061436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1666
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036e5acc5d9abf7b0800000000000000
+      internalID: -5189367409887812048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1665
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64949b306a8dcf5d0800000000000000
+      internalID: -3027306641961170618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1665
+        width: 46
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587afb75e1c2a6450800000000000000
+      internalID: 6082722755550095237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1541
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289215c3e205ad3e0800000000000000
+      internalID: -2028220522666317438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1541
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f01db2d1af58cb0800000000000000
+      internalID: -4862205219480465533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1541
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e101b74e22d73dc20800000000000000
+      internalID: 3230062946570407966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1540
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772e9510786cf1e00800000000000000
+      internalID: 1017750323954573943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1411
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a546d67763314c530800000000000000
+      internalID: 3874242704098288730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1407
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1a0a84261576ec0800000000000000
+      internalID: -3573798296728067593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1407
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7790b1618499f70800000000000000
+      internalID: 9194459374033663924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1411
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cbb3a8ee3387cc0800000000000000
+      internalID: -3713160793152570244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1407
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130aea660e81b0840800000000000000
+      internalID: 5191270347549089841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1407
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9011ef5adc338eaf0800000000000000
+      internalID: -366986411284492023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1285
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e64e92e21fbe400800000000000000
+      internalID: 354642176252341824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1282
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eedd0c137620130800000000000000
+      internalID: 3531498521198718610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1285
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5175628819b43d0800000000000000
+      internalID: -3221321094508636744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1285
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e23546e571ef9e0800000000000000
+      internalID: -1585804324610298335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1282
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60091d7954410f7d0800000000000000
+      internalID: -2886785072012095482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1285
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030f30ce35abb5e80800000000000000
+      internalID: -8188746627838382032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1158
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efda7b35ec951edd0800000000000000
+      internalID: -2458585178864898562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1157
+        width: 79
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25e582b5a4b651d0800000000000000
+      internalID: -3362301448027773649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1157
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f6bf56f628d1820800000000000000
+      internalID: 2890609950805684046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1158
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23af5f49d0b43e1b0800000000000000
+      internalID: -5628572587577181646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1157
+        width: 79
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b262796d07aa091c0800000000000000
+      internalID: -4498908626129836501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1157
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fd97947d14ab930800000000000000
+      internalID: 4159709598736572304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1024
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350765366ac55e4e0800000000000000
+      internalID: -1953052993694306221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1025
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8832584015fa65ea0800000000000000
+      internalID: -5884323100609928312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1023
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce61a63d835693470800000000000000
+      internalID: 8374836276811667180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1023
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11616e510d5201690800000000000000
+      internalID: -7633559792742164975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1023
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7efeb7104f59b750800000000000000
+      internalID: 6321188280872140411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1023
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a800e0f22dc6ea0800000000000000
+      internalID: -5878092314085127547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 895
+        width: 54
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b526f046eb3a90920800000000000000
+      internalID: 2957074668463284827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 895
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215969432944f82e0800000000000000
+      internalID: -2121401504730016494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 898
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e6726300650ea00800000000000000
+      internalID: 783720894071008854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 900
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fa30a8ac4a3ae70800000000000000
+      internalID: 9125318459788603161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 899
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d303097cc306d94f0800000000000000
+      internalID: -820393742949142467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 897
+        width: 46
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb875fe0c36b09550800000000000000
+      internalID: 6165628258935470270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 773
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476bd9e17556807f0800000000000000
+      internalID: -646155121677453708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 773
+        width: 47
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8c621cc0ab0e170800000000000000
+      internalID: 8205763085011962061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 773
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d03d0a6de7855d0800000000000000
+      internalID: -3073567285394076308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 773
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8a7742f15f5d3a0800000000000000
+      internalID: -6641132561383315269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 773
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea1cba74f205c0f0800000000000000
+      internalID: -1097467685140423953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 773
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3ac81d69bf98d60800000000000000
+      internalID: 7893116447122826235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 644
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f463b80475e773a0800000000000000
+      internalID: -6667608436773788430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 643
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8c1dab3442fb2b0800000000000000
+      internalID: -5566690741090924293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 512
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc9f0624e3246b10800000000000000
+      internalID: 1973741999493192921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 513
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa6d792624b599f0800000000000000
+      internalID: -462265310737765638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 389
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f14af3a2c0114e0800000000000000
+      internalID: -2012814182862020804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 389
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c88b2a0f7c9d5d0800000000000000
+      internalID: -3037176637348606856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 260
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedc9fba5584f0c00800000000000000
+      internalID: 868992785900490219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 261
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76114ef45ca63da0800000000000000
+      internalID: -5965391175362734470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 260
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c440f98f84406bc50800000000000000
+      internalID: 6680531808706036812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 257
+        width: 85
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cec0cbe9d1825b20800000000000000
+      internalID: 3121700264684342982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 255
+        width: 107
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206599dd446239af0800000000000000
+      internalID: -390926665433655806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 255
+        width: 127
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6000f51c308b06e0800000000000000
+      internalID: -1870260224687865747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 130
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee979166052a43e0800000000000000
+      internalID: -2068800369485963537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 132
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08feb1030129bc50800000000000000
+      internalID: 6681407818978752527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 132
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddfeffe80e16b360800000000000000
+      internalID: 7184963279251242462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 129
+        width: 85
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae2e31c2e5e58d40800000000000000
+      internalID: 5586123674890415782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 127
+        width: 107
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fb6652926917c90800000000000000
+      internalID: -7173787627959173267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 127
+        width: 127
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a8a3687fee2c2f0800000000000000
+      internalID: -953937424172807551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e1c7a80dde00d60800000000000000
+      internalID: 7854539230066515575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50f858df37737c70800000000000000
+      internalID: 8967642399121141853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8daa0287e482db0800000000000000
+      internalID: -4816513523621635881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 108
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f167675796f55f30800000000000000
+      internalID: 4563824927276753397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 119
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994525a3c380c3ad0800000000000000
+      internalID: -2721291020069088103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghoul_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 129
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1d649cbd45a98a0800000000000000
+      internalID: -6297627825972784656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghoul_atlas_0: -1723758897277174861
+      ghoul_atlas_1: -2609596079868210308
+      ghoul_atlas_10: 3230062946570407966
+      ghoul_atlas_11: 1017750323954573943
+      ghoul_atlas_12: 3874242704098288730
+      ghoul_atlas_13: -3573798296728067593
+      ghoul_atlas_14: 9194459374033663924
+      ghoul_atlas_15: -3713160793152570244
+      ghoul_atlas_16: 5191270347549089841
+      ghoul_atlas_17: -366986411284492023
+      ghoul_atlas_18: 354642176252341824
+      ghoul_atlas_19: 3531498521198718610
+      ghoul_atlas_2: 7377913263362907776
+      ghoul_atlas_20: -3221321094508636744
+      ghoul_atlas_21: -1585804324610298335
+      ghoul_atlas_22: -2886785072012095482
+      ghoul_atlas_23: -8188746627838382032
+      ghoul_atlas_24: -2458585178864898562
+      ghoul_atlas_25: -3362301448027773649
+      ghoul_atlas_26: 2890609950805684046
+      ghoul_atlas_27: -5628572587577181646
+      ghoul_atlas_28: -4498908626129836501
+      ghoul_atlas_29: 4159709598736572304
+      ghoul_atlas_3: -1869266576213796202
+      ghoul_atlas_30: -1953052993694306221
+      ghoul_atlas_31: -5884323100609928312
+      ghoul_atlas_32: 8374836276811667180
+      ghoul_atlas_33: -7633559792742164975
+      ghoul_atlas_34: 6321188280872140411
+      ghoul_atlas_35: -5878092314085127547
+      ghoul_atlas_36: 2957074668463284827
+      ghoul_atlas_37: -2121401504730016494
+      ghoul_atlas_38: 783720894071008854
+      ghoul_atlas_39: 9125318459788603161
+      ghoul_atlas_4: 4806179810320061436
+      ghoul_atlas_40: -820393742949142467
+      ghoul_atlas_41: 6165628258935470270
+      ghoul_atlas_42: -646155121677453708
+      ghoul_atlas_43: 8205763085011962061
+      ghoul_atlas_44: -3073567285394076308
+      ghoul_atlas_45: -6641132561383315269
+      ghoul_atlas_46: -1097467685140423953
+      ghoul_atlas_47: 7893116447122826235
+      ghoul_atlas_48: -6667608436773788430
+      ghoul_atlas_49: -5566690741090924293
+      ghoul_atlas_5: -5189367409887812048
+      ghoul_atlas_50: 1973741999493192921
+      ghoul_atlas_51: -462265310737765638
+      ghoul_atlas_52: -2012814182862020804
+      ghoul_atlas_53: -3037176637348606856
+      ghoul_atlas_54: 868992785900490219
+      ghoul_atlas_55: -5965391175362734470
+      ghoul_atlas_56: 6680531808706036812
+      ghoul_atlas_57: 3121700264684342982
+      ghoul_atlas_58: -390926665433655806
+      ghoul_atlas_59: -1870260224687865747
+      ghoul_atlas_6: -3027306641961170618
+      ghoul_atlas_60: -2068800369485963537
+      ghoul_atlas_61: 6681407818978752527
+      ghoul_atlas_62: 7184963279251242462
+      ghoul_atlas_63: 5586123674890415782
+      ghoul_atlas_64: -7173787627959173267
+      ghoul_atlas_65: -953937424172807551
+      ghoul_atlas_66: 7854539230066515575
+      ghoul_atlas_67: 8967642399121141853
+      ghoul_atlas_68: -4816513523621635881
+      ghoul_atlas_69: 4563824927276753397
+      ghoul_atlas_7: 6082722755550095237
+      ghoul_atlas_70: -2721291020069088103
+      ghoul_atlas_71: -6297627825972784656
+      ghoul_atlas_8: -2028220522666317438
+      ghoul_atlas_9: -4862205219480465533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

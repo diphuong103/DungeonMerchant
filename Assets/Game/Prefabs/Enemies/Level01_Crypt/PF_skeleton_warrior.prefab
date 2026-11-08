@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4551073308854198307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8994189266959007070}
+  - component: {fileID: 5882345391211904728}
+  - component: {fileID: 6039229970682864259}
+  - component: {fileID: 8998184820184246678}
+  - component: {fileID: 5204182170598211170}
+  - component: {fileID: 8897640298613811733}
+  m_Layer: 0
+  m_Name: PF_skeleton_warrior
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8994189266959007070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551073308854198307}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5882345391211904728
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551073308854198307}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &6039229970682864259
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551073308854198307}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &8998184820184246678
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551073308854198307}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.35}
+  m_Size: {x: 0.55, y: 0.72}
+  m_Direction: 0
+--- !u!114 &5204182170598211170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551073308854198307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70169fbc9bb3c404d94d399f7d165308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonMerchant.Enemies.EnemySpriteAnimator
+  idleDown:
+  - {fileID: 1159379239149742030, guid: 4f1ed0b7e039ec644af8ca8b17ac0673, type: 3}
+  - {fileID: 793598117016721154, guid: 4f1ed0b7e039ec644af8ca8b17ac0673, type: 3}
+  - {fileID: -8221039253668172565, guid: 4f1ed0b7e039ec644af8ca8b17ac0673, type: 3}
+  - {fileID: -4126477585077536671, guid: 4f1ed0b7e039ec644af8ca8b17ac0673, type: 3}
+  idleUp:
+  - {fileID: -2842301719151469900, guid: c1508ca9974ebc3498d602d4ec54837d, type: 3}
+  - {fileID: 2111306399622184323, guid: c1508ca9974ebc3498d602d4ec54837d, type: 3}
+  - {fileID: 1399564972579668352, guid: c1508ca9974ebc3498d602d4ec54837d, type: 3}
+  - {fileID: 5285968698499528018, guid: c1508ca9974ebc3498d602d4ec54837d, type: 3}
+  idleSide:
+  - {fileID: -3132849920468613565, guid: 5ae9c98c3e8b6d04f9f41cd850bea462, type: 3}
+  - {fileID: 197113391593012152, guid: 5ae9c98c3e8b6d04f9f41cd850bea462, type: 3}
+  - {fileID: 3797432386415646208, guid: 5ae9c98c3e8b6d04f9f41cd850bea462, type: 3}
+  - {fileID: 450611815167653845, guid: 5ae9c98c3e8b6d04f9f41cd850bea462, type: 3}
+  walkDown:
+  - {fileID: -727614997216598777, guid: 7bba9f1222d17a04c9d9c46338d59582, type: 3}
+  - {fileID: -4828203019019712467, guid: 7bba9f1222d17a04c9d9c46338d59582, type: 3}
+  - {fileID: 1428749654828344801, guid: 7bba9f1222d17a04c9d9c46338d59582, type: 3}
+  - {fileID: 581538050121884085, guid: 7bba9f1222d17a04c9d9c46338d59582, type: 3}
+  - {fileID: 7282279626646741109, guid: 7bba9f1222d17a04c9d9c46338d59582, type: 3}
+  - {fileID: -3905213712257056120, guid: 7bba9f1222d17a04c9d9c46338d59582, type: 3}
+  walkUp:
+  - {fileID: -8678103224254002862, guid: 837b7fd72bf4ba94a9554179aa3f6be4, type: 3}
+  - {fileID: -5662362660031533450, guid: 837b7fd72bf4ba94a9554179aa3f6be4, type: 3}
+  - {fileID: -3146075131747450231, guid: 837b7fd72bf4ba94a9554179aa3f6be4, type: 3}
+  - {fileID: -3993217586352941714, guid: 837b7fd72bf4ba94a9554179aa3f6be4, type: 3}
+  - {fileID: -6689251657540341076, guid: 837b7fd72bf4ba94a9554179aa3f6be4, type: 3}
+  - {fileID: 1237863390719429132, guid: 837b7fd72bf4ba94a9554179aa3f6be4, type: 3}
+  walkSide:
+  - {fileID: 2712842054767134369, guid: cd4e1cf50f023a441afe4477fdf141f3, type: 3}
+  - {fileID: 2253613866302044696, guid: cd4e1cf50f023a441afe4477fdf141f3, type: 3}
+  - {fileID: -4844373616207582953, guid: cd4e1cf50f023a441afe4477fdf141f3, type: 3}
+  - {fileID: 3221615137244403225, guid: cd4e1cf50f023a441afe4477fdf141f3, type: 3}
+  - {fileID: 6378673883742868333, guid: cd4e1cf50f023a441afe4477fdf141f3, type: 3}
+  - {fileID: -1257131925401947582, guid: cd4e1cf50f023a441afe4477fdf141f3, type: 3}
+  attackDown:
+  - {fileID: -3258766494808230610, guid: 149cc5c3f25ee0543993a7051eab055f, type: 3}
+  - {fileID: -7373145046842818192, guid: 149cc5c3f25ee0543993a7051eab055f, type: 3}
+  - {fileID: 1451635400757770422, guid: 149cc5c3f25ee0543993a7051eab055f, type: 3}
+  - {fileID: -7900476461288150814, guid: 149cc5c3f25ee0543993a7051eab055f, type: 3}
+  - {fileID: 4193419783249987339, guid: 149cc5c3f25ee0543993a7051eab055f, type: 3}
+  - {fileID: 3328917017861282968, guid: 149cc5c3f25ee0543993a7051eab055f, type: 3}
+  attackUp:
+  - {fileID: 5397842783580958903, guid: 8cbb56618006176498f8147b96d49695, type: 3}
+  - {fileID: 415274045518838758, guid: 8cbb56618006176498f8147b96d49695, type: 3}
+  - {fileID: -7244861109543476421, guid: 8cbb56618006176498f8147b96d49695, type: 3}
+  - {fileID: -4217501884884821784, guid: 8cbb56618006176498f8147b96d49695, type: 3}
+  - {fileID: 4642119190563144289, guid: 8cbb56618006176498f8147b96d49695, type: 3}
+  - {fileID: 5591495385605434520, guid: 8cbb56618006176498f8147b96d49695, type: 3}
+  attackSide:
+  - {fileID: -8013035218772147288, guid: bc1b8ff028927a9489ed63c363229862, type: 3}
+  - {fileID: -4268739423005441513, guid: bc1b8ff028927a9489ed63c363229862, type: 3}
+  - {fileID: -2043333224162913015, guid: bc1b8ff028927a9489ed63c363229862, type: 3}
+  - {fileID: 4937345181464517416, guid: bc1b8ff028927a9489ed63c363229862, type: 3}
+  - {fileID: 2077989662149323309, guid: bc1b8ff028927a9489ed63c363229862, type: 3}
+  - {fileID: 6327674132986202942, guid: bc1b8ff028927a9489ed63c363229862, type: 3}
+  hurtDown:
+  - {fileID: 2171146249138510402, guid: f1bef0375c1d28b4fb46dbd341b45e49, type: 3}
+  - {fileID: 6764798119463073722, guid: f1bef0375c1d28b4fb46dbd341b45e49, type: 3}
+  hurtUp:
+  - {fileID: -1534866827626103840, guid: 3cc2f1f1b8089f5408d6a50133e77b6b, type: 3}
+  - {fileID: -5707064493502906933, guid: 3cc2f1f1b8089f5408d6a50133e77b6b, type: 3}
+  hurtSide:
+  - {fileID: 9194827764705313779, guid: 10896a256d7293240bd9a7cc2be2ad77, type: 3}
+  - {fileID: 356231311139576912, guid: 10896a256d7293240bd9a7cc2be2ad77, type: 3}
+  specialDown: []
+  specialUp: []
+  specialSide: []
+  deathDown:
+  - {fileID: 6710552616819261957, guid: 6fd9fac531f815f4b830594ee8f72c06, type: 3}
+  - {fileID: -1475483279665031221, guid: 6fd9fac531f815f4b830594ee8f72c06, type: 3}
+  - {fileID: 8944015113247790603, guid: 6fd9fac531f815f4b830594ee8f72c06, type: 3}
+  - {fileID: 4946337705472536254, guid: 6fd9fac531f815f4b830594ee8f72c06, type: 3}
+  - {fileID: -8214447429605613875, guid: 6fd9fac531f815f4b830594ee8f72c06, type: 3}
+  - {fileID: -2918248169480779881, guid: 6fd9fac531f815f4b830594ee8f72c06, type: 3}
+  deathUp:
+  - {fileID: -7259259433290559506, guid: 96f827c377a1e1149a0b4e895d6384b6, type: 3}
+  - {fileID: 3417439039642116489, guid: 96f827c377a1e1149a0b4e895d6384b6, type: 3}
+  - {fileID: -2393829200336016858, guid: 96f827c377a1e1149a0b4e895d6384b6, type: 3}
+  - {fileID: -7244807796374997645, guid: 96f827c377a1e1149a0b4e895d6384b6, type: 3}
+  - {fileID: 1752310293196198534, guid: 96f827c377a1e1149a0b4e895d6384b6, type: 3}
+  - {fileID: 8102879172668825903, guid: 96f827c377a1e1149a0b4e895d6384b6, type: 3}
+  deathSide:
+  - {fileID: -7336770197420897122, guid: bb7b9d962ec16a24aaf6b7768e608bec, type: 3}
+  - {fileID: 6961493649040764143, guid: bb7b9d962ec16a24aaf6b7768e608bec, type: 3}
+  - {fileID: -9058717435126041221, guid: bb7b9d962ec16a24aaf6b7768e608bec, type: 3}
+  - {fileID: -1188688783581227249, guid: bb7b9d962ec16a24aaf6b7768e608bec, type: 3}
+  - {fileID: 5848616113048319743, guid: bb7b9d962ec16a24aaf6b7768e608bec, type: 3}
+  - {fileID: 2268201593104931710, guid: bb7b9d962ec16a24aaf6b7768e608bec, type: 3}
+  idleFps: 6
+  walkFps: 10
+  attackFps: 12
+  hurtFps: 10
+  specialFps: 10
+  deathFps: 8
+--- !u!114 &8897640298613811733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551073308854198307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb1b946683bc824489a33702bb844b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonMerchant.Enemies.EnemyBrain
+  enemyId: skeleton_warrior
+  maxHealth: 40
+  damage: 8
+  moveSpeed: 2
+  detectionRadius: 7
+  attackRadius: 1.1
+  attackCooldown: 1.4
+  attackHitTime: 0.45
+  patrolRadius: 1.8
+  attackType: 0
+  projectileSpeed: 5
+  projectilePrefab: {fileID: 0}
+  specialProjectilePrefab: {fileID: 0}
+  attackEffectPrefab: {fileID: 1552930687443381916, guid: b27b7094265f9bb4ea8975d2e79e430b,
+    type: 3}
+  hitEffectPrefab: {fileID: 4539272575599751774, guid: 3ae9921ee331c3b408964620b774efa7,
+    type: 3}
+  deathEffectPrefab: {fileID: 8319104502045766920, guid: 594dfd7fd562b6f45907ac3e33d2d123,
+    type: 3}
+  telegraphEffectPrefab: {fileID: 0}
+  blastEffectPrefab: {fileID: 0}
+  specialCooldown: 12
+  specialRadius: 2.8
+  specialTelegraphDuration: 1.2
+  lootPrefab: {fileID: 0}
+  knockbackForce: 2
+  startsIdle: 0

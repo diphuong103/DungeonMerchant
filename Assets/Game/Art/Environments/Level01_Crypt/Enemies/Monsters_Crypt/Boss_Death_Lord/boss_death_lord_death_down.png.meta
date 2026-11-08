@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: b92b8fb7868b51e4e886a021a6725fe7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5178500751653511512
+    second: boss_death_lord_death_down_0
+  - first:
+      213: -6907018970999436352
+    second: boss_death_lord_death_down_1
+  - first:
+      213: -9127789576152511064
+    second: boss_death_lord_death_down_2
+  - first:
+      213: 8428634191559958675
+    second: boss_death_lord_death_down_3
+  - first:
+      213: 9038211814280046118
+    second: boss_death_lord_death_down_4
+  - first:
+      213: -3667374407128635388
+    second: boss_death_lord_death_down_5
+  - first:
+      213: -5219189059815622793
+    second: boss_death_lord_death_down_6
+  - first:
+      213: 8611067931361866160
+    second: boss_death_lord_death_down_7
+  - first:
+      213: 8024730249181239374
+    second: boss_death_lord_death_down_8
+  - first:
+      213: 3688593213756632402
+    second: boss_death_lord_death_down_9
+  - first:
+      213: 22013553625719197
+    second: boss_death_lord_death_down_10
+  - first:
+      213: 854524629780247864
+    second: boss_death_lord_death_down_11
+  - first:
+      213: -2217014380998766387
+    second: boss_death_lord_death_down_12
+  - first:
+      213: -7111766703743762002
+    second: boss_death_lord_death_down_13
+  - first:
+      213: 6984974956567624437
+    second: boss_death_lord_death_down_14
+  - first:
+      213: -742836100526771321
+    second: boss_death_lord_death_down_15
+  - first:
+      213: 8988809006311242413
+    second: boss_death_lord_death_down_16
+  - first:
+      213: -2815096590943902853
+    second: boss_death_lord_death_down_17
+  - first:
+      213: -5136366301205837640
+    second: boss_death_lord_death_down_18
+  - first:
+      213: 1117491788783060
+    second: boss_death_lord_death_down_19
+  - first:
+      213: -4465526893489866650
+    second: boss_death_lord_death_down_20
+  - first:
+      213: 365780848161177475
+    second: boss_death_lord_death_down_21
+  - first:
+      213: -6121905850323589031
+    second: boss_death_lord_death_down_22
+  - first:
+      213: -3678706532454141388
+    second: boss_death_lord_death_down_23
+  - first:
+      213: 1271538948324453989
+    second: boss_death_lord_death_down_24
+  - first:
+      213: -7760645344648087332
+    second: boss_death_lord_death_down_25
+  - first:
+      213: -7530905226606932789
+    second: boss_death_lord_death_down_26
+  - first:
+      213: -7915611667532343852
+    second: boss_death_lord_death_down_27
+  - first:
+      213: 444551016846921597
+    second: boss_death_lord_death_down_28
+  - first:
+      213: 5504998673739173586
+    second: boss_death_lord_death_down_29
+  - first:
+      213: -1784350211784023114
+    second: boss_death_lord_death_down_30
+  - first:
+      213: -3143522988135995042
+    second: boss_death_lord_death_down_31
+  - first:
+      213: -1689398991564269521
+    second: boss_death_lord_death_down_32
+  - first:
+      213: -1848799715815552226
+    second: boss_death_lord_death_down_33
+  - first:
+      213: -6246737523352086729
+    second: boss_death_lord_death_down_34
+  - first:
+      213: -4108971724355414385
+    second: boss_death_lord_death_down_35
+  - first:
+      213: -3360325783716281444
+    second: boss_death_lord_death_down_36
+  - first:
+      213: 6652744418928944581
+    second: boss_death_lord_death_down_37
+  - first:
+      213: 5726698255872705566
+    second: boss_death_lord_death_down_38
+  - first:
+      213: -2234937233064422641
+    second: boss_death_lord_death_down_39
+  - first:
+      213: 8795504257774813598
+    second: boss_death_lord_death_down_40
+  - first:
+      213: -4439006379863738566
+    second: boss_death_lord_death_down_41
+  - first:
+      213: 3553513098794181212
+    second: boss_death_lord_death_down_42
+  - first:
+      213: -2262636624468101765
+    second: boss_death_lord_death_down_43
+  - first:
+      213: -5370688240473734593
+    second: boss_death_lord_death_down_44
+  - first:
+      213: -4089445231188641991
+    second: boss_death_lord_death_down_45
+  - first:
+      213: -2820991797996660757
+    second: boss_death_lord_death_down_46
+  - first:
+      213: 4146997636045443766
+    second: boss_death_lord_death_down_47
+  - first:
+      213: 8558787489549946628
+    second: boss_death_lord_death_down_48
+  - first:
+      213: 1962945402194783743
+    second: boss_death_lord_death_down_49
+  - first:
+      213: -7373188584221999605
+    second: boss_death_lord_death_down_50
+  - first:
+      213: 375834660743397864
+    second: boss_death_lord_death_down_51
+  - first:
+      213: 8775683741037670853
+    second: boss_death_lord_death_down_52
+  - first:
+      213: 5372813057458757944
+    second: boss_death_lord_death_down_53
+  - first:
+      213: -965637256567657088
+    second: boss_death_lord_death_down_54
+  - first:
+      213: -7826103448790753221
+    second: boss_death_lord_death_down_55
+  - first:
+      213: -1895831084552946143
+    second: boss_death_lord_death_down_56
+  - first:
+      213: -7230044899727085078
+    second: boss_death_lord_death_down_57
+  - first:
+      213: 5024954943878618419
+    second: boss_death_lord_death_down_58
+  - first:
+      213: -9073662620125539213
+    second: boss_death_lord_death_down_59
+  - first:
+      213: 9092958396781139866
+    second: boss_death_lord_death_down_60
+  - first:
+      213: 1719206436343916549
+    second: boss_death_lord_death_down_61
+  - first:
+      213: 2990279518986977991
+    second: boss_death_lord_death_down_62
+  - first:
+      213: -2239448569911550522
+    second: boss_death_lord_death_down_63
+  - first:
+      213: 1869384084951710540
+    second: boss_death_lord_death_down_64
+  - first:
+      213: 7752102195622364632
+    second: boss_death_lord_death_down_65
+  - first:
+      213: -362163783759407062
+    second: boss_death_lord_death_down_66
+  - first:
+      213: 3573821872181257080
+    second: boss_death_lord_death_down_67
+  - first:
+      213: 4874153174440841786
+    second: boss_death_lord_death_down_68
+  - first:
+      213: -8538419441219784681
+    second: boss_death_lord_death_down_69
+  - first:
+      213: 575197258188006061
+    second: boss_death_lord_death_down_70
+  - first:
+      213: -9132758799072601733
+    second: boss_death_lord_death_down_71
+  - first:
+      213: -1751396391704163258
+    second: boss_death_lord_death_down_72
+  - first:
+      213: 7764875871271060660
+    second: boss_death_lord_death_down_73
+  - first:
+      213: 3894081216056928994
+    second: boss_death_lord_death_down_74
+  - first:
+      213: 4436518380063968519
+    second: boss_death_lord_death_down_75
+  - first:
+      213: 4903187450499746576
+    second: boss_death_lord_death_down_76
+  - first:
+      213: -3285431747075198646
+    second: boss_death_lord_death_down_77
+  - first:
+      213: 3746837467688470041
+    second: boss_death_lord_death_down_78
+  - first:
+      213: -9189269471177517027
+    second: boss_death_lord_death_down_79
+  - first:
+      213: 5086421964536002318
+    second: boss_death_lord_death_down_80
+  - first:
+      213: -1437669741997793490
+    second: boss_death_lord_death_down_81
+  - first:
+      213: 8828457676586328717
+    second: boss_death_lord_death_down_82
+  - first:
+      213: -7930029433070612194
+    second: boss_death_lord_death_down_83
+  - first:
+      213: 43166300846368238
+    second: boss_death_lord_death_down_84
+  - first:
+      213: -8858671067561845088
+    second: boss_death_lord_death_down_85
+  - first:
+      213: -2087853286926076881
+    second: boss_death_lord_death_down_86
+  - first:
+      213: -3976486210445284483
+    second: boss_death_lord_death_down_87
+  - first:
+      213: 4248003324192875311
+    second: boss_death_lord_death_down_88
+  - first:
+      213: 3170628853808093554
+    second: boss_death_lord_death_down_89
+  - first:
+      213: 1886579020790797060
+    second: boss_death_lord_death_down_90
+  - first:
+      213: -3476975827744064791
+    second: boss_death_lord_death_down_91
+  - first:
+      213: -4566409260847482796
+    second: boss_death_lord_death_down_92
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae5994d0054228b0800000000000000
+      internalID: -5178500751653511512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbc1b047d65520a0800000000000000
+      internalID: -6907018970999436352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad8ae8ddb3935180800000000000000
+      internalID: -9127789576152511064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390a4a1f32688f470800000000000000
+      internalID: 8428634191559958675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626a6e232cd2e6d70800000000000000
+      internalID: 9038211814280046118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4082db4486eda1dc0800000000000000
+      internalID: -3667374407128635388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_6
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777b51ad337b197b0800000000000000
+      internalID: -5219189059815622793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_death_lord_death_down_7
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 240
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1f49109a8a08770800000000000000
+      internalID: 8611067931361866160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_death_lord_death_down_0: -5178500751653511512
+      boss_death_lord_death_down_1: -6907018970999436352
+      boss_death_lord_death_down_10: 22013553625719197
+      boss_death_lord_death_down_11: 854524629780247864
+      boss_death_lord_death_down_12: -2217014380998766387
+      boss_death_lord_death_down_13: -7111766703743762002
+      boss_death_lord_death_down_14: 6984974956567624437
+      boss_death_lord_death_down_15: -742836100526771321
+      boss_death_lord_death_down_16: 8988809006311242413
+      boss_death_lord_death_down_17: -2815096590943902853
+      boss_death_lord_death_down_18: -5136366301205837640
+      boss_death_lord_death_down_19: 1117491788783060
+      boss_death_lord_death_down_2: -9127789576152511064
+      boss_death_lord_death_down_20: -4465526893489866650
+      boss_death_lord_death_down_21: 365780848161177475
+      boss_death_lord_death_down_22: -6121905850323589031
+      boss_death_lord_death_down_23: -3678706532454141388
+      boss_death_lord_death_down_24: 1271538948324453989
+      boss_death_lord_death_down_25: -7760645344648087332
+      boss_death_lord_death_down_26: -7530905226606932789
+      boss_death_lord_death_down_27: -7915611667532343852
+      boss_death_lord_death_down_28: 444551016846921597
+      boss_death_lord_death_down_29: 5504998673739173586
+      boss_death_lord_death_down_3: 8428634191559958675
+      boss_death_lord_death_down_30: -1784350211784023114
+      boss_death_lord_death_down_31: -3143522988135995042
+      boss_death_lord_death_down_32: -1689398991564269521
+      boss_death_lord_death_down_33: -1848799715815552226
+      boss_death_lord_death_down_34: -6246737523352086729
+      boss_death_lord_death_down_35: -4108971724355414385
+      boss_death_lord_death_down_36: -3360325783716281444
+      boss_death_lord_death_down_37: 6652744418928944581
+      boss_death_lord_death_down_38: 5726698255872705566
+      boss_death_lord_death_down_39: -2234937233064422641
+      boss_death_lord_death_down_4: 9038211814280046118
+      boss_death_lord_death_down_40: 8795504257774813598
+      boss_death_lord_death_down_41: -4439006379863738566
+      boss_death_lord_death_down_42: 3553513098794181212
+      boss_death_lord_death_down_43: -2262636624468101765
+      boss_death_lord_death_down_44: -5370688240473734593
+      boss_death_lord_death_down_45: -4089445231188641991
+      boss_death_lord_death_down_46: -2820991797996660757
+      boss_death_lord_death_down_47: 4146997636045443766
+      boss_death_lord_death_down_48: 8558787489549946628
+      boss_death_lord_death_down_49: 1962945402194783743
+      boss_death_lord_death_down_5: -3667374407128635388
+      boss_death_lord_death_down_50: -7373188584221999605
+      boss_death_lord_death_down_51: 375834660743397864
+      boss_death_lord_death_down_52: 8775683741037670853
+      boss_death_lord_death_down_53: 5372813057458757944
+      boss_death_lord_death_down_54: -965637256567657088
+      boss_death_lord_death_down_55: -7826103448790753221
+      boss_death_lord_death_down_56: -1895831084552946143
+      boss_death_lord_death_down_57: -7230044899727085078
+      boss_death_lord_death_down_58: 5024954943878618419
+      boss_death_lord_death_down_59: -9073662620125539213
+      boss_death_lord_death_down_6: -5219189059815622793
+      boss_death_lord_death_down_60: 9092958396781139866
+      boss_death_lord_death_down_61: 1719206436343916549
+      boss_death_lord_death_down_62: 2990279518986977991
+      boss_death_lord_death_down_63: -2239448569911550522
+      boss_death_lord_death_down_64: 1869384084951710540
+      boss_death_lord_death_down_65: 7752102195622364632
+      boss_death_lord_death_down_66: -362163783759407062
+      boss_death_lord_death_down_67: 3573821872181257080
+      boss_death_lord_death_down_68: 4874153174440841786
+      boss_death_lord_death_down_69: -8538419441219784681
+      boss_death_lord_death_down_7: 8611067931361866160
+      boss_death_lord_death_down_70: 575197258188006061
+      boss_death_lord_death_down_71: -9132758799072601733
+      boss_death_lord_death_down_72: -1751396391704163258
+      boss_death_lord_death_down_73: 7764875871271060660
+      boss_death_lord_death_down_74: 3894081216056928994
+      boss_death_lord_death_down_75: 4436518380063968519
+      boss_death_lord_death_down_76: 4903187450499746576
+      boss_death_lord_death_down_77: -3285431747075198646
+      boss_death_lord_death_down_78: 3746837467688470041
+      boss_death_lord_death_down_79: -9189269471177517027
+      boss_death_lord_death_down_8: 8024730249181239374
+      boss_death_lord_death_down_80: 5086421964536002318
+      boss_death_lord_death_down_81: -1437669741997793490
+      boss_death_lord_death_down_82: 8828457676586328717
+      boss_death_lord_death_down_83: -7930029433070612194
+      boss_death_lord_death_down_84: 43166300846368238
+      boss_death_lord_death_down_85: -8858671067561845088
+      boss_death_lord_death_down_86: -2087853286926076881
+      boss_death_lord_death_down_87: -3976486210445284483
+      boss_death_lord_death_down_88: 4248003324192875311
+      boss_death_lord_death_down_89: 3170628853808093554
+      boss_death_lord_death_down_9: 3688593213756632402
+      boss_death_lord_death_down_90: 1886579020790797060
+      boss_death_lord_death_down_91: -3476975827744064791
+      boss_death_lord_death_down_92: -4566409260847482796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

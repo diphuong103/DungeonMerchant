@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &438674375155714834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7890506603737625843}
+  - component: {fileID: 8711121759385090691}
+  - component: {fileID: 5158307913728903578}
+  - component: {fileID: 8007801321084093786}
+  - component: {fileID: 4543888255199708457}
+  - component: {fileID: 4763773376303381097}
+  m_Layer: 0
+  m_Name: PF_wraith
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7890506603737625843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438674375155714834}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8711121759385090691
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438674375155714834}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &5158307913728903578
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438674375155714834}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &8007801321084093786
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438674375155714834}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.35}
+  m_Size: {x: 0.55, y: 0.72}
+  m_Direction: 0
+--- !u!114 &4543888255199708457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438674375155714834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70169fbc9bb3c404d94d399f7d165308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonMerchant.Enemies.EnemySpriteAnimator
+  idleDown:
+  - {fileID: 5484169995067674531, guid: de54d8a28a4afc14e86dbc4ebb46871c, type: 3}
+  - {fileID: -2382667960917272481, guid: de54d8a28a4afc14e86dbc4ebb46871c, type: 3}
+  - {fileID: 4843852493676096228, guid: de54d8a28a4afc14e86dbc4ebb46871c, type: 3}
+  - {fileID: 8067649357257728719, guid: de54d8a28a4afc14e86dbc4ebb46871c, type: 3}
+  idleUp:
+  - {fileID: -5604557402228224418, guid: da116474c1e38d9488ff1aedb62d489f, type: 3}
+  - {fileID: -9027568436304461588, guid: da116474c1e38d9488ff1aedb62d489f, type: 3}
+  - {fileID: -8912998473493996511, guid: da116474c1e38d9488ff1aedb62d489f, type: 3}
+  - {fileID: -2340739072770724880, guid: da116474c1e38d9488ff1aedb62d489f, type: 3}
+  idleSide:
+  - {fileID: -4851445378558060452, guid: 3f66bbdf7598a8342bfb2eb2f04e7e8b, type: 3}
+  - {fileID: 3684416350440381856, guid: 3f66bbdf7598a8342bfb2eb2f04e7e8b, type: 3}
+  - {fileID: 3226533004241822642, guid: 3f66bbdf7598a8342bfb2eb2f04e7e8b, type: 3}
+  - {fileID: -6793741374851671882, guid: 3f66bbdf7598a8342bfb2eb2f04e7e8b, type: 3}
+  walkDown:
+  - {fileID: -755460513007720701, guid: ce208fbf2e0f3bd469569f6e78ca7029, type: 3}
+  - {fileID: -3452715208183564992, guid: ce208fbf2e0f3bd469569f6e78ca7029, type: 3}
+  - {fileID: 734905243655039028, guid: ce208fbf2e0f3bd469569f6e78ca7029, type: 3}
+  - {fileID: 6870188718732527053, guid: ce208fbf2e0f3bd469569f6e78ca7029, type: 3}
+  - {fileID: 7558951474947055648, guid: ce208fbf2e0f3bd469569f6e78ca7029, type: 3}
+  - {fileID: -5142361299484948218, guid: ce208fbf2e0f3bd469569f6e78ca7029, type: 3}
+  walkUp:
+  - {fileID: 2279262259278974110, guid: 7a3ead757042f6b4b9d49f2cf7a46067, type: 3}
+  - {fileID: 6248426708010479637, guid: 7a3ead757042f6b4b9d49f2cf7a46067, type: 3}
+  - {fileID: -7883620850635772917, guid: 7a3ead757042f6b4b9d49f2cf7a46067, type: 3}
+  - {fileID: -6984821670262092554, guid: 7a3ead757042f6b4b9d49f2cf7a46067, type: 3}
+  - {fileID: 6849581498289368850, guid: 7a3ead757042f6b4b9d49f2cf7a46067, type: 3}
+  - {fileID: 5382279371062334391, guid: 7a3ead757042f6b4b9d49f2cf7a46067, type: 3}
+  walkSide:
+  - {fileID: -4189073556679104648, guid: 5121857980ae756498bb384cb00f238f, type: 3}
+  - {fileID: -6999468130740478204, guid: 5121857980ae756498bb384cb00f238f, type: 3}
+  - {fileID: 329288868529527814, guid: 5121857980ae756498bb384cb00f238f, type: 3}
+  - {fileID: 7928544288720302249, guid: 5121857980ae756498bb384cb00f238f, type: 3}
+  - {fileID: -3809102670988180563, guid: 5121857980ae756498bb384cb00f238f, type: 3}
+  - {fileID: -1433903725548214411, guid: 5121857980ae756498bb384cb00f238f, type: 3}
+  attackDown:
+  - {fileID: -8516488612840529705, guid: ea269685b2f3c594caffda233240ac4a, type: 3}
+  - {fileID: -1306860777379098360, guid: ea269685b2f3c594caffda233240ac4a, type: 3}
+  - {fileID: -503941420857929440, guid: ea269685b2f3c594caffda233240ac4a, type: 3}
+  - {fileID: 4110308312005656054, guid: ea269685b2f3c594caffda233240ac4a, type: 3}
+  - {fileID: 1221938013526242985, guid: ea269685b2f3c594caffda233240ac4a, type: 3}
+  - {fileID: -6746445727108335875, guid: ea269685b2f3c594caffda233240ac4a, type: 3}
+  attackUp:
+  - {fileID: -5207201429248379837, guid: 910747603fbf9904ea153c68295dfd1b, type: 3}
+  - {fileID: 6558696515863271592, guid: 910747603fbf9904ea153c68295dfd1b, type: 3}
+  - {fileID: -4640804183217679926, guid: 910747603fbf9904ea153c68295dfd1b, type: 3}
+  - {fileID: -5679635456979507404, guid: 910747603fbf9904ea153c68295dfd1b, type: 3}
+  - {fileID: -5583783190124293267, guid: 910747603fbf9904ea153c68295dfd1b, type: 3}
+  - {fileID: -4898396270664994399, guid: 910747603fbf9904ea153c68295dfd1b, type: 3}
+  attackSide:
+  - {fileID: 3855430596283988860, guid: 5a45bb7f65ae7e0418e8a0d694bdbbad, type: 3}
+  - {fileID: -8206141884202131708, guid: 5a45bb7f65ae7e0418e8a0d694bdbbad, type: 3}
+  - {fileID: 9122852693045130199, guid: 5a45bb7f65ae7e0418e8a0d694bdbbad, type: 3}
+  - {fileID: 2317719954964592167, guid: 5a45bb7f65ae7e0418e8a0d694bdbbad, type: 3}
+  - {fileID: -282815229016216020, guid: 5a45bb7f65ae7e0418e8a0d694bdbbad, type: 3}
+  - {fileID: 70702225403668240, guid: 5a45bb7f65ae7e0418e8a0d694bdbbad, type: 3}
+  hurtDown:
+  - {fileID: 7265280175539698025, guid: 67a36ae667752b649922d5534b834695, type: 3}
+  - {fileID: -3251649998364860080, guid: 67a36ae667752b649922d5534b834695, type: 3}
+  hurtUp:
+  - {fileID: 153983955498968175, guid: 9e24e797db318664dbfec6f11c9f8dbf, type: 3}
+  - {fileID: -212566870764520331, guid: 9e24e797db318664dbfec6f11c9f8dbf, type: 3}
+  hurtSide:
+  - {fileID: 4710886987204981105, guid: a1735a8032ab32a4a8b0dcf18c4741ce, type: 3}
+  - {fileID: 6747462382844578495, guid: a1735a8032ab32a4a8b0dcf18c4741ce, type: 3}
+  specialDown: []
+  specialUp: []
+  specialSide: []
+  deathDown:
+  - {fileID: 1463181787789013141, guid: fdb9f718c3737b148ac8df6db29f66f3, type: 3}
+  - {fileID: 7334754903539135986, guid: fdb9f718c3737b148ac8df6db29f66f3, type: 3}
+  - {fileID: 1701291663266124075, guid: fdb9f718c3737b148ac8df6db29f66f3, type: 3}
+  - {fileID: -6563246795529813305, guid: fdb9f718c3737b148ac8df6db29f66f3, type: 3}
+  - {fileID: 1786119284768722391, guid: fdb9f718c3737b148ac8df6db29f66f3, type: 3}
+  - {fileID: 2480481973981280558, guid: fdb9f718c3737b148ac8df6db29f66f3, type: 3}
+  deathUp:
+  - {fileID: -8281026663508970603, guid: 758cf7aea312efd42a3f1060b86c351b, type: 3}
+  - {fileID: 5972019483821485742, guid: 758cf7aea312efd42a3f1060b86c351b, type: 3}
+  - {fileID: 188890394076032317, guid: 758cf7aea312efd42a3f1060b86c351b, type: 3}
+  - {fileID: -7355706469888650964, guid: 758cf7aea312efd42a3f1060b86c351b, type: 3}
+  - {fileID: -3592722765819389163, guid: 758cf7aea312efd42a3f1060b86c351b, type: 3}
+  - {fileID: 2654818111377076537, guid: 758cf7aea312efd42a3f1060b86c351b, type: 3}
+  deathSide:
+  - {fileID: 1923426155708587774, guid: f6c27421581909b4292727719163f9f6, type: 3}
+  - {fileID: 4822200591365346521, guid: f6c27421581909b4292727719163f9f6, type: 3}
+  - {fileID: -3448212348041279629, guid: f6c27421581909b4292727719163f9f6, type: 3}
+  - {fileID: 6348794558208741820, guid: f6c27421581909b4292727719163f9f6, type: 3}
+  - {fileID: -5384206116018290213, guid: f6c27421581909b4292727719163f9f6, type: 3}
+  - {fileID: 3210374010213120223, guid: f6c27421581909b4292727719163f9f6, type: 3}
+  idleFps: 6
+  walkFps: 10
+  attackFps: 12
+  hurtFps: 10
+  specialFps: 10
+  deathFps: 8
+--- !u!114 &4763773376303381097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438674375155714834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb1b946683bc824489a33702bb844b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonMerchant.Enemies.EnemyBrain
+  enemyId: wraith
+  maxHealth: 25
+  damage: 10
+  moveSpeed: 1.6
+  detectionRadius: 7
+  attackRadius: 5
+  attackCooldown: 2.2
+  attackHitTime: 0.45
+  patrolRadius: 1.1
+  attackType: 1
+  projectileSpeed: 5
+  projectilePrefab: {fileID: 7261054403353593497, guid: d23615cbfe1374a418ea41dd55e771e1,
+    type: 3}
+  specialProjectilePrefab: {fileID: 0}
+  attackEffectPrefab: {fileID: 0}
+  hitEffectPrefab: {fileID: 4539272575599751774, guid: 3ae9921ee331c3b408964620b774efa7,
+    type: 3}
+  deathEffectPrefab: {fileID: 8319104502045766920, guid: 594dfd7fd562b6f45907ac3e33d2d123,
+    type: 3}
+  telegraphEffectPrefab: {fileID: 0}
+  blastEffectPrefab: {fileID: 0}
+  specialCooldown: 12
+  specialRadius: 2.8
+  specialTelegraphDuration: 1.2
+  lootPrefab: {fileID: 0}
+  knockbackForce: 2
+  startsIdle: 0
