@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using DungeonMerchant.Combat;
 using DungeonMerchant.Player;
+using DungeonMerchant.UI;
 
 namespace DungeonMerchant.Enemies
 {
@@ -46,6 +47,7 @@ namespace DungeonMerchant.Enemies
         private bool initialized;
         public string EnemyId => enemyId;
         public int CurrentHealth => currentHealth;
+        public int MaxHealth => maxHealth;
 
         private void Awake()
         {
@@ -254,6 +256,8 @@ namespace DungeonMerchant.Enemies
             body.linearVelocity = Vector2.zero; body.simulated = false;
             if (hitCollider != null) hitCollider.enabled = false;
             if (lootPrefab != null) Instantiate(lootPrefab, transform.position, Quaternion.identity);
+            if (enemyId == "boss_death_lord")
+                DungeonOverlayUI.NotifyBossDefeated(lootPrefab != null ? lootPrefab.name : null);
             CancelInvoke(nameof(ReturnToPool));
             Invoke(nameof(ReturnToPool), Mathf.Max(0.45f, (animationView.FrameCount / 8f) + 0.15f));
         }

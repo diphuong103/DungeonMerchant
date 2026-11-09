@@ -54,6 +54,13 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
+            if (BlacksmithPopupUI.Instance != null && BlacksmithPopupUI.Instance.IsOpen)
+            {
+                if (promptRoot != null && promptRoot.activeSelf)
+                    promptRoot.SetActive(false);
+                return;
+            }
+
             if (WorldMapScreen.Instance != null && WorldMapScreen.Instance.IsOpen)
             {
                 if (promptRoot != null && promptRoot.activeSelf)
@@ -190,6 +197,13 @@ namespace Cainos.PixelArtTopDown_Basic
             {
                 ClosePanel();
                 WorldMapScreen.Instance.Open();
+                return;
+            }
+
+            if (stele != null && stele.OpensBlacksmith && BlacksmithPopupUI.Instance != null)
+            {
+                ClosePanel();
+                BlacksmithPopupUI.Instance.Open();
                 return;
             }
 
