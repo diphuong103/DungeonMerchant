@@ -54,6 +54,13 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
+            if (SteleServicePopupUI.Instance != null && SteleServicePopupUI.Instance.IsOpen)
+            {
+                if (promptRoot != null && promptRoot.activeSelf)
+                    promptRoot.SetActive(false);
+                return;
+            }
+
             if (BlacksmithPopupUI.Instance != null && BlacksmithPopupUI.Instance.IsOpen)
             {
                 if (promptRoot != null && promptRoot.activeSelf)
@@ -144,6 +151,8 @@ namespace Cainos.PixelArtTopDown_Basic
         {
             if (interactionPanel != null)
                 interactionPanel.SetActive(false);
+            if (SteleServicePopupUI.Instance != null)
+                SteleServicePopupUI.Instance.Close();
         }
 
         private SteleInteractable FindClosestStele()
@@ -200,10 +209,17 @@ namespace Cainos.PixelArtTopDown_Basic
                 return;
             }
 
-            if (stele != null && stele.OpensBlacksmith && BlacksmithPopupUI.Instance != null)
+            if (stele != null && stele.OpensBlacksmith && SteleServicePopupUI.Instance != null)
             {
                 ClosePanel();
-                BlacksmithPopupUI.Instance.Open();
+                SteleServicePopupUI.Instance.OpenFor(stele.InteractionTitle);
+                return;
+            }
+
+            if (stele != null && SteleServicePopupUI.Instance != null)
+            {
+                ClosePanel();
+                SteleServicePopupUI.Instance.OpenFor(stele.InteractionTitle);
                 return;
             }
 

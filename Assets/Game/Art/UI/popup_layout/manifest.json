@@ -1,0 +1,1857 @@
+{
+  "popup_frame_steel_gold": {
+    "category": "frames",
+    "size_px": [
+      960,
+      672
+    ],
+    "padded_size_px": [
+      1056,
+      768
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "unity_border_LBRT_padded": [
+        92,
+        92,
+        92,
+        92
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      64
+    ]
+  },
+  "popup_frame_steel_cyan": {
+    "category": "frames",
+    "size_px": [
+      960,
+      672
+    ],
+    "padded_size_px": [
+      1056,
+      768
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "unity_border_LBRT_padded": [
+        92,
+        92,
+        92,
+        92
+      ]
+    },
+    "sheet_pos_px": [
+      1088,
+      64
+    ]
+  },
+  "popup_frame_brass": {
+    "category": "frames",
+    "size_px": [
+      960,
+      672
+    ],
+    "padded_size_px": [
+      1056,
+      768
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "unity_border_LBRT_padded": [
+        92,
+        92,
+        92,
+        92
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      800
+    ]
+  },
+  "crest_top": {
+    "category": "frames",
+    "size_px": [
+      224,
+      76
+    ],
+    "padded_size_px": [
+      320,
+      172
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "note": "Fixed size. Overlay at top-centre of the popup frame.",
+    "sheet_pos_px": [
+      1088,
+      800
+    ]
+  },
+  "crest_bottom": {
+    "category": "frames",
+    "size_px": [
+      224,
+      76
+    ],
+    "padded_size_px": [
+      320,
+      172
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "note": "Fixed size. Overlay at bottom-centre of the popup frame.",
+    "sheet_pos_px": [
+      1376,
+      800
+    ]
+  },
+  "title_banner": {
+    "category": "headers",
+    "size_px": [
+      640,
+      120
+    ],
+    "padded_size_px": [
+      736,
+      216
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        64,
+        60,
+        64,
+        60
+      ],
+      "unity_border_LBRT_padded": [
+        112,
+        108,
+        112,
+        108
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      1600
+    ]
+  },
+  "header_plate": {
+    "category": "headers",
+    "size_px": [
+      448,
+      72
+    ],
+    "padded_size_px": [
+      544,
+      168
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        40,
+        36,
+        40,
+        36
+      ],
+      "unity_border_LBRT_padded": [
+        88,
+        84,
+        88,
+        84
+      ]
+    },
+    "sheet_pos_px": [
+      768,
+      1600
+    ]
+  },
+  "btn_green": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Flat face for text.",
+    "sheet_pos_px": [
+      64,
+      1848
+    ]
+  },
+  "btn_green_pressed": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      384,
+      1848
+    ]
+  },
+  "btn_red": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Flat face for text.",
+    "sheet_pos_px": [
+      704,
+      1848
+    ]
+  },
+  "btn_red_pressed": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      1024,
+      1848
+    ]
+  },
+  "btn_gold": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Flat face for text.",
+    "sheet_pos_px": [
+      1344,
+      1848
+    ]
+  },
+  "btn_gold_pressed": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      1664,
+      1848
+    ]
+  },
+  "btn_teal": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Flat face for text.",
+    "sheet_pos_px": [
+      64,
+      2008
+    ]
+  },
+  "btn_teal_pressed": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      384,
+      2008
+    ]
+  },
+  "btn_blue": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Flat face for text.",
+    "sheet_pos_px": [
+      704,
+      2008
+    ]
+  },
+  "btn_blue_pressed": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      1024,
+      2008
+    ]
+  },
+  "btn_dark": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Flat face for text.",
+    "sheet_pos_px": [
+      1344,
+      2008
+    ]
+  },
+  "btn_dark_pressed": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      1664,
+      2008
+    ]
+  },
+  "btn_disabled": {
+    "category": "buttons",
+    "size_px": [
+      256,
+      96
+    ],
+    "padded_size_px": [
+      352,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Flat face for text.",
+    "sheet_pos_px": [
+      64,
+      2168
+    ]
+  },
+  "btn_ornate_gold": {
+    "category": "buttons",
+    "size_px": [
+      448,
+      120
+    ],
+    "padded_size_px": [
+      544,
+      216
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        56,
+        60,
+        56,
+        60
+      ],
+      "unity_border_LBRT_padded": [
+        104,
+        108,
+        104,
+        108
+      ]
+    },
+    "note": "Main action button with side diamonds.",
+    "sheet_pos_px": [
+      384,
+      2168
+    ]
+  },
+  "btn_ornate_teal": {
+    "category": "buttons",
+    "size_px": [
+      448,
+      120
+    ],
+    "padded_size_px": [
+      544,
+      216
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        56,
+        60,
+        56,
+        60
+      ],
+      "unity_border_LBRT_padded": [
+        104,
+        108,
+        104,
+        108
+      ]
+    },
+    "sheet_pos_px": [
+      896,
+      2168
+    ]
+  },
+  "btn_ornate_red": {
+    "category": "buttons",
+    "size_px": [
+      448,
+      120
+    ],
+    "padded_size_px": [
+      544,
+      216
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        56,
+        60,
+        56,
+        60
+      ],
+      "unity_border_LBRT_padded": [
+        104,
+        108,
+        104,
+        108
+      ]
+    },
+    "sheet_pos_px": [
+      1408,
+      2168
+    ]
+  },
+  "btn_close_red": {
+    "category": "buttons",
+    "size_px": [
+      112,
+      112
+    ],
+    "padded_size_px": [
+      208,
+      208
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "note": "Fixed size, X icon included.",
+    "sheet_pos_px": [
+      1920,
+      2168
+    ]
+  },
+  "btn_close_red_pressed": {
+    "category": "buttons",
+    "size_px": [
+      112,
+      112
+    ],
+    "padded_size_px": [
+      208,
+      208
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      64,
+      2352
+    ]
+  },
+  "btn_close_brass": {
+    "category": "buttons",
+    "size_px": [
+      112,
+      112
+    ],
+    "padded_size_px": [
+      208,
+      208
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      240,
+      2352
+    ]
+  },
+  "btn_plus_green": {
+    "category": "buttons",
+    "size_px": [
+      64,
+      64
+    ],
+    "padded_size_px": [
+      160,
+      160
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      416,
+      2352
+    ]
+  },
+  "btn_plus_green_pressed": {
+    "category": "buttons",
+    "size_px": [
+      64,
+      64
+    ],
+    "padded_size_px": [
+      160,
+      160
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      544,
+      2352
+    ]
+  },
+  "btn_back": {
+    "category": "buttons",
+    "size_px": [
+      112,
+      96
+    ],
+    "padded_size_px": [
+      208,
+      192
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "note": "Fixed size, arrow included.",
+    "sheet_pos_px": [
+      672,
+      2352
+    ]
+  },
+  "btn_back_pressed": {
+    "category": "buttons",
+    "size_px": [
+      112,
+      96
+    ],
+    "padded_size_px": [
+      208,
+      192
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      848,
+      2352
+    ]
+  },
+  "tab_active": {
+    "category": "tabs",
+    "size_px": [
+      288,
+      80
+    ],
+    "padded_size_px": [
+      384,
+      176
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "unity_border_LBRT_padded": [
+        72,
+        72,
+        72,
+        72
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      2592
+    ]
+  },
+  "tab_inactive": {
+    "category": "tabs",
+    "size_px": [
+      288,
+      80
+    ],
+    "padded_size_px": [
+      384,
+      176
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "unity_border_LBRT_padded": [
+        72,
+        72,
+        72,
+        72
+      ]
+    },
+    "sheet_pos_px": [
+      416,
+      2592
+    ]
+  },
+  "row_normal": {
+    "category": "panels",
+    "size_px": [
+      640,
+      112
+    ],
+    "padded_size_px": [
+      736,
+      208
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "unity_border_LBRT_padded": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      2800
+    ]
+  },
+  "row_selected": {
+    "category": "panels",
+    "size_px": [
+      640,
+      112
+    ],
+    "padded_size_px": [
+      736,
+      208
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "unity_border_LBRT_padded": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    "sheet_pos_px": [
+      768,
+      2800
+    ]
+  },
+  "panel_inset_dark": {
+    "category": "panels",
+    "size_px": [
+      384,
+      288
+    ],
+    "padded_size_px": [
+      480,
+      384
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "unity_border_LBRT_padded": [
+        60,
+        60,
+        60,
+        60
+      ]
+    },
+    "note": "Recessed dark container for lists / inventories.",
+    "sheet_pos_px": [
+      1472,
+      2800
+    ]
+  },
+  "panel_card": {
+    "category": "panels",
+    "size_px": [
+      384,
+      224
+    ],
+    "padded_size_px": [
+      480,
+      320
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "unity_border_LBRT_padded": [
+        60,
+        60,
+        60,
+        60
+      ]
+    },
+    "note": "Raised dark card for stats / requirements.",
+    "sheet_pos_px": [
+      64,
+      3152
+    ]
+  },
+  "panel_light": {
+    "category": "panels",
+    "size_px": [
+      384,
+      288
+    ],
+    "padded_size_px": [
+      480,
+      384
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "unity_border_LBRT_padded": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    "note": "Optional light detail panel (quest description). Flat centre for dark text.",
+    "sheet_pos_px": [
+      512,
+      3152
+    ]
+  },
+  "divider_ornate": {
+    "category": "panels",
+    "size_px": [
+      352,
+      28
+    ],
+    "padded_size_px": [
+      448,
+      124
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "note": "Fixed width, centre diamond.",
+    "sheet_pos_px": [
+      960,
+      3152
+    ]
+  },
+  "divider_plain": {
+    "category": "panels",
+    "size_px": [
+      96,
+      8
+    ],
+    "padded_size_px": [
+      192,
+      104
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        8,
+        0,
+        8,
+        0
+      ],
+      "unity_border_LBRT_padded": [
+        56,
+        48,
+        56,
+        48
+      ]
+    },
+    "sheet_pos_px": [
+      1376,
+      3152
+    ]
+  },
+  "scroll_track": {
+    "category": "scroll",
+    "size_px": [
+      40,
+      192
+    ],
+    "padded_size_px": [
+      136,
+      288
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "vertical",
+      "unity_border_LBRT_tight": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "unity_border_LBRT_padded": [
+        60,
+        60,
+        60,
+        60
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      3568
+    ]
+  },
+  "scroll_thumb": {
+    "category": "scroll",
+    "size_px": [
+      40,
+      96
+    ],
+    "padded_size_px": [
+      136,
+      192
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "vertical",
+      "unity_border_LBRT_tight": [
+        12,
+        16,
+        12,
+        16
+      ],
+      "unity_border_LBRT_padded": [
+        60,
+        64,
+        60,
+        64
+      ]
+    },
+    "sheet_pos_px": [
+      168,
+      3568
+    ]
+  },
+  "scroll_btn_up": {
+    "category": "scroll",
+    "size_px": [
+      48,
+      48
+    ],
+    "padded_size_px": [
+      144,
+      144
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      272,
+      3568
+    ]
+  },
+  "scroll_btn_down": {
+    "category": "scroll",
+    "size_px": [
+      48,
+      48
+    ],
+    "padded_size_px": [
+      144,
+      144
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      384,
+      3568
+    ]
+  },
+  "bar_frame": {
+    "category": "bars",
+    "size_px": [
+      400,
+      48
+    ],
+    "padded_size_px": [
+      496,
+      144
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "unity_border_LBRT_padded": [
+        60,
+        60,
+        60,
+        60
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      3888
+    ]
+  },
+  "bar_fill_blue": {
+    "category": "bars",
+    "size_px": [
+      80,
+      24
+    ],
+    "padded_size_px": [
+      176,
+      120
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "unity_border_LBRT_padded": [
+        56,
+        52,
+        56,
+        52
+      ]
+    },
+    "sheet_pos_px": [
+      528,
+      3888
+    ]
+  },
+  "bar_fill_red": {
+    "category": "bars",
+    "size_px": [
+      80,
+      24
+    ],
+    "padded_size_px": [
+      176,
+      120
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "unity_border_LBRT_padded": [
+        56,
+        52,
+        56,
+        52
+      ]
+    },
+    "sheet_pos_px": [
+      672,
+      3888
+    ]
+  },
+  "bar_fill_green": {
+    "category": "bars",
+    "size_px": [
+      80,
+      24
+    ],
+    "padded_size_px": [
+      176,
+      120
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "unity_border_LBRT_padded": [
+        56,
+        52,
+        56,
+        52
+      ]
+    },
+    "sheet_pos_px": [
+      816,
+      3888
+    ]
+  },
+  "bar_fill_gold": {
+    "category": "bars",
+    "size_px": [
+      80,
+      24
+    ],
+    "padded_size_px": [
+      176,
+      120
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "unity_border_LBRT_padded": [
+        56,
+        52,
+        56,
+        52
+      ]
+    },
+    "sheet_pos_px": [
+      960,
+      3888
+    ]
+  },
+  "currency_pill": {
+    "category": "hud",
+    "size_px": [
+      288,
+      64
+    ],
+    "padded_size_px": [
+      384,
+      160
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "horizontal",
+      "unity_border_LBRT_tight": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "unity_border_LBRT_padded": [
+        80,
+        80,
+        80,
+        80
+      ]
+    },
+    "note": "Leave left area for icon, right for plus button.",
+    "sheet_pos_px": [
+      64,
+      4064
+    ]
+  },
+  "badge_count": {
+    "category": "hud",
+    "size_px": [
+      88,
+      44
+    ],
+    "padded_size_px": [
+      184,
+      140
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "unity_border_LBRT_padded": [
+        60,
+        60,
+        60,
+        60
+      ]
+    },
+    "note": "Quantity plate (bottom-right of a slot).",
+    "sheet_pos_px": [
+      416,
+      4064
+    ]
+  },
+  "portrait_square": {
+    "category": "hud",
+    "size_px": [
+      176,
+      176
+    ],
+    "padded_size_px": [
+      272,
+      272
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "note": "Fixed size, empty centre for avatar.",
+    "sheet_pos_px": [
+      568,
+      4064
+    ]
+  },
+  "portrait_round": {
+    "category": "hud",
+    "size_px": [
+      176,
+      176
+    ],
+    "padded_size_px": [
+      272,
+      272
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      808,
+      4064
+    ]
+  },
+  "slot_common": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      64,
+      4368
+    ]
+  },
+  "slot_uncommon": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      256,
+      4368
+    ]
+  },
+  "slot_rare": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      448,
+      4368
+    ]
+  },
+  "slot_epic": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      640,
+      4368
+    ]
+  },
+  "slot_legendary": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      832,
+      4368
+    ]
+  },
+  "slot_selected": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Gold selection ring.",
+    "sheet_pos_px": [
+      1024,
+      4368
+    ]
+  },
+  "slot_empty": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "sheet_pos_px": [
+      1216,
+      4368
+    ]
+  },
+  "slot_locked": {
+    "category": "slots",
+    "size_px": [
+      128,
+      128
+    ],
+    "padded_size_px": [
+      224,
+      224
+    ],
+    "padding_px": 48,
+    "slice": {
+      "stretch": "both",
+      "unity_border_LBRT_tight": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "unity_border_LBRT_padded": [
+        68,
+        68,
+        68,
+        68
+      ]
+    },
+    "note": "Padlock included.",
+    "sheet_pos_px": [
+      1408,
+      4368
+    ]
+  },
+  "icon_arrow_right_green": {
+    "category": "icons",
+    "size_px": [
+      64,
+      52
+    ],
+    "padded_size_px": [
+      160,
+      148
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      64,
+      4624
+    ]
+  },
+  "icon_arrow_up_green": {
+    "category": "icons",
+    "size_px": [
+      52,
+      64
+    ],
+    "padded_size_px": [
+      148,
+      160
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      192,
+      4624
+    ]
+  },
+  "icon_page_next": {
+    "category": "icons",
+    "size_px": [
+      36,
+      56
+    ],
+    "padded_size_px": [
+      132,
+      152
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      308,
+      4624
+    ]
+  },
+  "icon_page_prev": {
+    "category": "icons",
+    "size_px": [
+      36,
+      56
+    ],
+    "padded_size_px": [
+      132,
+      152
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      408,
+      4624
+    ]
+  },
+  "icon_plus": {
+    "category": "icons",
+    "size_px": [
+      44,
+      44
+    ],
+    "padded_size_px": [
+      140,
+      140
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      508,
+      4624
+    ]
+  },
+  "icon_lock": {
+    "category": "icons",
+    "size_px": [
+      48,
+      48
+    ],
+    "padded_size_px": [
+      144,
+      144
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      616,
+      4624
+    ]
+  },
+  "icon_check": {
+    "category": "icons",
+    "size_px": [
+      48,
+      40
+    ],
+    "padded_size_px": [
+      144,
+      136
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      728,
+      4624
+    ]
+  },
+  "icon_star": {
+    "category": "icons",
+    "size_px": [
+      52,
+      44
+    ],
+    "padded_size_px": [
+      148,
+      140
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      840,
+      4624
+    ]
+  },
+  "icon_coin": {
+    "category": "icons",
+    "size_px": [
+      52,
+      52
+    ],
+    "padded_size_px": [
+      148,
+      148
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      956,
+      4624
+    ]
+  },
+  "icon_gem": {
+    "category": "icons",
+    "size_px": [
+      48,
+      36
+    ],
+    "padded_size_px": [
+      144,
+      132
+    ],
+    "padding_px": 48,
+    "slice": "fixed size (no 9-slice)",
+    "sheet_pos_px": [
+      1072,
+      4624
+    ]
+  }
+}
