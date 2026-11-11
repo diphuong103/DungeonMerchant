@@ -1,4 +1,7 @@
 using UnityEngine;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 namespace Cainos.PixelArtTopDown_Basic
 {
@@ -11,10 +14,10 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.B))
-                TogglePanel(inventoryPanel, settingsPanel, characterPanel, steleInteractionPanel);
+            if (KeyPressed(KeyCode.B))
+                ToggleInventory();
 
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (KeyPressed(KeyCode.Escape))
             {
                 if (steleInteractionPanel != null && steleInteractionPanel.activeSelf)
                 {
@@ -22,11 +25,53 @@ namespace Cainos.PixelArtTopDown_Basic
                     return;
                 }
 
-                TogglePanel(settingsPanel, inventoryPanel, characterPanel, steleInteractionPanel);
+                ToggleSettings();
             }
 
-            if (Input.GetKeyDown(KeyCode.Tab))
-                TogglePanel(characterPanel, inventoryPanel, settingsPanel, steleInteractionPanel);
+            if (KeyPressed(KeyCode.Tab))
+                ToggleCharacter();
+        }
+
+        public void ToggleInventory()
+        {
+            TogglePanel(inventoryPanel, settingsPanel, characterPanel, steleInteractionPanel);
+        }
+
+        public void ToggleSettings()
+        {
+            TogglePanel(settingsPanel, inventoryPanel, characterPanel, steleInteractionPanel);
+        }
+
+        public void ToggleCharacter()
+        {
+            TogglePanel(characterPanel, inventoryPanel, settingsPanel, steleInteractionPanel);
+        }
+
+        public void CloseInventory()
+        {
+            if (inventoryPanel != null)
+                inventoryPanel.SetActive(false);
+        }
+
+        public void CloseCharacter()
+        {
+            if (characterPanel != null)
+                characterPanel.SetActive(false);
+        }
+
+        private static bool KeyPressed(KeyCode key)
+        {
+#if ENABLE_INPUT_SYSTEM
+            if (Keyboard.current == null)
+                return false;
+
+            Key inputKey = key == KeyCode.B ? Key.B
+                : key == KeyCode.Tab ? Key.Tab
+                : Key.Escape;
+            return Keyboard.current[inputKey].wasPressedThisFrame;
+#else
+            return Input.GetKeyDown(key);
+#endif
         }
 
         private static void TogglePanel(GameObject panelToToggle, GameObject otherPanel, GameObject thirdPanel, GameObject fourthPanel)

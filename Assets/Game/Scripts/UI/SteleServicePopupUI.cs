@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,10 +19,7 @@ namespace Cainos.PixelArtTopDown_Basic
         int selected;
         int tab;
         bool actionUsed;
-        bool magicHandlersBound;
-        bool tradeHandlersBound;
-        bool questHandlersBound;
-        bool combatHandlersBound;
+        readonly HashSet<int> boundPopupRoots = new HashSet<int>();
         int combatDemoPoints = 1250;
         readonly int[] combatLevels = { 15, 15, 15, 15, 15 };
         Service service;
@@ -30,7 +28,14 @@ namespace Cainos.PixelArtTopDown_Basic
 
         public bool IsOpen { get { return root != null && root.activeSelf; } }
 
-        void Awake() { Instance = this; BuildShell(); root.SetActive(false); }
+        void Awake()
+        {
+            Instance = this;
+            BuildShell();
+            foreach (Transform child in transform)
+                if (child.name.StartsWith("Popup Canvas - ")) child.gameObject.SetActive(false);
+            if (root != null) root.SetActive(false);
+        }
         void OnDestroy() { if (Instance == this) Instance = null; }
         void Update() { if (IsOpen && Input.GetKeyDown(KeyCode.Escape)) Close(); }
         public void Close() { if (root != null) root.SetActive(false); }
@@ -48,9 +53,11 @@ namespace Cainos.PixelArtTopDown_Basic
             else if (service == Service.Magic) serviceTitle = "BIA PHÙ THỦY";
             else if (service == Service.Forge) serviceTitle = "LÒ RÈN - NÂNG CẤP VŨ KHÍ";
             else if (service == Service.Trade) serviceTitle = "BIA GIAO THƯƠNG";
+            SelectPopupCanvas(service);
             selected = 0; tab = service == Service.Trade ? 2 : 0; actionUsed = false;
             title.text = serviceTitle;
             Rebuild();
+            BindCloseForCurrentPopup();
             if (service == Service.Forge && body.Find("Forge Inventory") != null) BindForgeLayout();
             if (service == Service.Magic && body.Find("Magic Layout") != null) BindMagicLayout();
             if (service == Service.Trade && body.Find("Trade Layout") != null) BindTradeLayout();
@@ -148,7 +155,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void BindCombatLayout()
         {
-            if (combatHandlersBound) return;
+            if (!boundPopupRoots.Add(root.GetInstanceID())) return;
             Transform close = frame.Find("Close");
             if (close != null) close.GetComponent<Button>().onClick.AddListener(Close);
             for (int i = 0; i < 5; i++)
@@ -163,7 +170,6 @@ namespace Cainos.PixelArtTopDown_Basic
                     UpdateCombatLayout();
                 });
             }
-            combatHandlersBound = true;
         }
 
         void UpdateCombatLayout()
@@ -192,7 +198,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void BindMagicLayout()
         {
-            if (magicHandlersBound) return;
+            if (!boundPopupRoots.Add(root.GetInstanceID())) return;
             Transform close = frame.Find("Close");
             if (close != null) close.GetComponent<Button>().onClick.AddListener(Close);
             for (int i = 0; i < 12; i++)
@@ -215,12 +221,11 @@ namespace Cainos.PixelArtTopDown_Basic
             Transform learn = body.Find("Magic Layout/Spell Details/Learn Action");
             if (upgrade != null) upgrade.GetComponent<Button>().onClick.AddListener(delegate { UpdateMagicStatus("Đã xác nhận nâng cấp minh họa."); });
             if (learn != null) learn.GetComponent<Button>().onClick.AddListener(delegate { UpdateMagicStatus("Đã xác nhận học phép minh họa."); });
-            magicHandlersBound = true;
         }
 
         void BindTradeLayout()
         {
-            if (tradeHandlersBound) return;
+            if (!boundPopupRoots.Add(root.GetInstanceID())) return;
             Transform close = frame.Find("Close");
             if (close != null) close.GetComponent<Button>().onClick.AddListener(Close);
             for (int i = 0; i < 3; i++)
@@ -246,7 +251,6 @@ namespace Cainos.PixelArtTopDown_Basic
             {
                 actionUsed = true; UpdateTradeLayout();
             });
-            tradeHandlersBound = true;
         }
 
         void UpdateTradeLayout()
@@ -284,7 +288,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void BindQuestLayout()
         {
-            if (questHandlersBound) return;
+            if (!boundPopupRoots.Add(root.GetInstanceID())) return;
             Transform close = frame.Find("Close");
             if (close != null) close.GetComponent<Button>().onClick.AddListener(Close);
             for (int i = 0; i < 2; i++)
@@ -310,7 +314,6 @@ namespace Cainos.PixelArtTopDown_Basic
             {
                 actionUsed = true; UpdateQuestLayout();
             });
-            questHandlersBound = true;
         }
 
         void UpdateQuestLayout()
@@ -398,6 +401,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         void BindForgeLayout()
         {
+            if (!boundPopupRoots.Add(root.GetInstanceID())) return;
             Transform close = frame.Find("Close");
             if (close != null) close.GetComponent<Button>().onClick.AddListener(Close);
             string[] weapons = { "THANH KIẾM DŨNG SĨ", "KIẾM SẮT", "RÌU CHIẾN", "KHIÊN ĐỒNG", "CUNG GỖ" };
@@ -437,7 +441,8 @@ namespace Cainos.PixelArtTopDown_Basic
         void BuildShell()
         {
             if (root != null && frame != null && body != null && title != null) return;
-            Transform existing = transform.Find("Stele Service Popup Canvas");
+            Transform existing = transform.Find("Popup Canvas - Combat");
+            if (existing == null) existing = transform.Find("Stele Service Popup Canvas");
             if (existing != null)
             {
                 root = existing.gameObject;
@@ -462,6 +467,58 @@ namespace Cainos.PixelArtTopDown_Basic
             title = Txt("Title", frame, "BIA", 27, Gold, new Vector2(.12f,1), new Vector2(.88f,1), new Vector2(0,-72), new Vector2(0,-24), TextAlignmentOptions.Center);
             Btn("Close", frame, "×", "btn_close_red", new Vector2(1,1), new Vector2(1,1), new Vector2(-48,-38), new Vector2(48,48), Close);
             body = Rect("Popup Body", frame, Vector2.zero, Vector2.one, new Vector2(40,38), new Vector2(-40,-112));
+        }
+
+        void SelectPopupCanvas(Service selectedService)
+        {
+            string canvasName = "Popup Canvas - " + selectedService;
+            Transform selectedCanvas = transform.Find(canvasName);
+            if (selectedCanvas == null) return;
+            foreach (Transform child in transform)
+                if (child.name.StartsWith("Popup Canvas - ")) child.gameObject.SetActive(false);
+            root = selectedCanvas.gameObject;
+            frame = selectedCanvas.Find("Popup Frame") as RectTransform;
+            body = frame != null ? frame.Find("Popup Body") as RectTransform : null;
+            Transform titleObject = frame != null ? frame.Find("Title") : null;
+            title = titleObject != null ? titleObject.GetComponent<TMP_Text>() : null;
+        }
+
+        public void PreviewPopupCanvas(string serviceName)
+        {
+            if (!System.Enum.TryParse(serviceName, out Service previewService)) return;
+            SelectPopupCanvas(previewService);
+            if (root == null || frame == null || body == null || title == null) return;
+            service = previewService;
+            SetStaticLayoutVisibility(service);
+            title.text = service == Service.Combat ? "BIA CHIEN DAU" :
+                service == Service.Forge ? "LO REN - NANG CAP VU KHI" :
+                service == Service.Magic ? "BIA PHU THUY" :
+                service == Service.Trade ? "BIA GIAO THUONG" :
+                service == Service.Quest ? "BIA NHIEM VU" : "QUANG TRUONG TUONG NIEM";
+            root.SetActive(true);
+#if UNITY_EDITOR
+            UnityEditor.EditorUtility.SetDirty(this);
+            UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(gameObject.scene);
+#endif
+        }
+
+        public void HidePopupPreviews()
+        {
+            foreach (Transform child in transform)
+                if (child.name.StartsWith("Popup Canvas - ")) child.gameObject.SetActive(false);
+#if UNITY_EDITOR
+            UnityEditor.EditorUtility.SetDirty(this);
+            UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(gameObject.scene);
+#endif
+        }
+
+        void BindCloseForCurrentPopup()
+        {
+            if (root == null || frame == null) return;
+            Transform close = frame.Find("Close");
+            if (close == null || !boundPopupRoots.Add(close.GetInstanceID())) return;
+            Button button = close.GetComponent<Button>();
+            if (button != null) button.onClick.AddListener(Close);
         }
 
         void Rebuild()
@@ -494,6 +551,12 @@ namespace Cainos.PixelArtTopDown_Basic
                 UpdateCombatLayout();
                 return;
             }
+            if (service == Service.Memorial)
+            {
+                if (body.Find("Memorial Layout") == null) Memorial();
+                SetStaticLayoutVisibility(Service.Memorial);
+                return;
+            }
             for (int i=body.childCount-1;i>=0;i--) Destroy(body.GetChild(i).gameObject);
             switch(service)
             {
@@ -514,12 +577,14 @@ namespace Cainos.PixelArtTopDown_Basic
             Transform trade = body.Find("Trade Layout");
             Transform quest = body.Find("Quest Layout");
             Transform combat = body.Find("Combat Layout");
+            Transform memorial = body.Find("Memorial Layout");
             if (magic != null) magic.gameObject.SetActive(show == Service.Magic);
             if (forgeInventory != null) forgeInventory.gameObject.SetActive(show == Service.Forge);
             if (forgeDetails != null) forgeDetails.gameObject.SetActive(show == Service.Forge);
             if (trade != null) trade.gameObject.SetActive(show == Service.Trade);
             if (quest != null) quest.gameObject.SetActive(show == Service.Quest);
             if (combat != null) combat.gameObject.SetActive(show == Service.Combat);
+            if (memorial != null) memorial.gameObject.SetActive(show == Service.Memorial);
         }
 
         void Combat()
@@ -818,13 +883,20 @@ void Forge()
 
         void Memorial()
         {
-            SetFrame("popup_frame_brass"); Tabs(new[]{"LỜI KHẤN","PHƯỚC LÀNH","TƯỞNG NIỆM"});
-            RectTransform list=Panel("Blessings",body,"panel_card",new Vector2(0,0),new Vector2(.42f,1),new Vector2(0,0),new Vector2(-10,-52));
-            RectTransform detail=Panel("Blessing Details",body,"panel_light",new Vector2(.42f,0),new Vector2(1,1),new Vector2(10,0),new Vector2(0,-52));
-            string[] names=tab==0?new[]{"Lời khấn bình an","Tưởng niệm anh hùng","Lịch sử chiến công"}:new[]{"Phước lành chiến binh","Phước lành lữ khách"};
-            Rows(list,names,68,"slot_uncommon");
-            Txt("Memorial Info",detail,Selected(names)+"\n\nHiệu ứng minh họa: tăng tinh thần\nThời lượng: 5 phút\n\nXem lời khấn, nhận phước lành và tưởng niệm các anh hùng.\n\nPhần thưởng sẽ nối dữ liệu game sau.",20,new Color(.22f,.17f,.12f),new Vector2(.1f,.31f),new Vector2(.9f,.9f),Vector2.zero,Vector2.zero,TextAlignmentOptions.TopLeft);
-            Action(detail,"NHẬN PHƯỚC LÀNH","btn_ornate_gold");
+            SetFrame("popup_frame_brass");
+            RectTransform layout = Rect("Memorial Layout", body, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
+            RectTransform list = Panel("Blessings", layout, "panel_card", new Vector2(0,0), new Vector2(.42f,1), new Vector2(0,0), new Vector2(-10,0));
+            RectTransform detail = Panel("Blessing Details", layout, "panel_light", new Vector2(.42f,0), Vector2.one, new Vector2(10,0), Vector2.zero);
+            string[] names = { "LOI KHAN BINH AN", "TUONG NIEM ANH HUNG", "PHUOC LANH CHIEN BINH" };
+            Txt("Memorial Heading", list, "TUONG NIEM", 19, Gold, new Vector2(.04f,1), new Vector2(.96f,1), new Vector2(0,-44), new Vector2(0,-10), TextAlignmentOptions.Center);
+            for (int i = 0; i < names.Length; i++)
+            {
+                float top = -52 - i * 74;
+                Panel("Blessing Row " + i, list, i == 0 ? "row_selected" : "row_normal", new Vector2(.04f,1), new Vector2(.96f,1), new Vector2(0,top-64), new Vector2(0,top));
+                Txt("Blessing Name " + i, list, names[i], 15, Gold, new Vector2(.09f,1), new Vector2(.38f,1), new Vector2(0,top-62), new Vector2(0,top+2), TextAlignmentOptions.MidlineLeft);
+            }
+            Txt("Memorial Info", detail, "LOI KHAN BINH AN\n\nHieu ung minh hoa: tang tinh than\nThoi luong: 5 phut\n\nXem loi khan va tuong niem cac anh hung.\n\nPhan thuong se duoc ket noi voi du lieu game sau.", 18, new Color(.22f,.17f,.12f), new Vector2(.09f,.27f), new Vector2(.91f,.91f), Vector2.zero, Vector2.zero, TextAlignmentOptions.TopLeft);
+            Btn("Memorial Action", detail, "NHAN PHUOC LANH", "btn_ornate_gold", new Vector2(.5f,0), new Vector2(.5f,0), new Vector2(-132,12), new Vector2(264,52), delegate { });
         }
 
         void Tabs(string[] labels)

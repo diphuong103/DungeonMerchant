@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: bc2dc9640386b3141ac7bd69992df371
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8524735195578559474
+    second: player_attack_kiem_huyen_thach_0
+  - first:
+      213: 8823679838204801880
+    second: player_attack_kiem_huyen_thach_1
+  - first:
+      213: -2527954844721888257
+    second: player_attack_kiem_huyen_thach_2
+  - first:
+      213: -2698075759404723539
+    second: player_attack_kiem_huyen_thach_3
+  - first:
+      213: -3074956229302770478
+    second: player_attack_kiem_huyen_thach_4
+  - first:
+      213: -2220645586876098328
+    second: player_attack_kiem_huyen_thach_5
+  - first:
+      213: 105866344138972330
+    second: player_attack_kiem_huyen_thach_6
+  - first:
+      213: 4325830184750808123
+    second: player_attack_kiem_huyen_thach_7
+  - first:
+      213: -6620081843414123567
+    second: player_attack_kiem_huyen_thach_8
+  - first:
+      213: -1631085116917744479
+    second: player_attack_kiem_huyen_thach_9
+  - first:
+      213: -3588477908880739722
+    second: player_attack_kiem_huyen_thach_10
+  - first:
+      213: -1184879942006766452
+    second: player_attack_kiem_huyen_thach_11
+  - first:
+      213: 7311375323517673967
+    second: player_attack_kiem_huyen_thach_12
+  - first:
+      213: -4169894462727721052
+    second: player_attack_kiem_huyen_thach_13
+  - first:
+      213: -491583902780222513
+    second: player_attack_kiem_huyen_thach_14
+  - first:
+      213: -2642677083267855704
+    second: player_attack_kiem_huyen_thach_15
+  - first:
+      213: -237934675975905902
+    second: player_attack_kiem_huyen_thach_16
+  - first:
+      213: 1134127383454974014
+    second: player_attack_kiem_huyen_thach_17
+  - first:
+      213: 843939727979497395
+    second: player_attack_kiem_huyen_thach_18
+  - first:
+      213: -6568062770826217339
+    second: player_attack_kiem_huyen_thach_19
+  - first:
+      213: 3048501587603282424
+    second: player_attack_kiem_huyen_thach_20
+  - first:
+      213: 4679018450408453560
+    second: player_attack_kiem_huyen_thach_21
+  - first:
+      213: 640622089588068260
+    second: player_attack_kiem_huyen_thach_22
+  - first:
+      213: -5023948246025121601
+    second: player_attack_kiem_huyen_thach_23
+  - first:
+      213: 2468321703857769496
+    second: player_attack_kiem_huyen_thach_24
+  - first:
+      213: -4509359583176451980
+    second: player_attack_kiem_huyen_thach_25
+  - first:
+      213: 2099360332711061100
+    second: player_attack_kiem_huyen_thach_26
+  - first:
+      213: 6247586489209283750
+    second: player_attack_kiem_huyen_thach_27
+  - first:
+      213: -3789783781533614217
+    second: player_attack_kiem_huyen_thach_28
+  - first:
+      213: 7113888334602567834
+    second: player_attack_kiem_huyen_thach_29
+  - first:
+      213: 4724579482094282908
+    second: player_attack_kiem_huyen_thach_30
+  - first:
+      213: -588430252208546850
+    second: player_attack_kiem_huyen_thach_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 407
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbeab09e71fd4670800000000000000
+      internalID: 8524735195578559474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 408
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85339ff1012047a70800000000000000
+      internalID: 8823679838204801880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 408
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3cf106676eaecd0800000000000000
+      internalID: -2527954844721888257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 407
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2d69f44628e8ad0800000000000000
+      internalID: -2698075759404723539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 406
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4a88ce99f8355d0800000000000000
+      internalID: -3074956229302770478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 391
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8163eaa9eae21e0800000000000000
+      internalID: -2220645586876098328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 387
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac921c01ec187100800000000000000
+      internalID: 105866344138972330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_7
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 405
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cfbb042af680c30800000000000000
+      internalID: 4325830184750808123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 280
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbb94b53aeb024a0800000000000000
+      internalID: -6620081843414123567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 280
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acf0bf5ab83d59e0800000000000000
+      internalID: -1631085116917744479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 280
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672b3dcba5a233ec0800000000000000
+      internalID: -3588477908880739722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 280
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84833378f57e8fe0800000000000000
+      internalID: -1184879942006766452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_12
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 280
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1e3d19e19377560800000000000000
+      internalID: 7311375323517673967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_13
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 269
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afee36441f8126c0800000000000000
+      internalID: -4169894462727721052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 263
+        width: 60
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc31c718b0b8d29f0800000000000000
+      internalID: -491583902780222513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_15
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 272
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa01cbb133535bd0800000000000000
+      internalID: -2642677083267855704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 152
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d55be3cafa2bcf0800000000000000
+      internalID: -237934675975905902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 152
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3080eca8da3dbf00800000000000000
+      internalID: 1134127383454974014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 152
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7ce0216b646bb00800000000000000
+      internalID: 843939727979497395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 152
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5887f6285bd89d4a0800000000000000
+      internalID: -6568062770826217339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_20
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 152
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9de42da047e4a20800000000000000
+      internalID: 3048501587603282424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 141
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5381a7d763fe040800000000000000
+      internalID: 4679018450408453560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_22
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 135
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4a257562f3e800800000000000000
+      internalID: 640622089588068260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_23
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 144
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0d9b130b9574ab0800000000000000
+      internalID: -5023948246025121601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 23
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c44dd038d314220800000000000000
+      internalID: 2468321703857769496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 18
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4789348c9598b61c0800000000000000
+      internalID: -4509359583176451980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 13
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e9c6891d622d10800000000000000
+      internalID: 2099360332711061100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 8
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a469d09fc2e3b650800000000000000
+      internalID: 6247586489209283750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_28
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 24
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ff626dabbf76bc0800000000000000
+      internalID: -3789783781533614217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_29
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 25
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9008c3dfbb99b260800000000000000
+      internalID: 7113888334602567834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_30
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 25
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98245fc104119140800000000000000
+      internalID: 4724579482094282908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_huyen_thach_31
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 23
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb1402adc975d7f0800000000000000
+      internalID: -588430252208546850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_attack_kiem_huyen_thach_0: 8524735195578559474
+      player_attack_kiem_huyen_thach_1: 8823679838204801880
+      player_attack_kiem_huyen_thach_10: -3588477908880739722
+      player_attack_kiem_huyen_thach_11: -1184879942006766452
+      player_attack_kiem_huyen_thach_12: 7311375323517673967
+      player_attack_kiem_huyen_thach_13: -4169894462727721052
+      player_attack_kiem_huyen_thach_14: -491583902780222513
+      player_attack_kiem_huyen_thach_15: -2642677083267855704
+      player_attack_kiem_huyen_thach_16: -237934675975905902
+      player_attack_kiem_huyen_thach_17: 1134127383454974014
+      player_attack_kiem_huyen_thach_18: 843939727979497395
+      player_attack_kiem_huyen_thach_19: -6568062770826217339
+      player_attack_kiem_huyen_thach_2: -2527954844721888257
+      player_attack_kiem_huyen_thach_20: 3048501587603282424
+      player_attack_kiem_huyen_thach_21: 4679018450408453560
+      player_attack_kiem_huyen_thach_22: 640622089588068260
+      player_attack_kiem_huyen_thach_23: -5023948246025121601
+      player_attack_kiem_huyen_thach_24: 2468321703857769496
+      player_attack_kiem_huyen_thach_25: -4509359583176451980
+      player_attack_kiem_huyen_thach_26: 2099360332711061100
+      player_attack_kiem_huyen_thach_27: 6247586489209283750
+      player_attack_kiem_huyen_thach_28: -3789783781533614217
+      player_attack_kiem_huyen_thach_29: 7113888334602567834
+      player_attack_kiem_huyen_thach_3: -2698075759404723539
+      player_attack_kiem_huyen_thach_30: 4724579482094282908
+      player_attack_kiem_huyen_thach_31: -588430252208546850
+      player_attack_kiem_huyen_thach_4: -3074956229302770478
+      player_attack_kiem_huyen_thach_5: -2220645586876098328
+      player_attack_kiem_huyen_thach_6: 105866344138972330
+      player_attack_kiem_huyen_thach_7: 4325830184750808123
+      player_attack_kiem_huyen_thach_8: -6620081843414123567
+      player_attack_kiem_huyen_thach_9: -1631085116917744479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
