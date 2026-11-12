@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Player
-  - Enemy
-  - Boss
-  - Hazard
-  - Portal
-  - Chest
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -22,11 +16,11 @@ TagManager:
   - Path
   - Wall
   - Decor_High
-  - Ground
-  - Walls
-  - Enemy
-  - Player
-  - Hazard
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -55,18 +49,6 @@ TagManager:
     locked: 0
   - name: Layer 3
     uniqueID: 4189426099
-    locked: 0
-  - name: Ground
-    uniqueID: 1472214301
-    locked: 0
-  - name: Decor
-    uniqueID: 1472214302
-    locked: 0
-  - name: Entities
-    uniqueID: 1472214303
-    locked: 0
-  - name: Overhead
-    uniqueID: 1472214304
     locked: 0
   m_RenderingLayers:
   - Default
