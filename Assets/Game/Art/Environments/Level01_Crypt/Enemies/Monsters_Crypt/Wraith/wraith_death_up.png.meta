@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 758cf7aea312efd42a3f1060b86c351b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8281026663508970603
+    second: wraith_death_up_0
+  - first:
+      213: 5972019483821485742
+    second: wraith_death_up_1
+  - first:
+      213: 188890394076032317
+    second: wraith_death_up_2
+  - first:
+      213: -7355706469888650964
+    second: wraith_death_up_3
+  - first:
+      213: -3592722765819389163
+    second: wraith_death_up_4
+  - first:
+      213: 2654818111377076537
+    second: wraith_death_up_5
+  - first:
+      213: 893055814143888449
+    second: wraith_death_up_6
+  - first:
+      213: 2465015271429375982
+    second: wraith_death_up_7
+  - first:
+      213: 3648544426474100303
+    second: wraith_death_up_8
+  - first:
+      213: -8472217303349135482
+    second: wraith_death_up_9
+  - first:
+      213: -1640532470513650591
+    second: wraith_death_up_10
+  - first:
+      213: -3850924018547638062
+    second: wraith_death_up_11
+  - first:
+      213: 8430940044493116921
+    second: wraith_death_up_12
+  - first:
+      213: 8534498876676293100
+    second: wraith_death_up_13
+  - first:
+      213: -6911273153322019046
+    second: wraith_death_up_14
+  - first:
+      213: 1730911677225785045
+    second: wraith_death_up_15
+  - first:
+      213: 8988814429691576735
+    second: wraith_death_up_16
+  - first:
+      213: -5841419246651709790
+    second: wraith_death_up_17
+  - first:
+      213: 7845573450845171079
+    second: wraith_death_up_18
+  - first:
+      213: -730770312638216531
+    second: wraith_death_up_19
+  - first:
+      213: -2075378042680257955
+    second: wraith_death_up_20
+  - first:
+      213: -6076304319234301483
+    second: wraith_death_up_21
+  - first:
+      213: -6198202729827169797
+    second: wraith_death_up_22
+  - first:
+      213: -2189810340293523219
+    second: wraith_death_up_23
+  - first:
+      213: -7648234669026242916
+    second: wraith_death_up_24
+  - first:
+      213: 4000656111637510149
+    second: wraith_death_up_25
+  - first:
+      213: -7795786436234788625
+    second: wraith_death_up_26
+  - first:
+      213: 6726566519896557387
+    second: wraith_death_up_27
+  - first:
+      213: 1254547603901139363
+    second: wraith_death_up_28
+  - first:
+      213: -3268855756933476506
+    second: wraith_death_up_29
+  - first:
+      213: -6102100361819731120
+    second: wraith_death_up_30
+  - first:
+      213: -262515972098603380
+    second: wraith_death_up_31
+  - first:
+      213: -5513842934019285662
+    second: wraith_death_up_32
+  - first:
+      213: 2279633190645850783
+    second: wraith_death_up_33
+  - first:
+      213: -9121996073559865461
+    second: wraith_death_up_34
+  - first:
+      213: -2265389559877056362
+    second: wraith_death_up_35
+  - first:
+      213: -1704864450375325713
+    second: wraith_death_up_36
+  - first:
+      213: -854430609558542879
+    second: wraith_death_up_37
+  - first:
+      213: 5091979235948714881
+    second: wraith_death_up_38
+  - first:
+      213: -2803527072797542860
+    second: wraith_death_up_39
+  - first:
+      213: 7188901680944544002
+    second: wraith_death_up_40
+  - first:
+      213: 4763736232009110936
+    second: wraith_death_up_41
+  - first:
+      213: 3768368210935503509
+    second: wraith_death_up_42
+  - first:
+      213: 5563554379803939654
+    second: wraith_death_up_43
+  - first:
+      213: -4904037203535683968
+    second: wraith_death_up_44
+  - first:
+      213: 3480299967906500632
+    second: wraith_death_up_45
+  - first:
+      213: 2742229548002312522
+    second: wraith_death_up_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wraith_death_up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5937202df12e31d80800000000000000
+      internalID: -8281026663508970603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_death_up_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae24e45410e0e250800000000000000
+      internalID: 5972019483821485742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_death_up_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3da26800d21f9200800000000000000
+      internalID: 188890394076032317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_death_up_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c219e3610f74be990800000000000000
+      internalID: -7355706469888650964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_death_up_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b50e6fda5142ec0800000000000000
+      internalID: -3592722765819389163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_death_up_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93177e7a10fc7d420800000000000000
+      internalID: 2654818111377076537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wraith_death_up_0: -8281026663508970603
+      wraith_death_up_1: 5972019483821485742
+      wraith_death_up_10: -1640532470513650591
+      wraith_death_up_11: -3850924018547638062
+      wraith_death_up_12: 8430940044493116921
+      wraith_death_up_13: 8534498876676293100
+      wraith_death_up_14: -6911273153322019046
+      wraith_death_up_15: 1730911677225785045
+      wraith_death_up_16: 8988814429691576735
+      wraith_death_up_17: -5841419246651709790
+      wraith_death_up_18: 7845573450845171079
+      wraith_death_up_19: -730770312638216531
+      wraith_death_up_2: 188890394076032317
+      wraith_death_up_20: -2075378042680257955
+      wraith_death_up_21: -6076304319234301483
+      wraith_death_up_22: -6198202729827169797
+      wraith_death_up_23: -2189810340293523219
+      wraith_death_up_24: -7648234669026242916
+      wraith_death_up_25: 4000656111637510149
+      wraith_death_up_26: -7795786436234788625
+      wraith_death_up_27: 6726566519896557387
+      wraith_death_up_28: 1254547603901139363
+      wraith_death_up_29: -3268855756933476506
+      wraith_death_up_3: -7355706469888650964
+      wraith_death_up_30: -6102100361819731120
+      wraith_death_up_31: -262515972098603380
+      wraith_death_up_32: -5513842934019285662
+      wraith_death_up_33: 2279633190645850783
+      wraith_death_up_34: -9121996073559865461
+      wraith_death_up_35: -2265389559877056362
+      wraith_death_up_36: -1704864450375325713
+      wraith_death_up_37: -854430609558542879
+      wraith_death_up_38: 5091979235948714881
+      wraith_death_up_39: -2803527072797542860
+      wraith_death_up_4: -3592722765819389163
+      wraith_death_up_40: 7188901680944544002
+      wraith_death_up_41: 4763736232009110936
+      wraith_death_up_42: 3768368210935503509
+      wraith_death_up_43: 5563554379803939654
+      wraith_death_up_44: -4904037203535683968
+      wraith_death_up_45: 3480299967906500632
+      wraith_death_up_46: 2742229548002312522
+      wraith_death_up_5: 2654818111377076537
+      wraith_death_up_6: 893055814143888449
+      wraith_death_up_7: 2465015271429375982
+      wraith_death_up_8: 3648544426474100303
+      wraith_death_up_9: -8472217303349135482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

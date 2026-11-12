@@ -1,0 +1,129 @@
+{
+ "dungeon": "Hầm Mộ Vong Hồn",
+ "pixelsPerUnit": 64,
+ "facing": "Sprite hướng 'side' quay sang PHẢI; lật scale.x = -1 cho hướng trái. Có 3 hướng: down, up, side.",
+ "fps": {
+  "idle": 6,
+  "walk": 10,
+  "attack": 12,
+  "hurt": 10,
+  "death": 8,
+  "special": 10
+ },
+ "monsters": [
+  {
+   "id": "skeleton_warrior",
+   "name": "Xương Binh Canh Mộ",
+   "role": "Cận chiến, có khiên",
+   "frameSize": 128,
+   "hp": 40,
+   "damage": 8,
+   "moveSpeed": 2.0,
+   "attackRange": 1.1,
+   "attackCooldown": 1.4,
+   "ai": "Tuần tra, đuổi khi thấy người chơi, chém khi vào tầm. Giơ khiên đỡ nếu bị bắn từ xa.",
+   "hitFrame": 3,
+   "vfx": [
+    "vfx_slash_white_4f",
+    "vfx_hit_spark_4f"
+   ],
+   "deathVfx": "vfx_soul_wisp_6f",
+   "shadow": "shadow_monster"
+  },
+  {
+   "id": "wraith",
+   "name": "Oan Hồn U Uất",
+   "role": "Tầm xa, bay lơ lửng",
+   "frameSize": 128,
+   "hp": 25,
+   "damage": 10,
+   "moveSpeed": 1.6,
+   "attackRange": 5.0,
+   "attackCooldown": 2.2,
+   "ai": "Giữ khoảng cách ~4 đơn vị, bắn cầu hồn theo hướng người chơi; lùi lại khi bị áp sát.",
+   "hitFrame": 3,
+   "projectile": "proj_soul_bolt_4f",
+   "projectileSpeed": 5.0,
+   "projectileSpawnFrame": 3,
+   "vfx": [
+    "vfx_soul_bolt_hit_5f"
+   ],
+   "shadow": "shadow_monster",
+   "note": "Không có bóng sắc nét: giảm alpha bóng xuống ~0.4 để thể hiện lơ lửng"
+  },
+  {
+   "id": "ghoul",
+   "name": "Thi Quỷ Đào Mộ",
+   "role": "Cận chiến nhanh, máu trâu",
+   "frameSize": 128,
+   "hp": 55,
+   "damage": 12,
+   "moveSpeed": 3.2,
+   "attackRange": 1.0,
+   "attackCooldown": 1.1,
+   "ai": "Nằm im đến khi người chơi vào tầm nhìn, sau đó lao tới liên tục, cào 2 tay.",
+   "hitFrame": 3,
+   "vfx": [
+    "vfx_slash_claw_4f",
+    "vfx_hit_spark_4f"
+   ],
+   "deathVfx": "vfx_soul_wisp_6f",
+   "shadow": "shadow_monster"
+  }
+ ],
+ "boss": {
+  "id": "boss_death_lord",
+  "name": "Tử Vương Vong Hồn",
+  "title": "Chúa Tể Hầm Mộ",
+  "frameSize": 240,
+  "hp": 600,
+  "moveSpeed": 1.8,
+  "shadow": "shadow_boss",
+  "attacks": [
+   {
+    "name": "Vung Trượng",
+    "state": "attack",
+    "hitFrame": 3,
+    "damage": 18,
+    "range": 2.2,
+    "cooldown": 2.0,
+    "vfx": [
+     "vfx_boss_slam_6f",
+     "vfx_hit_spark_4f"
+    ],
+    "note": "Trượng đập xuống ở frame 3, phát vfx_boss_slam tại đầu trượng."
+   }
+  ],
+  "special": {
+   "name": "Vong Hồn Bùng Nổ (Soul Nova)",
+   "state": "special",
+   "frames": 10,
+   "chargeFrames": [
+    0,
+    4
+   ],
+   "releaseFrame": 5,
+   "telegraph": "telegraph_soul_nova_4f",
+   "telegraphDuration": 1.2,
+   "telegraphRadiusUnits": 2.8,
+   "blast": "vfx_soul_nova_blast_8f",
+   "blastDamage": 30,
+   "projectiles": {
+    "sprite": "proj_soul_skull_4f",
+    "count": 8,
+    "damage": 12,
+    "speed": 4.5,
+    "pattern": "phóng đều 8 hướng quanh boss (mỗi 45°)"
+   },
+   "cooldown": 12.0,
+   "enrage": "Dưới 30% máu: cooldown còn 7s và thêm 4 đầu lâu xoay lệch 22.5°",
+   "sequence": [
+    "Boss nâng cao trượng (frame 0-4), vòng đỏ cảnh báo hiện dưới chân",
+    "Giữ nguyên frame 4 trong thời gian telegraph",
+    "Frame 5: phát nổ, chạy vfx_soul_nova_blast, gây sát thương trong bán kính, bắn 8 đầu lâu",
+    "Frame 6-9: hồi chiêu, đứng yên cho người chơi phản công"
+   ]
+  },
+  "deathNote": "Death 8 frame: nhấp nháy trắng, tan thành linh hồn, frame cuối là đống xương + vương miện (giữ lại làm xác)."
+ }
+}

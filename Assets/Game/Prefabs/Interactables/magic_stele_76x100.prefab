@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4525781246043366597}
   - component: {fileID: 508364585018458919}
   - component: {fileID: 5542139891715954760}
+  - component: {fileID: 4175237865392044532}
   m_Layer: 0
   m_Name: magic_stele_76x100
   m_TagString: Untagged
@@ -139,6 +140,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.75, y: 6.25}
   m_EdgeRadius: 0
+--- !u!114 &4175237865392044532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532325278828667099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28504b89282a94747acece4d24e61f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cainos.PixelArtTopDown_Basic.SteleProximityOutline
+  playerTag: Player
+  proximityColor: {r: 1, g: 1, b: 1, a: 1}
+  proximityRadius: 2.1
+  colorChangeSpeed: 8
 --- !u!1 &2977499529008582124
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +183,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.055, y: 1.055, z: 1}
+  m_LocalScale: {x: 1.12, y: 1.12, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4525781246043366597}

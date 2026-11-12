@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: a0565dd4bc6349e4c8d54c805d5beeda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7595991313263565081
+    second: bg_layer1_fog_b_0
+  - first:
+      213: 5529132890998710439
+    second: bg_layer1_fog_b_1
+  - first:
+      213: 1941444118579570507
+    second: bg_layer1_fog_b_2
+  - first:
+      213: 516538442573365963
+    second: bg_layer1_fog_b_3
+  - first:
+      213: 6186466076649814812
+    second: bg_layer1_fog_b_4
+  - first:
+      213: 5540848888048160392
+    second: bg_layer1_fog_b_5
+  - first:
+      213: -7864573092436821217
+    second: bg_layer1_fog_b_6
+  - first:
+      213: 321107824025185015
+    second: bg_layer1_fog_b_7
+  - first:
+      213: -990200683771666973
+    second: bg_layer1_fog_b_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1103
+        width: 147
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9191708aad16a6960800000000000000
+      internalID: 7595991313263565081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1124
+        width: 63
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a028ebd11d6bbc40800000000000000
+      internalID: 5529132890998710439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1112
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47e43fb32561fa10800000000000000
+      internalID: 1941444118579570507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1127
+        width: 75
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc24b6e0afc1b2700800000000000000
+      internalID: 516538442573365963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1085
+        width: 420
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b77b19e1ebad550800000000000000
+      internalID: 6186466076649814812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_5
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1100
+        width: 266
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e8a3ef4bc05ec40800000000000000
+      internalID: 5540848888048160392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1113
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b3533d07c6bd290800000000000000
+      internalID: -7864573092436821217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1212
+        height: 1102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faae995dddc47400800000000000000
+      internalID: 321107824025185015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_layer1_fog_b_8
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 0
+        width: 875
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edd07379b91242f0800000000000000
+      internalID: -990200683771666973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bg_layer1_fog_b_0: 7595991313263565081
+      bg_layer1_fog_b_1: 5529132890998710439
+      bg_layer1_fog_b_2: 1941444118579570507
+      bg_layer1_fog_b_3: 516538442573365963
+      bg_layer1_fog_b_4: 6186466076649814812
+      bg_layer1_fog_b_5: 5540848888048160392
+      bg_layer1_fog_b_6: -7864573092436821217
+      bg_layer1_fog_b_7: 321107824025185015
+      bg_layer1_fog_b_8: -990200683771666973
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

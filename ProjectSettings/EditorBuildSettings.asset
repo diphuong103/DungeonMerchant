@@ -23,5 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Dungeons/Dungeon_CryptOfBones.unity
     guid: b34d3a12aa60cba4bb0be87accd9f790
+    path: Assets/Game/Scenes/Gameplay/Level01_Crypt.unity
+    guid: be33a15c5ef884946a53a85bd3784f92
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

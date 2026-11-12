@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: e375e5c9afd4ce544a528f1e776be836
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6502936651725145020
+    second: player_attack_kiem_hac_thiet_0
+  - first:
+      213: 4424336898862774649
+    second: player_attack_kiem_hac_thiet_1
+  - first:
+      213: -6884440547218725118
+    second: player_attack_kiem_hac_thiet_2
+  - first:
+      213: 1371313439406390781
+    second: player_attack_kiem_hac_thiet_3
+  - first:
+      213: 8228149615504203939
+    second: player_attack_kiem_hac_thiet_4
+  - first:
+      213: -757984009255219025
+    second: player_attack_kiem_hac_thiet_5
+  - first:
+      213: 9041417792394786839
+    second: player_attack_kiem_hac_thiet_6
+  - first:
+      213: 459170139593281220
+    second: player_attack_kiem_hac_thiet_7
+  - first:
+      213: 3522017367692816933
+    second: player_attack_kiem_hac_thiet_8
+  - first:
+      213: 215653080841374680
+    second: player_attack_kiem_hac_thiet_9
+  - first:
+      213: -7399248792084998742
+    second: player_attack_kiem_hac_thiet_10
+  - first:
+      213: -5259753926963921783
+    second: player_attack_kiem_hac_thiet_11
+  - first:
+      213: 1917656797925840525
+    second: player_attack_kiem_hac_thiet_12
+  - first:
+      213: -7685172246610688518
+    second: player_attack_kiem_hac_thiet_13
+  - first:
+      213: 8511253590745515751
+    second: player_attack_kiem_hac_thiet_14
+  - first:
+      213: -4286779129150588981
+    second: player_attack_kiem_hac_thiet_15
+  - first:
+      213: -7493459116770659097
+    second: player_attack_kiem_hac_thiet_16
+  - first:
+      213: 400811531636230959
+    second: player_attack_kiem_hac_thiet_17
+  - first:
+      213: -5875304636885634025
+    second: player_attack_kiem_hac_thiet_18
+  - first:
+      213: -7725656628569499023
+    second: player_attack_kiem_hac_thiet_19
+  - first:
+      213: -2735451699392352614
+    second: player_attack_kiem_hac_thiet_20
+  - first:
+      213: -3494756179747104253
+    second: player_attack_kiem_hac_thiet_21
+  - first:
+      213: 1553348720649154282
+    second: player_attack_kiem_hac_thiet_22
+  - first:
+      213: -3912097601456593752
+    second: player_attack_kiem_hac_thiet_23
+  - first:
+      213: 7048360807861406414
+    second: player_attack_kiem_hac_thiet_24
+  - first:
+      213: 3453000821129877942
+    second: player_attack_kiem_hac_thiet_25
+  - first:
+      213: 4600572274998918197
+    second: player_attack_kiem_hac_thiet_26
+  - first:
+      213: -4470186011620625989
+    second: player_attack_kiem_hac_thiet_27
+  - first:
+      213: 812316775881509524
+    second: player_attack_kiem_hac_thiet_28
+  - first:
+      213: 8672360412329313365
+    second: player_attack_kiem_hac_thiet_29
+  - first:
+      213: -8825590728734782999
+    second: player_attack_kiem_hac_thiet_30
+  - first:
+      213: -2275276071125074677
+    second: player_attack_kiem_hac_thiet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 407
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb302f24e621f3a50800000000000000
+      internalID: 6502936651725145020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 408
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9797e57e7f6666d30800000000000000
+      internalID: 4424336898862774649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 408
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2076bb13ccd8570a0800000000000000
+      internalID: -6884440547218725118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 407
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd798fbe42e70310800000000000000
+      internalID: 1371313439406390781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 406
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a025ee0b72403270800000000000000
+      internalID: 8228149615504203939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 391
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa09aee3f891b75f0800000000000000
+      internalID: -757984009255219025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 387
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71876952491997d70800000000000000
+      internalID: 9041417792394786839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_7
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 405
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce8ce52fcc4f5600800000000000000
+      internalID: 459170139593281220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 280
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522361ea228b0e030800000000000000
+      internalID: 3522017367692816933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 280
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbc44e95572ef200800000000000000
+      internalID: 215653080841374680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 280
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5190f2d66905990800000000000000
+      internalID: -7399248792084998742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 280
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c7959bba99107b0800000000000000
+      internalID: -5259753926963921783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_12
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 280
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d869b7192b2ec9a10800000000000000
+      internalID: 1917656797925840525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_13
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 269
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5441b3f88c85590800000000000000
+      internalID: -7685172246610688518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 263
+        width: 60
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e687a5db0c0e1670800000000000000
+      internalID: 8511253590745515751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_15
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 272
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7bb68281d4284c0800000000000000
+      internalID: -4286779129150588981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 152
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4f8f5a2a2e10890800000000000000
+      internalID: -7493459116770659097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 152
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bce05e6f7ff8500800000000000000
+      internalID: 400811531636230959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 152
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714f93bbf89b67ea0800000000000000
+      internalID: -5875304636885634025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 152
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a19758a34f8c490800000000000000
+      internalID: -7725656628569499023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_20
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 152
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eea752c29b90ad0800000000000000
+      internalID: -2735451699392352614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 141
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a929145c1208fc0800000000000000
+      internalID: -3494756179747104253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_22
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 135
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeea9927e6a9e8510800000000000000
+      internalID: 1553348720649154282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_23
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 144
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4a58a65ff65b9c0800000000000000
+      internalID: -3912097601456593752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 23
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca4d599fcec0d160800000000000000
+      internalID: 7048360807861406414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 18
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b91498b3f58bef20800000000000000
+      internalID: 3453000821129877942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 13
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c32d6fb1488df30800000000000000
+      internalID: 4600572274998918197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 8
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1be69a185b6f1c0800000000000000
+      internalID: -4470186011620625989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_28
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 24
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a0287cdcde54b00800000000000000
+      internalID: 812316775881509524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_29
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 25
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5548c0dc8d96a5870800000000000000
+      internalID: 8672360412329313365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_30
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 25
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e948c00ef3358580800000000000000
+      internalID: -8825590728734782999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_attack_kiem_hac_thiet_31
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 23
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0db4aed7789c60e0800000000000000
+      internalID: -2275276071125074677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_attack_kiem_hac_thiet_0: 6502936651725145020
+      player_attack_kiem_hac_thiet_1: 4424336898862774649
+      player_attack_kiem_hac_thiet_10: -7399248792084998742
+      player_attack_kiem_hac_thiet_11: -5259753926963921783
+      player_attack_kiem_hac_thiet_12: 1917656797925840525
+      player_attack_kiem_hac_thiet_13: -7685172246610688518
+      player_attack_kiem_hac_thiet_14: 8511253590745515751
+      player_attack_kiem_hac_thiet_15: -4286779129150588981
+      player_attack_kiem_hac_thiet_16: -7493459116770659097
+      player_attack_kiem_hac_thiet_17: 400811531636230959
+      player_attack_kiem_hac_thiet_18: -5875304636885634025
+      player_attack_kiem_hac_thiet_19: -7725656628569499023
+      player_attack_kiem_hac_thiet_2: -6884440547218725118
+      player_attack_kiem_hac_thiet_20: -2735451699392352614
+      player_attack_kiem_hac_thiet_21: -3494756179747104253
+      player_attack_kiem_hac_thiet_22: 1553348720649154282
+      player_attack_kiem_hac_thiet_23: -3912097601456593752
+      player_attack_kiem_hac_thiet_24: 7048360807861406414
+      player_attack_kiem_hac_thiet_25: 3453000821129877942
+      player_attack_kiem_hac_thiet_26: 4600572274998918197
+      player_attack_kiem_hac_thiet_27: -4470186011620625989
+      player_attack_kiem_hac_thiet_28: 812316775881509524
+      player_attack_kiem_hac_thiet_29: 8672360412329313365
+      player_attack_kiem_hac_thiet_3: 1371313439406390781
+      player_attack_kiem_hac_thiet_30: -8825590728734782999
+      player_attack_kiem_hac_thiet_31: -2275276071125074677
+      player_attack_kiem_hac_thiet_4: 8228149615504203939
+      player_attack_kiem_hac_thiet_5: -757984009255219025
+      player_attack_kiem_hac_thiet_6: 9041417792394786839
+      player_attack_kiem_hac_thiet_7: 459170139593281220
+      player_attack_kiem_hac_thiet_8: 3522017367692816933
+      player_attack_kiem_hac_thiet_9: 215653080841374680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

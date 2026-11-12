@@ -1,0 +1,64 @@
+{
+  "dungeons": [
+    {
+      "index": 1,
+      "id": "crypt",
+      "name": "Hầm Mộ Vong Hồn",
+      "subtitle": "Nơi linh hồn kẻ chết không được yên nghỉ",
+      "requiredLevel": 1,
+      "glowColor": "#46FFD7",
+      "spriteIcon": "dungeon1_crypt_icon",
+      "spriteUnlocked": "dungeon1_crypt_node_unlocked",
+      "spriteCleared": "dungeon1_crypt_node_cleared",
+      "spriteGlow": "dungeon1_crypt_glow"
+    },
+    {
+      "index": 2,
+      "id": "spider",
+      "name": "Sào Huyệt Nhện U Minh",
+      "subtitle": "Tơ độc giăng kín, vạn mắt dõi theo trong bóng tối",
+      "requiredLevel": 8,
+      "glowColor": "#BE64FF",
+      "spriteIcon": "dungeon2_spider_icon",
+      "spriteUnlocked": "dungeon2_spider_node_unlocked",
+      "spriteCleared": "dungeon2_spider_node_cleared",
+      "spriteGlow": "dungeon2_spider_glow"
+    },
+    {
+      "index": 3,
+      "id": "demon",
+      "name": "Ngục Hắc Viêm",
+      "subtitle": "Ngọn lửa địa ngục thiêu rụi mọi hy vọng",
+      "requiredLevel": 15,
+      "glowColor": "#FF8C28",
+      "spriteIcon": "dungeon3_demon_icon",
+      "spriteUnlocked": "dungeon3_demon_node_unlocked",
+      "spriteCleared": "dungeon3_demon_node_cleared",
+      "spriteGlow": "dungeon3_demon_glow"
+    },
+    {
+      "index": 4,
+      "id": "moon",
+      "name": "Điện Huyết Nguyệt",
+      "subtitle": "Tòa lâu đài cổ chìm trong ánh trăng máu",
+      "requiredLevel": 22,
+      "glowColor": "#FF4650",
+      "spriteIcon": "dungeon4_moon_icon",
+      "spriteUnlocked": "dungeon4_moon_node_unlocked",
+      "spriteCleared": "dungeon4_moon_node_cleared",
+      "spriteGlow": "dungeon4_moon_glow"
+    },
+    {
+      "index": 5,
+      "id": "eye",
+      "name": "Vực Ma Nhãn Hư Vô",
+      "subtitle": "Cặp mắt của bóng tối vĩnh hằng đang thức tỉnh",
+      "requiredLevel": 30,
+      "glowColor": "#9682FF",
+      "spriteIcon": "dungeon5_eye_icon",
+      "spriteUnlocked": "dungeon5_eye_node_unlocked",
+      "spriteCleared": "dungeon5_eye_node_cleared",
+      "spriteGlow": "dungeon5_eye_glow"
+    }
+  ]
+}

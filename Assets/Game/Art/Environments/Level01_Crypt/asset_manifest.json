@@ -1,0 +1,880 @@
+{
+ "Structures/altar_ritual.png": {
+  "size_px": [
+   128,
+   96
+  ],
+  "size_tiles": [
+   2.0,
+   1.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/bridge_h.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Structures/bridge_v.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Structures/chest_closed.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/chest_open.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/chest_ornate_closed.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/chest_ornate_open.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/dead_tree.png": {
+  "size_px": [
+   128,
+   160
+  ],
+  "size_tiles": [
+   2.0,
+   2.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/door_wood_closed.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/door_wood_open.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/fence_h.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Structures/fence_v.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Structures/gate_crypt_closed.png": {
+  "size_px": [
+   128,
+   128
+  ],
+  "size_tiles": [
+   2.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/gate_crypt_open.png": {
+  "size_px": [
+   128,
+   128
+  ],
+  "size_tiles": [
+   2.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/gate_iron_closed.png": {
+  "size_px": [
+   128,
+   128
+  ],
+  "size_tiles": [
+   2.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/gate_iron_open.png": {
+  "size_px": [
+   128,
+   128
+  ],
+  "size_tiles": [
+   2.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/grave_mound.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/grave_open.png": {
+  "size_px": [
+   64,
+   96
+  ],
+  "size_tiles": [
+   1.0,
+   1.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/mausoleum.png": {
+  "size_px": [
+   192,
+   192
+  ],
+  "size_tiles": [
+   3.0,
+   3.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/obelisk_rune.png": {
+  "size_px": [
+   64,
+   128
+  ],
+  "size_tiles": [
+   1.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/pillar.png": {
+  "size_px": [
+   64,
+   128
+  ],
+  "size_tiles": [
+   1.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/pillar_broken.png": {
+  "size_px": [
+   64,
+   96
+  ],
+  "size_tiles": [
+   1.0,
+   1.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/sarcophagus_h.png": {
+  "size_px": [
+   128,
+   64
+  ],
+  "size_tiles": [
+   2.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/sarcophagus_open_h.png": {
+  "size_px": [
+   128,
+   64
+  ],
+  "size_tiles": [
+   2.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/sarcophagus_open_v.png": {
+  "size_px": [
+   64,
+   128
+  ],
+  "size_tiles": [
+   1.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/sarcophagus_v.png": {
+  "size_px": [
+   64,
+   128
+  ],
+  "size_tiles": [
+   1.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/stairs_down.png": {
+  "size_px": [
+   128,
+   128
+  ],
+  "size_tiles": [
+   2.0,
+   2.0
+  ],
+  "pivot": "Center"
+ },
+ "Structures/stairs_up.png": {
+  "size_px": [
+   128,
+   128
+  ],
+  "size_tiles": [
+   2.0,
+   2.0
+  ],
+  "pivot": "Center"
+ },
+ "Structures/statue_reaper.png": {
+  "size_px": [
+   64,
+   128
+  ],
+  "size_tiles": [
+   1.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/statue_weeping_angel.png": {
+  "size_px": [
+   64,
+   128
+  ],
+  "size_tiles": [
+   1.0,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/tombstone_bigcross.png": {
+  "size_px": [
+   96,
+   128
+  ],
+  "size_tiles": [
+   1.5,
+   2.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/tombstone_broken.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/tombstone_cross.png": {
+  "size_px": [
+   64,
+   96
+  ],
+  "size_tiles": [
+   1.0,
+   1.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Structures/tombstone_round.png": {
+  "size_px": [
+   64,
+   84
+  ],
+  "size_tiles": [
+   1.0,
+   1.31
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/barrel.png": {
+  "size_px": [
+   64,
+   80
+  ],
+  "size_tiles": [
+   1.0,
+   1.25
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/bone_pile.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Props/brazier_teal.png": {
+  "size_px": [
+   64,
+   96
+  ],
+  "size_tiles": [
+   1.0,
+   1.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/candles.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/chains_hanging.png": {
+  "size_px": [
+   64,
+   96
+  ],
+  "size_tiles": [
+   1.0,
+   1.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/cobweb_corner_tl.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Props/crate.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/dead_bush.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/glow_mushrooms.png": {
+  "size_px": [
+   64,
+   48
+  ],
+  "size_tiles": [
+   1.0,
+   0.75
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/lantern_hanging.png": {
+  "size_px": [
+   48,
+   96
+  ],
+  "size_tiles": [
+   0.75,
+   1.5
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/lever_off.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/lever_on.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/pressure_plate_off.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Props/pressure_plate_on.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Props/rubble_a.png": {
+  "size_px": [
+   64,
+   48
+  ],
+  "size_tiles": [
+   1.0,
+   0.75
+  ],
+  "pivot": "Center"
+ },
+ "Props/rubble_b.png": {
+  "size_px": [
+   64,
+   48
+  ],
+  "size_tiles": [
+   1.0,
+   0.75
+  ],
+  "pivot": "Center"
+ },
+ "Props/skeleton_lying.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/skull_pile.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Props/soul_crystal.png": {
+  "size_px": [
+   64,
+   80
+  ],
+  "size_tiles": [
+   1.0,
+   1.25
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/spikes_off.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Props/spikes_on.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Props/urn.png": {
+  "size_px": [
+   48,
+   64
+  ],
+  "size_tiles": [
+   0.75,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Props/urn_broken.png": {
+  "size_px": [
+   48,
+   64
+  ],
+  "size_tiles": [
+   0.75,
+   1.0
+  ],
+  "pivot": "Bottom Center"
+ },
+ "Decals/decal_blood_a.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_blood_b.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_bone_scatter.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_crack_a.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_crack_b.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_moss_patch.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_puddle.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_ritual_circle_3x3.png": {
+  "size_px": [
+   192,
+   192
+  ],
+  "size_tiles": [
+   3.0,
+   3.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/decal_scorch.png": {
+  "size_px": [
+   64,
+   64
+  ],
+  "size_tiles": [
+   1.0,
+   1.0
+  ],
+  "pivot": "Center"
+ },
+ "Decals/shadow_blob_l.png": {
+  "size_px": [
+   160,
+   72
+  ],
+  "size_tiles": [
+   2.5,
+   1.12
+  ],
+  "pivot": "Center"
+ },
+ "Decals/shadow_blob_m.png": {
+  "size_px": [
+   96,
+   48
+  ],
+  "size_tiles": [
+   1.5,
+   0.75
+  ],
+  "pivot": "Center"
+ },
+ "Decals/shadow_blob_s.png": {
+  "size_px": [
+   48,
+   32
+  ],
+  "size_tiles": [
+   0.75,
+   0.5
+  ],
+  "pivot": "Center"
+ },
+ "Decals/shadow_under_wall.png": {
+  "size_px": [
+   64,
+   24
+  ],
+  "size_tiles": [
+   1.0,
+   0.38
+  ],
+  "pivot": "Center"
+ },
+ "Animated/anim_brazier_teal_4f.png": {
+  "size_px": [
+   256,
+   96
+  ],
+  "size_tiles": [
+   4.0,
+   1.5
+  ],
+  "pivot": "Bottom Center",
+  "frames": 4,
+  "frame_px": [
+   64,
+   96
+  ]
+ },
+ "Animated/anim_portal_soul_4f.png": {
+  "size_px": [
+   512,
+   128
+  ],
+  "size_tiles": [
+   8.0,
+   2.0
+  ],
+  "pivot": "Center",
+  "frames": 4,
+  "frame_px": [
+   128,
+   128
+  ]
+ },
+ "Animated/anim_soul_pool_tile_4f.png": {
+  "size_px": [
+   256,
+   64
+  ],
+  "size_tiles": [
+   4.0,
+   1.0
+  ],
+  "pivot": "Bottom Center",
+  "frames": 4,
+  "frame_px": [
+   64,
+   64
+  ]
+ },
+ "Animated/anim_wall_torch_teal_4f.png": {
+  "size_px": [
+   256,
+   64
+  ],
+  "size_tiles": [
+   4.0,
+   1.0
+  ],
+  "pivot": "Bottom Center",
+  "frames": 4,
+  "frame_px": [
+   64,
+   64
+  ]
+ },
+ "Lighting/light_purple_soft.png": {
+  "size_px": [
+   256,
+   256
+  ],
+  "size_tiles": [
+   4.0,
+   4.0
+  ],
+  "pivot": "Center"
+ },
+ "Lighting/light_teal_soft.png": {
+  "size_px": [
+   256,
+   256
+  ],
+  "size_tiles": [
+   4.0,
+   4.0
+  ],
+  "pivot": "Center"
+ },
+ "Lighting/light_warm_soft.png": {
+  "size_px": [
+   256,
+   256
+  ],
+  "size_tiles": [
+   4.0,
+   4.0
+  ],
+  "pivot": "Center"
+ },
+ "Lighting/overlay_vignette_dark.png": {
+  "size_px": [
+   512,
+   512
+  ],
+  "size_tiles": [
+   8.0,
+   8.0
+  ],
+  "pivot": "Center"
+ }
+}

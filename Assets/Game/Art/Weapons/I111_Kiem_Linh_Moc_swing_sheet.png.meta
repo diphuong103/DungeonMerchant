@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9065992eb28a9d241957dbee9b0373cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4046807633075005916
+    second: I111_Kiem_Linh_Moc_swing_sheet_0
+  - first:
+      213: -4406992432685489369
+    second: I111_Kiem_Linh_Moc_swing_sheet_1
+  - first:
+      213: 331534058881165848
+    second: I111_Kiem_Linh_Moc_swing_sheet_2
+  - first:
+      213: 3385974224685645319
+    second: I111_Kiem_Linh_Moc_swing_sheet_3
+  - first:
+      213: 7121717152048096242
+    second: I111_Kiem_Linh_Moc_swing_sheet_4
+  - first:
+      213: -7851361509325982416
+    second: I111_Kiem_Linh_Moc_swing_sheet_5
+  - first:
+      213: -8949531535598027357
+    second: I111_Kiem_Linh_Moc_swing_sheet_6
+  - first:
+      213: 209821744269510131
+    second: I111_Kiem_Linh_Moc_swing_sheet_7
+  - first:
+      213: 3079410034026033253
+    second: I111_Kiem_Linh_Moc_swing_sheet_8
+  - first:
+      213: 4174513894579704661
+    second: I111_Kiem_Linh_Moc_swing_sheet_9
+  - first:
+      213: 8064282556830244001
+    second: I111_Kiem_Linh_Moc_swing_sheet_10
+  - first:
+      213: 7841416845385555126
+    second: I111_Kiem_Linh_Moc_swing_sheet_11
+  - first:
+      213: 2365162531002017140
+    second: I111_Kiem_Linh_Moc_swing_sheet_12
+  - first:
+      213: 5526825166298499847
+    second: I111_Kiem_Linh_Moc_swing_sheet_13
+  - first:
+      213: 4162717586698983168
+    second: I111_Kiem_Linh_Moc_swing_sheet_14
+  - first:
+      213: 8141344478155879646
+    second: I111_Kiem_Linh_Moc_swing_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 271
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426993c06e9d6d7c0800000000000000
+      internalID: -4046807633075005916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 251
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72362f15bb737d2c0800000000000000
+      internalID: -4406992432685489369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 256
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a2e825878d99400800000000000000
+      internalID: 331534058881165848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 263
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e34012e956dfe20800000000000000
+      internalID: 3385974224685645319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f322ae640c65d260800000000000000
+      internalID: 7121717152048096242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 193
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03533793e4c5a0390800000000000000
+      internalID: -7851361509325982416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adf58a2c70ecc380800000000000000
+      internalID: -8949531535598027357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 193
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f54655c3cf69e200800000000000000
+      internalID: 209821744269510131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 113
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56035eb4c134cba20800000000000000
+      internalID: 3079410034026033253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 114
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5531b54054adee930800000000000000
+      internalID: 4174513894579704661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 95
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acde3052461aef60800000000000000
+      internalID: 8064282556830244001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 113
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc58f4431f42dc60800000000000000
+      internalID: 7841416845385555126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47560707aceb2d020800000000000000
+      internalID: 2365162531002017140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 33
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b49e4d43a33bc40800000000000000
+      internalID: 5526825166298499847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 13
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007d67f0791f4c930800000000000000
+      internalID: 4162717586698983168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I111_Kiem_Linh_Moc_swing_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 33
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4b19e0baddbf070800000000000000
+      internalID: 8141344478155879646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      I111_Kiem_Linh_Moc_swing_sheet_0: -4046807633075005916
+      I111_Kiem_Linh_Moc_swing_sheet_1: -4406992432685489369
+      I111_Kiem_Linh_Moc_swing_sheet_10: 8064282556830244001
+      I111_Kiem_Linh_Moc_swing_sheet_11: 7841416845385555126
+      I111_Kiem_Linh_Moc_swing_sheet_12: 2365162531002017140
+      I111_Kiem_Linh_Moc_swing_sheet_13: 5526825166298499847
+      I111_Kiem_Linh_Moc_swing_sheet_14: 4162717586698983168
+      I111_Kiem_Linh_Moc_swing_sheet_15: 8141344478155879646
+      I111_Kiem_Linh_Moc_swing_sheet_2: 331534058881165848
+      I111_Kiem_Linh_Moc_swing_sheet_3: 3385974224685645319
+      I111_Kiem_Linh_Moc_swing_sheet_4: 7121717152048096242
+      I111_Kiem_Linh_Moc_swing_sheet_5: -7851361509325982416
+      I111_Kiem_Linh_Moc_swing_sheet_6: -8949531535598027357
+      I111_Kiem_Linh_Moc_swing_sheet_7: 209821744269510131
+      I111_Kiem_Linh_Moc_swing_sheet_8: 3079410034026033253
+      I111_Kiem_Linh_Moc_swing_sheet_9: 4174513894579704661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
