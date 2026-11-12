@@ -37,6 +37,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -48,6 +49,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.VC.VC.opendb
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -63,6 +65,22 @@ sysinfo.txt
 *.unitypackage
 *.unitypackage.meta
 *.app
+*.app/
+*.ipa
+*.dSYM/
+
+# IDE and editor-local files
+.idea/
+.fleet/
+.history/
+*.sln.docstates
+*.DotSettings.user
+*.rsuser
+*.pidb
+*.svclog
+*.orig
+*.rej
+*~
 
 # Crashlytics generated file
 crashlytics-build.properties
