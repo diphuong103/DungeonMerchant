@@ -8,4 +8,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Gameplay/Gameplay.unity
     guid: 99dc624cdaf19364baa292a60a15decf
+  - enabled: 1
+    path: Assets/Scenes/Home/Home.unity
+    guid: c37f20694baf424cb9644a5882f8f6ad
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/Dungeon_HollowShrine.unity
+    guid: ece7f5879d9f42d8b2efaf73bfd4a08e
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/Dungeon_RootboundWilds.unity
+    guid: eab7787e521846e3ab4064551f0d3dd7
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/Dungeon_EmberVault.unity
+    guid: 08e106a0ce2d470cb9fda9f23e041fe8
+  - enabled: 1
+    path: Assets/Game/Scenes/Dungeons/Dungeon_CryptOfBones.unity
+    guid: b34d3a12aa60cba4bb0be87accd9f790
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
